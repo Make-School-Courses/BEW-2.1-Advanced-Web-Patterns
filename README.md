@@ -21,7 +21,8 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
 1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate data.
     * Manipulate native data types of JavaScript using vanilla JavaScript operators (e.g. forEach, map, filter, reduce).
     * Translate various lodashJS/underscoreJS functions into vanilla JavaScript.
-1. Compare and contrast JavaScript's prototypical inheritance pattern with a class-based language such as Ruby or Python.
+    * Be able to speak extemporaneously about common JavaScript gotchas and details (in an interview setting).
+1. Compare and contrast JavaScript's prototypical inheritance pattern with a class-based language such as Ruby or Python or a functional language such as Elixir, Haskell or Erlang or Clojure.
 
 ### Technical Discussion
 
@@ -42,9 +43,9 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
 1. JavaScript Diagnostic Assessment & Vanilla JavaScript 1 - DOM
 2. Bootstrap Spec Project & Testing Spec Project with Mocha/Chai
 3. Vanilla JavaScript 2 - Data
-4. Testing Spec Project with Mocha/Chai
+4. Uploading Image with AWS S3
 5. Prototypical Inheritance & OOP
-6. Uploading Image with AWS S3
+6. Adding WebSockets with Socket.io
 7. Persistence Across Client & Server
 8. Add Paywall with Braintree
 9. Request & Response Architecture
