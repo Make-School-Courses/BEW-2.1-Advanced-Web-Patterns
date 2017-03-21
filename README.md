@@ -12,6 +12,8 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
 
 ## Competencies & Objectives
 
+### JavaScript
+
 1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate the DOM.
   1. Articulate what the DOM is.
   1. Manipulate JavaScript's native data types using vanilla JavaScript.
@@ -21,6 +23,10 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
   1. Translate various lodashJS/underscoreJS functions into vanilla JavaScript.
 1. Compare and contrast JavaScript's prototypical inheritance pattern with a class-based language such as Ruby or Python.
 1. Explain all the detailed parts of any HTTP request and response.
+
+### Spec Project
+
+
 1. Explain and utilize all the various levels of data persistence on the browser and server.
 1. Employ advanced testing patterns and methods with Mocha and Chai.
 1. Upload images to your website using multi-part form data and an Amazon Web Services S3 Bucket.
@@ -30,6 +36,7 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
 ## Course Schedule
 
 (2 class x 6 weeks = 12 classes)
+
 1. JavaScript Diagnostic Assessment & Vanilla JavaScript 1 - DOM
 2. Bootstrap Spec Project & Testing Spec Project with Mocha/Chai
 3. Vanilla JavaScript 2 - Data
