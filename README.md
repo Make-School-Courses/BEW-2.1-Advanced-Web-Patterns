@@ -15,12 +15,12 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
 ### JavaScript
 
 1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate the DOM.
-  * Articulate what the DOM is.
-  * Manipulate JavaScript's native data types using vanilla JavaScript.
-  * Design a custom transformation of the DOM.
+    * Articulate what the DOM is.
+    * Manipulate JavaScript's native data types using vanilla JavaScript.
+    * Design a custom transformation of the DOM.
 1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate data.
-  * Manipulate native data types of JavaScript using vanilla JavaScript operators (e.g. forEach, map, filter, reduce).
-  * Translate various lodashJS/underscoreJS functions into vanilla JavaScript.
+    * Manipulate native data types of JavaScript using vanilla JavaScript operators (e.g. forEach, map, filter, reduce).
+    * Translate various lodashJS/underscoreJS functions into vanilla JavaScript.
 1. Compare and contrast JavaScript's prototypical inheritance pattern with a class-based language such as Ruby or Python.
 1. Explain all the detailed parts of any HTTP request and response.
 
