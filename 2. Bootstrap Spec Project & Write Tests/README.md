@@ -20,3 +20,8 @@ Here's what Amos wants:
 1. Be able to search for pets by name, species, and description text.
 
 As a good software developer you also want to make sure that their code has a baseline of test coverage.
+
+
+## To Begin
+
+Read the README of the express-pets repo and complete the required initial challenges and one of the optional ones.
