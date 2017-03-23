@@ -27,14 +27,15 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
 ### Technical Discussion
 
 1. Explain and utilize all the various levels of data persistence on the browser and server.
-1. Explain all the detailed parts of any HTTP request and response.
+1. Identify and explain the detailed parts of any HTTP request and response.
 
 ### Spec Project
 
 1. Employ advanced testing patterns and methods with Mocha and Chai.
 1. Upload images to your website using multi-part form data and an Amazon Web Services S3 Bucket.
+1. Deploy WebSockets to add real-time behavior to a project.
 1. Add a payment gateway or paywall to your project using Braintree Payments.
-1. Utilize MongoDB's native full text search functionality to search resources in your site.
+1. Utilize MongoDB's native full text search functionality to search resources in your site. (Stretch)
 
 ## Course Schedule
 
@@ -57,5 +58,5 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
 
 To pass the course, students will have
 
-1. Completed the spec project
-1. Completed 100% of baseline challenges
+1. Completed the required features of the spec project.
+1. Completed 100% of baseline challenges.
