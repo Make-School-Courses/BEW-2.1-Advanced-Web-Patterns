@@ -16,4 +16,4 @@ Often as software developers we have to solve simple problems like these or much
 ## Baseline challenges
 
 1. Pick five of your favorite Lodash or Underscore functions and implement them using only vanilla JavaScript.
-1. Grab a partner and pick 5 technical discussion interview questions from the above resources section articles. Ask each other the questions.
+1. Grab a partner and pick 5 technical discussion interview questions from the above resources section articles. Ask each other the questions and have a discussion.

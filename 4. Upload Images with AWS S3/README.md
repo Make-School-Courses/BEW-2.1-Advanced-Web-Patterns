@@ -4,7 +4,11 @@
 
 Uploading a custom image is a very common pattern on any website.
 
-Using MongoDB we *could* just save the image into the database as binary data. However, we will quickly bloat our database this way and start 
+Using MongoDB we *could* just save the image into the database as binary data. However, we will quickly bloat our database this way and start paying a lot of $$$ to our database provider.
+
+Instead we should use a cloud storage service like Amazon AWS S3 or App Fog. In this case we will be using Amazon AWS S3.
+
+There are various libraries that wrap the S3 API. On the simple end is just the `aws-sdk` module, but for this I've chosen that we use the `s3-uploader` module which allows us to resize and crop images and store multiple versions in S3.
 
 ## Resources
 
@@ -14,10 +18,12 @@ Using MongoDB we *could* just save the image into the database as binary data. H
 
 ## Baseline Challenges
 
-1. When user creates a new pet, they should be able to upload an image from their computer to the pet.
-1. That image should be visible on the pet's thumbnail and bigger on their page.
+1. Meet with a partner and make a plan for what changes you will have to make to add the following user stories to Famous Amos' Pets' Store.
+  * When user creates a new pet, they should be able to upload an image from their computer to the pet.
+  * That image should be visible on the pet's thumbnail and bigger on their page.
 
 ## Stretch Challenges
 
 1. There should be two versions of the image, one for thumbnail that is smaller and one for the pet's page that is bigger.
-1. Users should be able to update this image.
+1. Add validations that these images are only images.
+1. Add allowing uploading pdf for the pet's vaccinations form.

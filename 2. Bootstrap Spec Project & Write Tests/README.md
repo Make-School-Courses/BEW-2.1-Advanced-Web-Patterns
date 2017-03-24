@@ -1,5 +1,9 @@
 # Famous Amos' Pets Emporium
 
+## Objectives & Competencies
+
+1. Employ RESTful & Resourceful testing patterns and methods with Mocha and Chai.
+
 ## Intro
 
 You just got a contract with Famous Amos' Pets Emporium to build their pet store website!
@@ -22,6 +26,13 @@ Here's what Amos wants:
 As a good software developer you also want to make sure that their code has a baseline of test coverage.
 
 
-## To Begin
+## Basline Challenges
 
-Read the README of the express-pets repo and complete the required initial challenges and one of the optional ones.
+1. Fork the repo, clone your fork down to your computer, run the project - (30 min)
+1. Add a `<select>` tag in `pets-new` to add a dropdown of pet types. (hint: store pet types as a global variable in `app.js` and then pass it into your template in the controller)
+1. Review the auth tests that are present, add pets tests and (strecth) add comment tests
+1. Use `cheerio` or `sinon` to test that your template does not just render, but that it has the correct data.
+
+## Stretch Challenges
+
+1. Add tests for all RESTful routes for Pets and Comments and their actual routes.

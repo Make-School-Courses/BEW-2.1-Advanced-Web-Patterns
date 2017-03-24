@@ -16,7 +16,6 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
 
 1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate the DOM.
     * Articulate what the DOM is.
-    * Manipulate JavaScript's native data types using vanilla JavaScript.
     * Design a custom transformation of the DOM.
 1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate data.
     * Manipulate native data types of JavaScript using vanilla JavaScript operators (e.g. forEach, map, filter, reduce).
@@ -26,12 +25,13 @@ Now that you've done a flyover of Full Stack JavaScript web development and touc
 
 ### Technical Discussion
 
+1. Identify and discuss the pros and cons of using higher abstract and lower abstract frameworks and libraries.
 1. Explain and utilize all the various levels of data persistence on the browser and server.
 1. Identify and explain the detailed parts of any HTTP request and response.
 
 ### Spec Project
 
-1. Employ advanced testing patterns and methods with Mocha and Chai.
+1. Employ RESTful & Resourceful testing patterns and methods with Mocha and Chai.
 1. Upload images to your website using multi-part form data and an Amazon Web Services S3 Bucket.
 1. Deploy WebSockets to add real-time behavior to a project.
 1. Add a payment gateway or paywall to your project using Braintree Payments.
