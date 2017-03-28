@@ -1,5 +1,7 @@
 # Uploading Images with AWS S3
 
+## Competencies & Objectives
+
 ## Intro
 
 Uploading a custom image is a very common pattern on any website.

@@ -1,6 +1,6 @@
 # Famous Amos' Pets Emporium
 
-## Objectives & Competencies
+## Competencies & Objectives
 
 1. Employ RESTful & Resourceful testing patterns and methods with Mocha and Chai.
 

@@ -1,6 +1,6 @@
 # Vanilla JavaScript - DOM
 
-## Objectives & Competencies
+## Competencies & Objectives
 
 1. Identify and discuss the pros and cons of using higher abstract and lower abstract frameworks and libraries.
 1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate the DOM.
