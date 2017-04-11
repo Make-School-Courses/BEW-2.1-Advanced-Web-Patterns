@@ -1,8 +1,6 @@
-# OOP & Prototypical Inheritance
+# Paywalls
 
 ## Competencies & Objectives
-
-
 
 ## Intro
 
