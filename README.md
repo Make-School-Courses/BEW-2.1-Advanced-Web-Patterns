@@ -1,4 +1,4 @@
-# Full-Stack-JS
+# Full-Stack-JS-3
 
 ## Course Overview
 
