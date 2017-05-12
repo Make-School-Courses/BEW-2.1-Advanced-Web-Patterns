@@ -2,61 +2,64 @@
 
 ## Course Overview
 
-This course will excavate and further reveal the underpinnings of the patterns you learned before and JavaScript itself while showing you new recipes for advanced web workflows.
+We've learned a lot about the web; the common conventions and we've mastered authentication and authorization. Now pretty much you can sort through whatever someone asked for. However, what differentiates hackers and engineers is engineers understand what are going on under the hood of the mere conventions and tools. Engineers can also build their own tools.
 
-We will stick to the most cutting edge and professional patterns and tools including keeping our server 100% stateless, RESTful routing, and testing.
-
-## Prerequisites
-
-Now that you've done a flyover of Full Stack JavaScript web development and touched tools like Schemaless Databases (like MongoDB), NodeJS (a non-blocking event-driven I/O server), managed the request/response cycle with ExpressJS (the leading JS web microframework), explored ExpressJS's various middleware, DOM manipulation with jQuery, and much more! Now we are ready to take all these topics and your web skills to the next level of mastery and understanding.
+In this course we will go under the hood in node and explore JavaScript by learning about and mastering ES6 - the newest version of JavaScript that is still being adopted.
 
 ## Competencies & Objectives
 
-### JavaScript
+1. Master Node.js fundamentals
+1. Master ES6
+1. Master a basic client-side build system
+1. Master various common advanced web patterns
 
-1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate the DOM.
-    * Articulate what the DOM is.
-    * Design a custom transformation of the DOM.
-1. Translate between higher order JavaScript operations and "vanilla" JavaScript that uses no extra libraries to manipulate data.
-    * Manipulate native data types of JavaScript using vanilla JavaScript operators (e.g. forEach, map, filter, reduce).
-    * Translate various lodashJS/underscoreJS functions into vanilla JavaScript.
-    * Be able to speak extemporaneously about common JavaScript gotchas and details (in an interview setting).
-1. Compare and contrast JavaScript's prototypical inheritance pattern with a class-based language such as Ruby or Python or a functional language such as Elixir, Haskell or Erlang or Clojure.
+## Lessons
 
-### Technical Discussion
+1. Node.js Under the Hood
+1. Node.js Modules Under the Hood
+1. Building your own Node Module
+1. Bower and Gulp
+1. ES6 & Babel - Begin YouTube/Spotify API Project
+1. ES6
+1. ES6
+1. Recipes - Pagination - Begin Consulting Project
+1. Recipes - Simple Search
+1. Recipes - Upload images to S3
+1. Recipes - Payment Gateways
+1. Recipes - WebSockets
+1. Recipes - Full Text Search
+1. Project Work & Code Review
+1. Project Work & Code Review
 
-1. Identify and discuss the pros and cons of using higher abstract and lower abstract frameworks and libraries.
-1. Explain and utilize all the various levels of data persistence on the browser and server.
-1. Identify and explain the detailed parts of any HTTP request and response.
+## Projects
 
-### Spec Project
+1. Designed, planned, and built a website using the YouTube or Spotify API using ES6.
+1. Consulting web project on team of 4.
 
-1. Employ RESTful & Resourceful testing patterns and methods with Mocha and Chai.
-1. Upload images to your website using multi-part form data and an Amazon Web Services S3 Bucket.
-1. Deploy WebSockets to add real-time behavior to a project.
-1. Add a payment gateway or paywall to your project using Braintree Payments.
-1. Utilize MongoDB's native full text search functionality to search resources in your site. (Stretch)
+## Vocabulary & Conventions
 
-## Course Schedule
+1. Streams & Buffers
+1. Node Modules
+1. ES6
+1. Build Systems - Bower & Gulp
 
-(2 class x 6 weeks = 12 classes)
+## Best Practices
 
-1. JavaScript Diagnostic Assessment & Vanilla JavaScript 1 - DOM
-2. Bootstrap Spec Project & Testing Spec Project with Mocha/Chai
-3. Vanilla JavaScript 2 - Data
-4. Uploading Image with AWS S3
-5. Prototypical Inheritance & OOP
-6. Adding WebSockets with Socket.io
-7. Persistence Across Client & Server
-8. Add Paywall with Braintree
-9. Request & Response Architecture
-10. Add Paywall with Braintree (cont.)
-11. Full Text Search with MongoDB
-12. Recall & Extension Assessment & Feedback Survey
+1. Agile Planning
+1. Technical Planning
+1. Yagni - Ya' Ain't Gonna Need Its
+1. Agnostic vs. Opinionated Developers
+1. Use the right tool for the job
+1. Advanced Querying
+1. What is slow, what is fast? (network, controller vs. database, client)
 
-## Evaluations
+## Evaluation
 
-To pass the course, students will have
+In order to pass this course, you must
 
-1. Completed the required features of the spec project.
-1. Completed 100% of baseline challenges.
+1. Have fewer than 2 unexcused absences.
+1. Complete 80% of basic challenges from each lesson.
+1. Be able to recall the meaning of all vocabulary and conventions.
+1. Complete the assigned tutorials.
+1. Complete the consulting project and ship it.
+1. Receive at least 1 code review from the instructor.
