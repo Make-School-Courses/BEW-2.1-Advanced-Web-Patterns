@@ -21,15 +21,15 @@ In this course we will go under the hood in node and explore JavaScript by learn
 1. Recipes - Error Handling
 1. Recipes - Pagination
 1. Recipes - Simple Search
-1. Review/Build Day
-1. Recipes - Upload images to S3
-1. Recipes - WebSockets
+1. Recipes - Advanced Testing
 1. Contractor Presentations & Review Day
+1. Kick Off Custom Project
+1. Recipes - Upload images to S3
+1. Project Work & Code Reviews
+1. Recipes - WebSockets
+1. Project Work & Code Reviews
 1. Recipes - Payment Gateways
-1. Recipes - Full Text Search
 1. Node.js Modules Under the Hood
-1. Project Work & Code Reviews
-1. Project Work & Code Reviews
 1. Project Work & Code Reviews
 1. Presentations
 
