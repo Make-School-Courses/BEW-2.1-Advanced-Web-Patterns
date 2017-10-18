@@ -18,17 +18,17 @@ In this course we will go under the hood in node and explore JavaScript by learn
 1. Kick off Consulting Project
 1. Build Systems w/ Bower and Gulp
 1. SQL/Relational Databases w/ [Sequelize](http://docs.sequelizejs.com/)
-1. Recipes - Error Handling
-1. Recipes - Pagination
-1. Recipes - Simple Search
-1. Recipes - Advanced Testing
+1. Success & Error Handling
+1. Pagination
+1. Simple Search
+1. Advanced Testing
 1. Contractor Presentations & Review Day
 1. Kick Off Custom Project
-1. Recipes - Upload images to S3
+1. Upload images to S3
 1. Project Work & Code Reviews
-1. Recipes - WebSockets
+1. WebSockets
 1. Project Work & Code Reviews
-1. Recipes - Payment Gateways
+1. Payment Gateways
 1. Node.js Modules Under the Hood
 1. Project Work & Code Reviews
 1. Presentations
