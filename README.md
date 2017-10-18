@@ -15,34 +15,33 @@ In this course we will go under the hood in node and explore JavaScript by learn
 
 ## Lessons
 
-1. Node.js Modules Under the Hood
-1. Building your own Node Module
-1. Bower and Gulp
-1. ES6 & Babel - Begin YouTube/Spotify API Project
-1. ES6
-1. Flex Day
+1. Kick off Consulting Project
+1. Build Systems w/ Bower and Gulp
 1. Recipes - Error Handling - Begin Consulting Project
 1. Recipes - Pagination
 1. Recipes - Simple Search
+1. Review/Build Day
 1. Recipes - Upload images to S3
-1. Recipes - Payment Gateways
 1. Recipes - WebSockets
+1. Contractor Presentations & Review Day
+1. Recipes - Payment Gateways
 1. Recipes - Full Text Search
+1. Node.js Modules Under the Hood
 1. Project Work & Code Reviews
 1. Project Work & Code Reviews
 1. Project Work & Code Reviews
+1. Presentations
 
 ## Projects
 
-1. Designed, planned, and built a website using the YouTube or Spotify API using ES6.
-1. Consulting web project on team of 4.
+1. Consulting web project on team of 4
+1. Custom Project
 
 ## Vocabulary & Conventions
 
+1. Build Systems - Bower & Gulp
 1. Streams & Buffers
 1. Node Modules
-1. ES6
-1. Build Systems - Bower & Gulp
 
 ## Best Practices
 
@@ -61,7 +60,7 @@ In order to pass this course, you must
 1. Have fewer than 2 unexcused absences.
 1. Complete 80% of basic challenges from each lesson.
 1. Be able to recall the meaning of all vocabulary and best practices.
-1. Complete the assigned tutorials.
-1. Complete the consulting project and ship it.
-1. Have written, published, and turned in at least 2 technical blog posts.
+1. Complete and turn in the consulting project and ship it.
+1. Complete and turn in a custom project and ship it.
+1. Complete and turn in a project writeup for each project on medium.com.
 1. Receive at least 1 code review from the instructor.
