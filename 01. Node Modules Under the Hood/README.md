@@ -6,9 +6,15 @@
 * Customize a node module.
 * Make your own Node Module.
 
-## Background
+## Backgrounds
 
+We've been using npm and Node Modules this whole time. But what are they exactly and how can you make your own?
 
+## Detecting Patterns
+
+1. In teams of 3, open up a bunch of random npm folders. What are files and folders they have in common? What are files and folders they don't share?
+1. Look into the `package.json` files of some modules. What is are the differences between that `package.json` file and the ones in your express projects?
+1. Look into some of the modules' `index.js` files. What is their structure? How are they different from your `server.js` files?
 
 ## Resources
 

@@ -17,7 +17,8 @@ In this course we will go under the hood in node and explore JavaScript by learn
 
 1. Kick off Consulting Project
 1. Build Systems w/ Bower and Gulp
-1. Recipes - Error Handling - Begin Consulting Project
+1. SQL/Relational Databases w/ [Sequelize](http://docs.sequelizejs.com/)
+1. Recipes - Error Handling
 1. Recipes - Pagination
 1. Recipes - Simple Search
 1. Review/Build Day
