@@ -33,12 +33,10 @@ Your project must contain three of these five options:
 
 Pick two of any of the following options or add your own features.
 
-1. A SQL database
 1. An interactive map
-1. Simple search
+1. Simple search & Pagination
 1. A paywall
 1. Websockets
-1. Pagination
 1. Uploading to AWS S3
 1. Utilize an external API
 
