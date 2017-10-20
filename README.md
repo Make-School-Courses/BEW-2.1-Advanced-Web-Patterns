@@ -19,7 +19,8 @@ We'll
 
 ## Lessons
 
-1. Kick off Consulting Project - SQL
+1. Kick off Consulting Project
+1. SQL
 1. ORM & [Sequelize.js](http://docs.sequelizejs.com/)
 1. Sequelize.js Associations
 1. Simple Search & Pagination
@@ -32,11 +33,10 @@ We'll
 1. WebSockets
 1. Project Work & Code Reviews
 1. Payment Gateways
-1. Node.js Modules Under the Hood
-1. Project Work & Code Reviews
 1. Project Work & Code Reviews
 1. Project Work & Code Reviews
 1. Presentations
+1. Node.js Modules Under the Hood
 
 ## Projects
 
