@@ -4,24 +4,28 @@
 
 We've learned a lot about the web; the common conventions and we've mastered authentication and authorization. Now pretty much you can sort through whatever someone asked for. However, what differentiates hackers and engineers is engineers understand what are going on under the hood of the mere conventions and tools. Engineers can also build their own tools.
 
-In this course we will go under the hood in node and explore JavaScript by learning about and mastering ES6 - the newest version of JavaScript that is still being adopted.
+In this course we will go explore SQL and relational databases, look at some common advanced web functionality, and then go under the hood in Node.js and npm.
+
+We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that is still being adopted.
+
+We'll 
 
 ## Competencies & Objectives
 
-1. Master Node.js fundamentals
-1. Master ES6
+1. Master SQL and Relational ORMs (Sequelize.js)
 1. Master a basic client-side build system
 1. Master various common advanced web patterns
+1. Master Node.js fundamentals
 
 ## Lessons
 
-1. Kick off Consulting Project
-1. Build Systems w/ Bower and Gulp
-1. SQL
+1. Kick off Consulting Project - SQL
 1. ORM & [Sequelize.js](http://docs.sequelizejs.com/)
 1. Sequelize.js Associations
-1. Success & Error Handling
 1. Simple Search & Pagination
+1. Project Work & Code Reviews
+1. Success & Error Handling
+1. Build Systems w/ Bower and Gulp
 1. Advanced Testing
 1. Contractor Presentations & Review Day
 1. Kick Off Custom Project - Upload images to S3
@@ -42,6 +46,9 @@ In this course we will go under the hood in node and explore JavaScript by learn
 ## Vocabulary & Conventions
 
 1. Build Systems - Bower & Gulp
+1. SQL
+1. ORM
+1. Resource Associations - hasMany, belongsTo, belongsToMany
 1. Streams & Buffers
 1. Node Modules
 
