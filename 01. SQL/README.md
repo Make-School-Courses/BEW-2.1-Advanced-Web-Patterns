@@ -3,7 +3,9 @@
 ## Objectives
 
   * List the various features of a SQL database: e.g. Tables, Indexes, Migrations, and Joins
-  * 
+  * Compare and Contrast SQL/Relational/Table-based and NoSQL/Schemaless/Document-based databases
+  * Write the SQL to create tables, columns, and rows
+  * Write basic SQL queries
 
 ## Background
 
