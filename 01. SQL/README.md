@@ -29,13 +29,7 @@ Let's look at some of the simplest SQL commands.
 
 A SQL database is different from a NoSQL database primarily in that it has a schema that we have to build before we can save data to it.
 
-![schema](assets/sql-model.png)
-
-### Indexes
-
-Another feature of SQL databases is the definition of **indexes** to speed up queries. Databases uses data structures like B-Trees to make column values fast to look up.
-
-Read this [StackOverflow question](https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql) to get a better idea of what a SQL index is.
+![schema](assets/sql-model.jpg)
 
 ### Basic SQL Commands
 
@@ -108,7 +102,15 @@ DELETE Customer
 WHERE Email = 'alex@gmail.com'
 ```
 
-### Advanced Queries - JOIN
+## Advanced Commands
+
+### Indexes
+
+Another feature of SQL databases is the definition of **indexes** to speed up queries. Databases uses data structures like B-Trees to make column values fast to look up.
+
+Read this [StackOverflow question](https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql) to get a better idea of what a SQL index is.
+
+### Joins - `JOIN`
 
 SQL has many advanced query commands, but for our purposes we are just going to focus on one: the JOIN and its variants.
 
@@ -120,6 +122,16 @@ SQL has many advanced query commands, but for our purposes we are just going to 
 1. FULL (OUTER) JOIN: Selects all records that match either left or right table records.
 
 ![sql-joins](assets/sql-joins.png)
+
+**Creating a JOIN example**
+
+```sql
+create index IndexCustomerName on Customer (
+LastName ASC,
+FirstName ASC
+)
+go
+```
 
 **JOIN Examples**
 
@@ -144,9 +156,12 @@ SELECT O.OrderNumber, CONVERT(date,O.OrderDate) AS Date,
 ORDER BY O.OrderNumber
 ```
 
-## SQL Challenges
+## SQL Challenges - todofactory
 
 1. Examine the database and schema code in the `sample db` folder. Can you identify what each part of the files do? ()
+
+
+
 1. Use dofactory's [SQL Sandbox](http://www.dofactory.com/sql/sandbox) to run the example JOIN queries. 
 1. With a partner construct your own simple queries and run them in the SQL Sandbox.
 1. Write SQL queries for the psuedocode in `bank.sql` file.
