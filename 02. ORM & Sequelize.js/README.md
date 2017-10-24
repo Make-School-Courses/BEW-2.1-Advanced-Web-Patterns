@@ -8,7 +8,7 @@
 
 An ORM (like an ODM) is code that we use to avoid writing a lot of long SQL queries inside our projects. Instead we can write those same queries using a DSL in another language.
 
-We'll be using the most popular JavaScript ORM - [Sequelizer](https://www.npmjs.com/package/sequelizer).
+We'll be using the most popular JavaScript ORM - [Sequelize.js](https://www.npmjs.com/package/sequelize).
 
 Here is an example Sequelizer model:
 
@@ -82,17 +82,10 @@ const Pub = Sequelize.define('pub', {
 
 **GOAL: Install PostgreSQL, Sequlize**
 
-1. Because PostgreSQL is a very popular SQL database and used by default in Heroku, we'll be using this database locally and remotely.
+1. Because PostgreSQL is a very popular SQL database and used by default in Heroku, we'll be using this database locally and remotely. So install that:
 
   ```bash
   $ brew install postgres
-  ```
-
-1. Now add Sequelize and pg to your npm project:
-
-  ```bash
-  $ npm install --save sequelize
-  $ npm install --save pg pg-hstore
   ```
 
 1. We'll also add the sequelize-cli tool to create and manage our migrations.
@@ -103,8 +96,14 @@ const Pub = Sequelize.define('pub', {
 
 **GOAL: Install PostgreSQL, Sequlize**
 
-1. Use the express-generator to generate an express app called "sql-blog".
-1. Install sequelizer to the project.
+1. If you'd like, you can use this time to start your contracting project. Otherwise you can make a blog. Use the express-generator to generate an express app called "sql-blog".
+1. Now add Sequelize and pg to your npm project:
+
+  ```bash
+  $ npm install --save sequelize
+  $ npm install --save pg pg-hstore
+  ```
+
 1. Add a `.sequelizerc` file to the root of your project to define the paths of the folders sequelize-cli will create.
 
   ```js 
