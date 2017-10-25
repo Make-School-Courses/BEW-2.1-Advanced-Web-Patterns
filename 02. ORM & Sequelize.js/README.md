@@ -2,7 +2,9 @@
 
 ## Objectives
 
-  * Identify
+  * Define an ORM
+  * Boostrap Sequelize.js 
+  * Use the features of Sequelize such as migration, queries, indexes, and validators.
 
 ## Background
 
@@ -80,7 +82,7 @@ const Pub = Sequelize.define('pub', {
 
 ## ORM/Sequelizer Challenges - Making Your sql-blog
 
-**GOAL: Install PostgreSQL, Sequlize**
+**GOAL: Install PostgreSQL, `sequlize-cli`**
 
 1. Because PostgreSQL is a very popular SQL database and used by default in Heroku, we'll be using this database locally and remotely. So install that:
 
@@ -94,14 +96,13 @@ const Pub = Sequelize.define('pub', {
   $ npm install -g sequelize-cli
   ```
 
-**GOAL: Install PostgreSQL, Sequlize**
+**GOAL: Add Sequelize.js to a project**
 
 1. If you'd like, you can use this time to start your contracting project. Otherwise you can make a blog. Use the express-generator to generate an express app called "sql-blog".
 1. Now add Sequelize and pg to your npm project:
 
   ```bash
-  $ npm install --save sequelize
-  $ npm install --save pg pg-hstore
+  $ npm install --save sequelize pg pg-hstore
   ```
 
 1. Add a `.sequelizerc` file to the root of your project to define the paths of the folders sequelize-cli will create.
@@ -155,3 +156,9 @@ const Pub = Sequelize.define('pub', {
   1. posts#create
   1. posts#show
   1. posts#index
+
+## Stretch Challenges
+
+1. [The Best Stats You've Ever Seen - TED Hans Rosling](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
+1. Create a new model called `User` with an `email` and `password` attributes. Be sure that email has an index on it.
+1. (Looking ahead to next class) can you associate so that users have many posts?

@@ -2,6 +2,20 @@
 
 Sequelizer also allows you to associate various tables together through associations. Under the hood, these associations are converted into JOIN SQL queries.
 
+## Objectives
+
+	* Identify the types relational associations
+	* Add one-to-many and many-to-many associations between resources in a Node.js environment with Sequelize.js
+
+## Types of Assoications
+
+| id | name  | email | age |
+| -- | ----  | ------| ------ |
+| 1  | Bob   | bob@bob.com  | 34  |
+| 2  | Sally | sally@sally.com  | 87  |
+| 3  | Nick | nick@nick.com  | 20  |
+
+
 ### One-to-Many Associations 
 
 
@@ -68,9 +82,11 @@ Continue using the sql-blog project for these challenges.
 
 ## Stretch Challenges
 
+1. [New Insights on Poverty - TED Hans Rosling](https://www.ted.com/talks/hans_rosling_reveals_new_insights_on_poverty)
 1. Add authentication with Passport or JWT tokens, but use the `password` column of your Users table. Be sure to encrypt your password using bcrypt!
 
 ## Resources
 
 1. [Sequelizer Validation docs](http://docs.sequelizejs.com/manual/tutorial/models-definition.html#validations)
 1. [Sequelizer Query docs](http://docs.sequelizejs.com/manual/tutorial/querying.html)
+

@@ -17,6 +17,16 @@ SQL was initially developed at IBM by Donald D. Chamberlin and Raymond F. Boyce 
 
 SQL is incredibly powerful. It can be used to write virtually any query you can think of, as long as you have the data. 
 
+## Tabular
+
+All the data in a relational or SQL database is tabular, like an excel spreadsheet:
+
+| id | name  | email | age |
+| -- | ----  | ------| ------ |
+| 1  | Bob   | bob@bob.com  | 34  |
+| 2  | Sally | sally@sally.com  | 87  |
+| 3  | Nick | nick@nick.com  | 20  |
+
 ## Why Learn SQL?
 
 SQL/Relational databases are enormously prevalent, more common in fact than Schemaless/NoSQL/Document-based databases, and SQL is the language you use to communicate with virtually any relational database. 
@@ -158,12 +168,17 @@ ORDER BY O.OrderNumber
 
 ## SQL Challenges - todofactory
 
-1. Examine the database and schema code in the `sample db` folder. Can you identify what each part of the files do? ()
-
-
+1. Examine the database and schema code in the `sample db` folder. Can you identify what each part of the files do?
+1. With a partner construct 5 of your own simple queries for the dofactory sandbox and run them. For reference for this schema scroll up to the image above or look at [this page](http://www.dofactory.com/sql/tutorial) of their tutorial e.g:
+  
+  - Return all customers: `SELECT * from Customer`
+  - Return all orders: `SELECT * from Order`
 
 1. Use dofactory's [SQL Sandbox](http://www.dofactory.com/sql/sandbox) to run the example JOIN queries. 
-1. With a partner construct your own simple queries and run them in the SQL Sandbox.
 1. Write SQL queries for the psuedocode in `bank.sql` file.
-1. Now construct your own JOIN query and run it in the sandbox.
+
+## Strech Challenges
+
+1. Watch this great [TED talk on data visualization](https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization)
+1. Construct 3 JOIN queries for the dofactory sql sandbox and run it.
 1. Review the types of Joins. With a partner come up with one hypothetical query (in English/psuedocode) that exemplifies each one. Share your queries with another two pairs.
