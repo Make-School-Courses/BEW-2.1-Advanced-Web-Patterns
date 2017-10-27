@@ -41,16 +41,29 @@ A SQL database is different from a NoSQL database primarily in that it has a sch
 
 ![schema](assets/sql-model.jpg)
 
-### Basic SQL Commands
+## Indexes
+
+Another feature of SQL databases is the definition of **indexes** to speed up queries. Databases uses data structures like B-Trees to make column values fast to look up.
+
+Think of the index of a book, an alphabetical list of names, subjects, etc., with references to the places where they occur, typically found at the end of a book. That is sort of what an index is in a SQL database. 
+
+When you set an index, e.g. on a `email` column on a user table, you tell the database to keep track of the order of every email address so later you can look up records by the email address very quickly.
+
+## Common SQL Commands
 
 1. Read the data  --  **SELECT**
 1. Insert new data  --  **INSERT**
 1. Update existing data  --  **UPDATE**
 1. Remove data  --  **DELETE**
 
-What does this remind you of...? (CRUD!)
+  What do these four remind you of...? (CRUD!)
 
-### SELECT
+1. Filter data -- **WHERE**
+1. Designate which table you want to use -- **FROM**
+1. Sort or order data -- **ORDER BY**
+1. Set column values -- **VALUES, SET**
+
+### SELECT, FROM, WHERE, ORDER BY
 
 ```sql
 SELECT column-names
@@ -68,7 +81,7 @@ WHERE City = 'Paris'
 ORDER BY LastName
 ```
 
-### INSERT
+### INSERT, VALUES
 
 ```sql
 INSERT table-name (column-names)
@@ -82,7 +95,7 @@ INSERT Supplier (Name, ContactName, City, Country)
 VALUES ('Oxford Trading', 'Ian Smith', 'Oxford', 'UK')
 ```
 
-### UPDATE
+### UPDATE, SET
 
 ```sql
 UPDATE table-name
@@ -111,14 +124,6 @@ e.g.
 DELETE Customer
 WHERE Email = 'alex@gmail.com'
 ```
-
-## Advanced Commands
-
-### Indexes
-
-Another feature of SQL databases is the definition of **indexes** to speed up queries. Databases uses data structures like B-Trees to make column values fast to look up.
-
-Read this [StackOverflow question](https://stackoverflow.com/questions/2955459/what-is-an-index-in-sql) to get a better idea of what a SQL index is.
 
 ### Joins - `JOIN`
 
