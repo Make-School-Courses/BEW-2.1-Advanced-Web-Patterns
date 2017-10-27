@@ -12,7 +12,7 @@ An ORM (like an ODM) is code that we use to avoid writing a lot of long SQL quer
 
 We'll be using the most popular JavaScript ORM - [Sequelize.js](https://www.npmjs.com/package/sequelize).
 
-Here is an example Sequelizer model:
+Here is an example Sequelizer model and how to use that model to create an row in the database:
 
 ```js
 
