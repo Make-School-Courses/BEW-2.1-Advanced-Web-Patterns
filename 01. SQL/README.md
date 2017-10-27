@@ -122,16 +122,45 @@ Read this [StackOverflow question](https://stackoverflow.com/questions/2955459/w
 
 ### Joins - `JOIN`
 
-SQL has many advanced query commands, but for our purposes we are just going to focus on one: the JOIN and its variants.
+Generally when people try to explain joins they show you venn diagrams, but this is rather confusing and inaccurate. In fact A JOIN is really a cartesian product (also cross product) with a filter. A [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product#A_deck_of_cards) is a mathematical operation that returns a set (or product set or simply product) from multiple sets. That is, for sets A and B, the Cartesian product A × B is the set of all ordered pairs (a, b) where a ∈ A and b ∈ B. Products can be specified using set-builder notation, e.g.
+
+Reference: [Say "No" to Venn Diagrams When Explaining Joins](https://blog.jooq.org/2016/07/05/say-no-to-venn-diagrams-when-explaining-joins/)
 
 **Types of Joins**
 
-1. (INNER) JOIN: Select records that have matching values in both tables.
-1. LEFT (OUTER) JOIN: Select records from the first (left-most) table with matching right table records.
-1. RIGHT (OUTER) JOIN: Select records from the second (right-most) table with matching left table records.
-1. FULL (OUTER) JOIN: Selects all records that match either left or right table records.
+1. CROSS JOIN: In a cross join is just taking every item on the left side, and combines it with every item on the right side.
 
-![sql-joins](assets/sql-joins.png)
+  ![CROSS JOIN](https://lukaseder.files.wordpress.com/2016/07/venn-cross-join1.png?w=662&h=497&zoom=2)
+
+1. (INNER) JOIN: In plain text, an INNER JOIN is a CROSS JOIN in which only those combinations are retained which fulfil a given predicate. For instance:
+
+  ```sql
+  -- "Classic" ANSI JOIN syntax
+  SELECT *
+  FROM author a
+  JOIN book b ON a.author_id = b.author_id
+
+  -- "Nice" ANSI JOIN syntax
+  SELECT *
+  FROM author a
+  JOIN book b USING (author_id)
+
+  -- "Old" syntax using a "CROSS JOIN"
+  SELECT *
+  FROM author a, book b
+  WHERE a.author_id = b.author_id
+  ```
+
+  ![INNER JOIN](https://lukaseder.files.wordpress.com/2016/07/venn-join1.png?w=662&h=496&zoom=2)
+
+1. OUTER JOIN: OUTER JOIN types help where we want to retain those rows from either the LEFT side or the RIGHT or both (FULL) sides, for which there was no matching row where the predicate yielded true. 
+
+  ```sql
+  SELECT *
+  FROM author a
+  LEFT JOIN book b USING (author_id)
+  ```
+  e.g. This query will produce all the authors and their books, but if an author doesn’t have any book, we still want to get the author with NULL as their only book value
 
 **Creating a JOIN example**
 
@@ -175,10 +204,13 @@ ORDER BY O.OrderNumber
   - Return all orders: `SELECT * from Order`
 
 1. Use dofactory's [SQL Sandbox](http://www.dofactory.com/sql/sandbox) to run the example JOIN queries. 
-1. Write SQL queries for the psuedocode in `bank.sql` file.
 
 ## Strech Challenges
 
 1. Watch this great [TED talk on data visualization](https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization)
 1. Construct 3 JOIN queries for the dofactory sql sandbox and run it.
 1. Review the types of Joins. With a partner come up with one hypothetical query (in English/psuedocode) that exemplifies each one. Share your queries with another two pairs.
+
+## Extra Stretch
+
+1. Write SQL queries for the psuedocode in `bank.sql` file.
