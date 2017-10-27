@@ -54,20 +54,20 @@ Because you have a schema in the relational database, you can set much stricter 
 
 ```js
 const Pub = Sequelize.define('pub', {
-  name: { type: Sequelize.STRING },
-  address: { type: Sequelize.STRING },
-  latitude: {
-    type: Sequelize.INTEGER,
-    allowNull: true,
-    defaultValue: null,
-    validate: { min: -90, max: 90 }
-  },
-  longitude: {
-    type: Sequelize.INTEGER,
-    allowNull: true,
-    defaultValue: null,
-    validate: { min: -180, max: 180 }
-  },
+  name          : { type: Sequelize.STRING },
+  address       : { type: Sequelize.STRING },
+  latitude      : {
+                    type: Sequelize.INTEGER,
+                    allowNull: true,
+                    defaultValue: null,
+                    validate: { min: -90, max: 90 }
+                  },
+  longitude     : {
+                   type: Sequelize.INTEGER,
+                   allowNull: true,
+                   defaultValue: null,
+                   validate: { min: -180, max: 180 }
+                 }
 }, {
   validate: {
     bothCoordsOrNone() {
