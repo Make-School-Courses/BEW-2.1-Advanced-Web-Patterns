@@ -12,7 +12,7 @@ An ORM (like an ODM) is code that we use to avoid writing a lot of long SQL quer
 
 We'll be using the most popular JavaScript ORM - [Sequelize.js](https://www.npmjs.com/package/sequelize).
 
-Here is an example Sequelizer model and how to use that model to create an row in the database:
+Here is an example Sequelize.js model and how to use that model to create an row in the database:
 
 ```js
 
@@ -80,7 +80,7 @@ const Pub = Sequelize.define('pub', {
 ```
 
 
-## ORM/Sequelizer Challenges - Making Your sql-blog
+## ORM/Sequelize Challenges - Making Your sql-blog
 
 **GOAL: Install PostgreSQL, `sequlize-cli`**
 
@@ -98,13 +98,19 @@ const Pub = Sequelize.define('pub', {
 
 **GOAL: Add Sequelize.js to a project**
 
-1. If you'd like, you can use this time to start your contracting project. Otherwise you can make a blog. Use the express-generator to generate an express app called "sql-blog".
+1. If you'd like, you can use this time to start your contracting project. Otherwise you can make a blog. Use the `express-generator` to generate an express app called "sql-blog". (heads up this will generate a project with the Jade templating engine unless you add `--hbs`).
+
+  ```bash
+  $ npm install express-generator -g
+  $ express --hbs [app name]
+  ```
+
 1. Now add Sequelize and pg to your npm project:
 
   ```bash
   $ npm install --save sequelize pg pg-hstore
   ```
-
+  
 1. Add a `.sequelizerc` file to the root of your project to define the paths of the folders sequelize-cli will create.
 
   ```js 
@@ -123,7 +129,7 @@ const Pub = Sequelize.define('pub', {
     $ sequelize init
   ```
 
-1. Create a model called Post with a `title` and `body` attribute. Use the following code as a sample to make your own new model and migration.
+1. Create a model called `Post` with a `title` and `body` attribute. Use the following code as a sample to make your own new model and migration.
 
   ```bash
     $ sequelize model:create --name User --attributes first_name:string,last_name:string,bio:text
@@ -136,9 +142,9 @@ const Pub = Sequelize.define('pub', {
   ```
 
 1. Next, update your `config/config.json` file to reflect the new development database context. In the "development" context, update the database's name, the "dialect" to `postgres`, and change the username to the username of your computer.
-1. Now migrate your db with `$ sequelize db:migrate`
+1. Next, migrate your db with `$ sequelize db:migrate`
 1. Use the [Postgres.app](https://postgresapp.com/documentation/gui-tools.html) to access your new database in the CLI. Use the command `\dt` to see the `Posts` table you created.
-1. Now, run the following code to test if your database has connected. (it probably won't - try to troubleshoot :D )
+1. Now, put the following code in your `server.js` file and run your app to test if your database has connected. (it probably won't - try to troubleshoot :D )
 
   ```js
   sequelize
