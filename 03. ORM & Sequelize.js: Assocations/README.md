@@ -4,20 +4,16 @@ Sequelizer also allows you to associate various tables together through associat
 
 ## Objectives
 
-	* Identify the types relational associations
-	* Add one-to-many and many-to-many associations between resources in a Node.js environment with Sequelize.js
+* Identify the types relational associations
+* Add one-to-many and many-to-many associations between resources in a Node.js environment with Sequelize.js
+
+## Note on Naming Conventions
+
+There are a lot of different naming conventions out there for SQL tables, but here we will be following the convention set by [SQL Style Guide](http://www.sqlstyle.guide/) by Simon Holywell.
 
 ## Types of Assoications
 
-| id | name  | email | age |
-| -- | ----  | ------| ------ |
-| 1  | Bob   | bob@bob.com  | 34  |
-| 2  | Sally | sally@sally.com  | 87  |
-| 3  | Nick | nick@nick.com  | 20  |
-
-
 ### One-to-Many Associations 
-
 
 ```js
 Project.hasMany(Task)
@@ -32,8 +28,8 @@ project.setTasks([task1, task2]).then(() => {
 })
 
 // ok, now they are saved... how do I get them later on?
-project.getTasks().then(associatedTasks => {
-  // associatedTasks is an array of tasks
+project.getTasks().then(projectTasks => {
+  // projectTasks is an array of tasks
 })
 
 // what task2's project?
@@ -46,12 +42,14 @@ task2.getProject().then(project => {
 Here is another example of a one-to-many association that uses the foreignKey and sourceKey options.
 
 ```js
-const City = sequelize.define('city', { countryCode: Sequelize.STRING });
-const Country = sequelize.define('country', { isoCode: Sequelize.STRING });
+const City = sequelize.define('cities', { countryCode: Sequelize.STRING });
+const Country = sequelize.define('countries', { isoCode: Sequelize.STRING });
 
 // Here we can connect countries and cities base on country code
 Country.hasMany(City, {foreignKey: 'countryCode', sourceKey: 'isoCode'});
 City.belongsTo(Country, {foreignKey: 'countryCode', targetKey: 'isoCode'});
+
+// Once you have a country or a city instance...
 
 country.getCities().then(cities => {
     // got your cities ready to go
@@ -64,14 +62,36 @@ city.setCountry(country).then(() => {
 
 ### Many-to-Many Associations
 
+Sometimes associations 
+
 ```js
-Project.belongsToMany(User, {through: 'UserProject'});
-User.belongsToMany(Project, {through: 'UserProject'});
+Team = sequelize.define('teams', {
+  role: Sequelize.STRING
+});
+
+Project.belongsToMany(User, {through: 'Teams'});
+User.belongsToMany(Project, {through: 'Teams'});
+// through is required!
+
+user.addProject(project, { through: { role: 'manager' }});
 ```
 
 ## Baseline Challenges
- 
-Continue using the sql-blog project for these challenges. 
+
+**Goal: Grocking Associations**
+
+1. With a partner, Come up with 5 examples of one-to-many associations and 5 for many-to-many in the real world.
+1. On your own, choose one and write the code that would define the model relationships between two resources using Sequelize.js.
+1. Now compare your code with your partner and check each other's work.
+
+**Goal: Explore Sequlize.js (Partner)**
+
+1. What are the Many-to-Many (BelongsToMany) model public functions and what does each do?
+1. What is the difference between HasOne and BelongsTo?
+
+**Goal: Adding Associations to a Project**
+
+Continue using your own consulting project or the sql-blog project for these challenges. 
 
 1. Add a second table called Comments with a `body` column and a foriegn key called `postId` to associate comments and posts. (hint - read the [Sequelize Associations Docs](http://docs.sequelizejs.com/manual/tutorial/associations.html))
 1. On the posts#show route, add a form to create comments. Create comments and set the userId.
