@@ -21,6 +21,7 @@ For alternative implementations of flash messages in express read [this lovely a
 We're going to use the npm library [express-flash](https://www.npmjs.com/package/express-flash) to handle flashes. Flash messages typically require cookies and sessions in order to keep track of the state of the flash message.
 
 ```js
+  // server.js
   var flash = require('express-flash'),
       express = require('express'),
       app = express();
@@ -29,6 +30,7 @@ We're going to use the npm library [express-flash](https://www.npmjs.com/package
   app.use(express.session({ cookie: { maxAge: 60000 }}));
   app.use(flash());
 
+  // controller.js
   app.get('/', function (req, res) {
     req.flash('info', 'Welcome');
     res.render('index', {
@@ -36,7 +38,7 @@ We're going to use the npm library [express-flash](https://www.npmjs.com/package
     })
   });
 
-  // template
+  // main.hanldebars template
   {{#if messages.info}}
   <div class="alert alert-info">
     <span>{{messages.info}}</span>
@@ -46,7 +48,7 @@ We're going to use the npm library [express-flash](https://www.npmjs.com/package
 
 ### Flash Challenge
 
-1. Add express-flash and display success and error messages in your sql-blog or client project.
+1. Add `express-flash` and display success and error messages in your sql-blog or client project.
 
 ## Express Error Handling
 
@@ -75,6 +77,8 @@ The standard Express.js error handler code is below, but we're going to start of
 1. Add the code below to add a Not Found error that runs only if no other endpoint is triggered.
 
   ```js
+  // server.js
+  
   app.use(function(req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;
@@ -96,6 +100,7 @@ The standard Express.js error handler code is below, but we're going to start of
 1. Now that that's done let's look at the standard Express.js error middleware code to extend ours more. It has all the same sort of stuff, but it adds a check to see if you are in production or not. If in development, it just displays the error, but in production it hides the stack trace. Let's add this check for development enviornment.
 
 ```js
+// server.js
 // catch 404 and forward to error handler
 
 app.use(function(req, res, next) {
