@@ -1,31 +1,78 @@
-# Simple Search & Pagination 
+c# Simple Search & Pagination
 
 ## Introduction
 
-In a project you might want to do a simple search for example on words in a title or body of articles or comments. We're going to look at an implementation for Mongoose and Sequelize.js - the Mongoose implementation is based on Regex's, and the Sequelize.js implementation uses the SQL operator `LIKE`. 
+In a project you might want to do a simple search for example on words in a title or body of articles or comments. We're going to look at an implementation for Mongoose and Sequelize.js - the Mongoose implementation is based on Regex's, and the Sequelize.js implementation uses the SQL operator `LIKE`.
 
 Once we can search, we are going to paginate the responses. One of the quickest ways to speed up response times on pages that are loading a lot of records is pagination.
 
-A great example of pagination is Google's search results. At the bottom it says "Gooooooooooooooogle" and each "o" is another 
+A great example of pagination is Google's search results. At the bottom it says "Gooooooooooooooogle" and each "o" is another
 
+## Simple Search
 
-## Challenges - Simple Search
+In order to conduct a simple search, we will use Sequelize's [query operators](http://docs.sequelizejs.com/manual/tutorial/querying.html#operators) $like or $iLike (PG only). These are basically equivalent except $iLike is case insensitive and for Postgres databases only.
 
-1. (Sequelize) - 
+### Challenges
+
+1. As a class let's generate the step-by-step together for how we would add simple search to a project.
+1. Solo, add simple search for your blog posts in your sql-blog. For reference look at the [express-sequelize-blog](https://github.com/ajbraus/express-sequelize-blog). Here's an example of how you would ask for either the title or the body like the search term. Kinda verbose!
 
 	```js
-
-	Post.findAll({
-	  where: { ["title LIKE ? or name = ?", "new%", "test"] }
-	});
+	// RAW SQL
+	models.Post.findAll({
+			where: {
+					$or: [ {
+						title: {
+							$iLike: "%" + req.query.term + "%"
+						}
+					},
+					{
+						body: {
+							$iLike: "%" + req.query.term + "%"
+						}
+					}
+			}
+	}).then((posts) => {
+			res.render('index', { posts: posts, term: req.query.term })
+	})
 	```
+
+## Reference
 
 1. (Mongoose) - Follow along with this [excellent video by Ian Schoonover](https://www.youtube.com/watch?v=9_lKMTXVk64) to add search to one of your projects.
 
+## Pagination
 
-## Pagination - Picking a Module
+### Sequelize findAndCountAll()
 
-Compare and contrast these modules, and list their pros and cons. Now pick one that you would use. Join the other people who chose the same as you. 
+In order to paginate in Sequelize we have to do a little bit of work.
+
+```js
+router.get('/:page', (req, res) => {
+  let limit = 50;   // number of records per page
+  let offset = 0;
+  db.user.findAndCountAll().then((data) => {
+    let page = req.params.page;      // page number
+    let pages = Math.ceil(data.count / limit);
+		offset = limit * (page - 1);
+    db.user.findAll({
+      attributes: ['id', 'first_name', 'last_name', 'date_of_birth'],
+      limit: limit,
+      offset: offset,
+      $sort: { id: 1 }
+    }).then((users) => {
+      res.status(200).json({'result': users, 'count': data.count, 'pages': pages});
+    });
+  })
+  .catch(function (error) {
+		res.status(500).send('Internal Server Error');
+	});
+});
+```
+
+### Picking a Pagination Module
+
+Compare and contrast these modules, and list their pros and cons. Now pick one that you would use. Join the other people who chose the same as you.
 
 [https://www.npmjs.com/package/paginate](paginate)
 [https://www.npmjs.com/package/mongoose-paginate](mongoose-paginate)
@@ -39,3 +86,10 @@ Compare and contrast these modules, and list their pros and cons. Now pick one t
 
 1. Roll your own pagination for your project.
 
+## Pagination Reference
+
+1. [How to Paginate Records in MySQL using Sequelize and Node.js](https://hackernoon.com/how-to-paginate-records-in-mysql-using-sequelize-and-nodejs-a3465d12aad5)
+
+## Extra Stretch: Find or Create
+
+There is a common pattern in searching you might someday take advantage of where you allow people to search for something, and if it doesn't exist, create it.
