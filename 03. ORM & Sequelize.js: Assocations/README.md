@@ -91,14 +91,14 @@ user.addProject(project, { through: { role: 'manager' }});
 
 **Goal: Adding Associations to a Project**
 
-Continue using your own consulting project or the sql-blog project for these challenges. 
+Continue using your own consulting project for these challenges. 
 
-1. Add a second table called Comments with a `body` column and a foriegn key called `postId` to associate comments and posts. (hint - read the [Sequelize Associations Docs](http://docs.sequelizejs.com/manual/tutorial/associations.html))
-1. On the posts#show route, add a form to create comments. Create comments and set the userId.
-1. On the posts#show route, display all comments.
-1. Imagine you wanted to change the column name of `body` to `content`. Create a migration that changes the name of that column. Also add a validator that makes its max 240 characters.
+1. Add a second resource that associates with your core resource. (hint - read the [Sequelize Associations Docs](http://docs.sequelizejs.com/manual/tutorial/associations.html))
+1. Make a way to create the second resource associated with the primary resource. (e.g. a comment form on an article)
+1. Show all the second resource (e.g. comments on an article)
+1. Imagine you wanted to change the column name of `body` to `content`. How would you create a migration that changes the name of that column. Also add a validator that makes its max 240 characters.
 1. Add a Users table to your project with an index on the `email` attribute, so you can look up users by their email. Also include a validator that validates that the email attribute is an email address.
-1. Add a foreign key to to the Posts table called `userId` so that users have posts.
+1. Associate your primary resource with users so users have many of your primary resource.
 
 ## Stretch Challenges
 

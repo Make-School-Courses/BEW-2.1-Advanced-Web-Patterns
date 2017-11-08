@@ -75,18 +75,16 @@ router.get('/:page', (req, res) => {
 Compare and contrast these modules, and list their pros and cons. Now pick one that you would use. Join the other people who chose the same as you.
 
 [https://www.npmjs.com/package/paginate](paginate)
+
 [https://www.npmjs.com/package/mongoose-paginate](mongoose-paginate)
+
 [https://www.npmjs.com/package/express-paginate](express-paginate)
 
 ## Challenges - Pagination
 
 1. Using one of these modules (or another) add pagination to your project.
 
-## Stretch Challenges
-
-1. Roll your own pagination for your project.
-
-## Pagination Reference
+## Reference - Pagination
 
 1. [How to Paginate Records in MySQL using Sequelize and Node.js](https://hackernoon.com/how-to-paginate-records-in-mysql-using-sequelize-and-nodejs-a3465d12aad5)
 

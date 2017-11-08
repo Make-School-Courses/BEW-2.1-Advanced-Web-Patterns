@@ -80,7 +80,7 @@ const Pub = Sequelize.define('pub', {
 ```
 
 
-## ORM/Sequelize Challenges - Making Your sql-blog
+## ORM/Sequelize Challenges - Making Your Contractor Project
 
 **GOAL: Install PostgreSQL, `sequlize-cli`**
 
@@ -138,7 +138,7 @@ const Pub = Sequelize.define('pub', {
 1. Create a database using PostgreSQL. 
 
   ```bash
-    $ createdb blog-dev
+    $ createdb contracting-dev
   ```
 
 1. Next, update your `config/config.json` file to reflect the new development database context. In the "development" context, update the database's name, the "dialect" to `postgres`, and change the username to the username of your computer.
@@ -157,14 +157,15 @@ const Pub = Sequelize.define('pub', {
     });
   ```
 
-1. Finally, can you complete these following routes?
-  1. posts#new
-  1. posts#create
-  1. posts#show
-  1. posts#index
+1. Finally, can you complete cruding your core resource?
+  1. #new
+  1. #create
+  1. #show
+  1. #index
+  1. #edit
+  1. #update
 
 ## Stretch Challenges
 
 1. [The Best Stats You've Ever Seen - TED Hans Rosling](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
-1. Create a new model called `User` with an `email` and `password` attributes. Be sure that email has an index on it.
-1. (Looking ahead to next class) can you associate so that users have many posts?
+1. If your contractor project has users and authentication, create a new model called `User` with an `email` and `password` attributes. Be sure that email has an index on it.

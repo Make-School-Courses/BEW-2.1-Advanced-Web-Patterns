@@ -19,15 +19,14 @@ We'll
 
 ## Lessons
 
-1. Kick off Consulting Project
+1. Kick off Consulting Project (Completed in Pairs)
 1. SQL
 1. ORM & [Sequelize.js](http://docs.sequelizejs.com/)
 1. Sequelize.js Associations
-1. Simple Search & Pagination
-1. Project Work & Code Reviews
 1. Success & Error Handling
+1. Simple Search & Pagination
 1. Build Systems w/ Bower and Gulp
-1. Advanced Testing
+1. Project Work Day
 1. Contractor Presentations & Review Day
 1. Kick Off Custom Project - Upload images to S3
 1. WebSockets

@@ -4,13 +4,13 @@
 
   * Identify and list common front end build system and automation tools
   * Add bower to a project
-  * Implement a gulp file to concatenate and minify your CSS and JS files
+  * Stretch: Implement a gulp file to concatenate and minify your CSS and JS files
 
 ## Intro
 
 The front end has a lot of in's and out's, a lot of files and dependencies, but unlike the server the files don't all just sit there waiting to be used. All front end files have to end up running on the user's browser.
 
-There are a lot of fun things like **CoffeeScript** and **Jade** templates that make writing front end code leaner and more elegant, but these eventually need to end up as plain-jane JS, CSS, and HTML so browsers can run them.
+There are a lot of fun things like **TypeScript** and **Jade** templates that make writing front end code leaner and more elegant, but these eventually need to end up as plain-jane JS, CSS, and HTML so browsers can run them.
 
 *Build Systems* are a set of tools that work together to simplify and automate all this front end complexity.
 
@@ -28,11 +28,13 @@ You don't need to have a build system, but there are big advantages to having ev
   * Setup continuous integration and continuous testing
   * Build isomorphic or "Universal" javascript application
 
+## Demo - Adding Bower
+
 ## Bower Challenges
 
-**Goal - Add Bower to Your Reddit App**
+**Goal - Add Bower to your contractor project**
 
-1. Add bower to your Reddit App.
+1. Add bower to your contractor project.
 1. Use bower to add bootstrap to your project.
 1. Use bower to add jquery to your project.
 
@@ -89,7 +91,6 @@ The first build system tools we'll look at are *Task Runners*. Task runners do y
 
 1. Can you write some sassy stylesheets and gulp them into regular css?
 1. Can you concatenate and minify your stylesheets?
-
 
 ## Extra Stretch - Webpack - Module Loaders
 
