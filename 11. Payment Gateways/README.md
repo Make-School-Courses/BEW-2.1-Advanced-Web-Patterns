@@ -14,6 +14,10 @@ The answer to this is we use services to make sure our data is [PCI Compliant](h
 1. Describe the complexities of designing a market place like Uber or Airbnb.
 1. Implement a simple checkout workflow using Stripe or Braintree.
 
+## Background
+
+![token](token-path.png)
+
 ## Resources
 
 1. [Stripe](stripe.com)

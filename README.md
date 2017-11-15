@@ -8,7 +8,7 @@ In this course we will go explore SQL and relational databases, look at some com
 
 We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that is still being adopted.
 
-We'll 
+We'll
 
 ## Competencies & Objectives
 
@@ -26,6 +26,7 @@ We'll
 1. Success & Error Handling
 1. Simple Search & Pagination
 1. Build Systems w/ Bower and Gulp
+1. Project Work Day
 1. Project Work Day
 1. Contractor Presentations & Review Day
 1. Kick Off Custom Project - Upload images to S3
