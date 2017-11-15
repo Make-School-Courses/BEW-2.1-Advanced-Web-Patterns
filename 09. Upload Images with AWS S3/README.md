@@ -42,7 +42,7 @@ In order for any of these libraries to work we'll have to accept an image throug
 <!-- IN FORM -->
 <div class="form-group">
   <label for="coverImg">Cover Image<span class="text-danger">*</span> (1000px min width)</label>
-  <input type="file" name="coverImg" class="form-control">
+  <input type="file" method="POST" name="coverImg" class="form-control" enctype="multipart/form-data">
 </div>
 ```
 
