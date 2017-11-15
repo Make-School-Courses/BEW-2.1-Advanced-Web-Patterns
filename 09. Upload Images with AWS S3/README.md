@@ -56,7 +56,7 @@ var Upload = require('s3-uploader');
 
 var client = new Upload(process.env.S3_BUCKET, {
   aws: {
-    path: 'tours/cover-imgs/',
+    path: 'posts/coverImg/',
     region: process.env.S3_REGION,
     acl: 'public-read',
     accessKeyId: process.env.AWS_ACCESS_KEY_ID,
@@ -84,6 +84,16 @@ var client = new Upload(process.env.S3_BUCKET, {
     suffix: '-square'
   }]
 });
+
+
+```
+
+```js
+
+// ADD upload.single() to route as middleware
+app.post('/tours', upload.single('coverImg'), function (req, res, next) {
+/// ROUTE
+}
 ```
 
 ```js
