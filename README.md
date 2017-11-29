@@ -8,8 +8,6 @@ In this course we will go explore SQL and relational databases, look at some com
 
 We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that is still being adopted.
 
-We'll
-
 ## Competencies & Objectives
 
 1. Master SQL and Relational ORMs (Sequelize.js)
