@@ -27,7 +27,9 @@ In order to keep a user's credit card data secure, third-party payment services 
 
 ## Resources
 
+1. [Famous Amos Starter Project](https://github.com/Product-College-Labs/famous-amos)
 1. [Stripe](stripe.com)
+1. [npm `stripe`](https://www.npmjs.com/package/stripe)
 1. [Stripe's API Documentation](https://stripe.com/docs/api)
 1. [Braintree](braintreepayments.com)
 
