@@ -60,6 +60,10 @@ We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that i
 1. Advanced Querying
 1. What is slow, what is fast? (network, controller vs. database, client)
 
+## Custom Project 
+
+[Requirements](https://github.com/Product-College-Labs/Web-3-Custom-Project)
+
 ## Evaluation
 
 In order to pass this course, you must
