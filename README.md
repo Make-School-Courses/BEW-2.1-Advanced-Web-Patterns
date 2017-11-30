@@ -43,7 +43,7 @@ For all in class work, you will be using a fork of the pet store starter project
 
 ## Projects
 
-1. Consulting web project on team of 4
+1. Consulting web project on team of 4 - [Web 3 Contracting Project](https://github.com/Product-College-Courses/WEB-3-Advanced-Web-Patterns/tree/master/00.%20The%20Gigster%20Project)
 1. Custom Project - [Web 3 Custom Project Requirements](https://github.com/Product-College-Labs/Web-3-Custom-Project)
 
 ## Vocabulary & Conventions
