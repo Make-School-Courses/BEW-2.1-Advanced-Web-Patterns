@@ -8,12 +8,17 @@ In this course we will go explore SQL and relational databases, look at some com
 
 We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that is still being adopted.
 
+For all in class work, you will be using a fork of the pet store starter project called [Famous Amos Pet Emporium](https://github.com/Product-College-Labs/famous-amos). You must FORK this project so that the instructor can keep track of all the patterns you have implemented and conduct code reviews quickly and easily. You must implement ALL the patterns in this class. If you miss class or do not complete the implementation in class, please do the work as homework. At the end of the class, you're pet store must be completely full featured.
+
 ## Competencies & Objectives
 
 1. Master SQL and Relational ORMs (Sequelize.js)
-1. Master a basic client-side build system
-1. Master various common advanced web patterns
-1. Master Node.js fundamentals
+1. Master a basic client-side build system - `bower`
+1. Implemnt jQuery to submit forms through AJAX 
+1. Implement a Simple Search & Paginate the results
+1. Upload images to AWS S3 buckets and associate the images with a resource using `s3-uploader`
+1. Implement websockets for asynchronous bi-directional server-client communication
+1. Edit existing npm modules and develop your own
 
 ## Lessons
 
@@ -39,7 +44,7 @@ We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that i
 ## Projects
 
 1. Consulting web project on team of 4
-1. Custom Project
+1. Custom Project - [Web 3 Custom Project Requirements](https://github.com/Product-College-Labs/Web-3-Custom-Project)
 
 ## Vocabulary & Conventions
 
@@ -59,10 +64,6 @@ We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that i
 1. Use the right tool for the job
 1. Advanced Querying
 1. What is slow, what is fast? (network, controller vs. database, client)
-
-## Custom Project 
-
-[Requirements](https://github.com/Product-College-Labs/Web-3-Custom-Project)
 
 ## Evaluation
 
