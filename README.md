@@ -18,8 +18,8 @@ We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that i
 ## Lessons
 
 1. Kick off Consulting Project (Completed in Pairs)
-1. SQL
-1. ORM & [Sequelize.js](http://docs.sequelizejs.com/)
+1. SQL & Consulting Projects Planning Docs
+1. Famous Amos & ORM & [Sequelize.js](http://docs.sequelizejs.com/)
 1. Sequelize.js Associations
 1. Success & Error Handling
 1. Simple Search & Pagination
