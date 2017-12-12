@@ -154,11 +154,15 @@ WHERE Email = 'alex@gmail.com'
 
 ### Joins - `JOIN`
 
-Joins are how we make associations in SQL.
+Joins are how we make associations in SQL. Let's look at some sample queries we could only make if we have joins.
 
-**Types of Joins**
+Queries
 
-![Join Types](assets/sql-joins.png)
+* Return all the users who commented on this article.
+* Return all the users who bought this product.
+* Return all products who were bought by users in Texas.
+* Return all the articles that have greater than 100 comments.
+
 
 1. (INNER) JOIN
 
