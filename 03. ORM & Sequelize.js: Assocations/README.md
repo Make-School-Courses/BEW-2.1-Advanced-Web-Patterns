@@ -13,7 +13,7 @@ There are a lot of different naming conventions out there for SQL tables, but he
 
 ## Types of Assoications
 
-### One-to-Many Associations 
+### One-to-Many Associations
 
 ```js
 Project.hasMany(Task)
@@ -62,7 +62,44 @@ city.setCountry(country).then(() => {
 
 ### Many-to-Many Associations
 
-Sometimes associations 
+In some cases you need to create a many-to-many association, for example Users, Events and Reservations. Users can attend various events, so users have many events, but the events and users are unique so events also have to have many users. In order to accomplish this, we create a third table, in this case we'll call it Reservations, that is a **join table** because it has three important columns that associates a user and an event together.
+
+
+**Users Table**
+
+| id | name  | email | age |
+| -- | ----  | ------| ------ |
+| 12  | Bob   | bob@bob.com  | 34  |
+| 14  | Bob   | bob@bob.com  | 34  |
+| 24  | Nick | nick@nick.com  | 20  |
+| 150  | Sally | sally@sally.com  | 87  |
+| 153  | Sally | sally@sally.com  | 87  |
+
+**Events Table**
+
+| id | name  | location |
+| -- | ---- | ------ |
+| 1  | Dance Dance Baby | Club Lizalia  |
+| 23  | Electric DJ Music | Otta-whoa!  |
+| 34  | Snakey | Python  |
+| 23  | Giggles | Cat  |
+| 510  | Tony | Cat  |
+
+**Reservations Table**
+
+| id | eventId  | userId |
+| -- | ----  | ------|
+| 1  | 23   | 12  |
+| 2  | 23 | 14  |
+| 3  | 510 | 150  |
+| 4  | 34  | 153  |
+| 5  | 510 | 24  |
+| 6  | 23 | 24  |
+| 7  | 34 | 19  |
+
+Observations about the above data:
+
+*
 
 ```js
 Team = sequelize.define('teams', {
@@ -91,7 +128,7 @@ user.addProject(project, { through: { role: 'manager' }});
 
 **Goal: Adding Associations to a Project**
 
-Continue using your own consulting project for these challenges. 
+Continue using your own consulting project for these challenges.
 
 1. Add a second resource that associates with your core resource. (hint - read the [Sequelize Associations Docs](http://docs.sequelizejs.com/manual/tutorial/associations.html))
 1. Make a way to create the second resource associated with the primary resource. (e.g. a comment form on an article)
@@ -109,4 +146,3 @@ Continue using your own consulting project for these challenges.
 
 1. [Sequelizer Validation docs](http://docs.sequelizejs.com/manual/tutorial/models-definition.html#validations)
 1. [Sequelizer Query docs](http://docs.sequelizejs.com/manual/tutorial/querying.html)
-

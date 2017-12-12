@@ -15,13 +15,17 @@ SQL was initially developed at IBM by Donald D. Chamberlin and Raymond F. Boyce 
 
 "SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system. [SQL - Wikipedia](https://en.wikipedia.org/wiki/SQL)
 
-SQL is incredibly powerful. It can be used to write virtually any query you can think of, as long as you have the data.
+SQL/Relational databases are enormously prevalent, more common in fact than Schemaless/NoSQL/Document-based databases, and SQL is the language you use to communicate with virtually any relational database.
 
-## A Tabular Schema
+Even stacks that use noSQL databases operationally, will often still maintain a SQL database for reporting purposes bc it is so fast and reliable.
+
+Let's look at some of the simplest SQL features and commands.
+
+## Tabular Data
 
 All the data in a relational or SQL database is tabular, like an excel spreadsheet:
 
-**People**
+**Users Table**
 
 | id | name  | email | age |
 | -- | ----  | ------| ------ |
@@ -29,7 +33,7 @@ All the data in a relational or SQL database is tabular, like an excel spreadshe
 | 2  | Sally | sally@sally.com  | 87  |
 | 3  | Nick | nick@nick.com  | 20  |
 
-**Pets**
+**Pets Table**
 
 | id | name  | species | age | userId |
 | -- | ----  | ------| ------ | ------ |
@@ -39,13 +43,23 @@ All the data in a relational or SQL database is tabular, like an excel spreadshe
 | 4  | Giggles | Cat  | 3  | 1 |
 | 5  | Tony | Cat  | 9  | 1 |
 
-These could be defined as a **Schema**. A schema is the definition of a specific database. It specifies the **tables** and **columns** to represent the data. Each column has a name and a type of data that the database will require data to fit.
+Here are some observations about this data:
+
+* Bob has two cats
+* Snakey the python is owned by an 87 year old person named Sally
+* Nick has a dog and a parrot
+
+## The Schema
 
 A SQL database is different from a NoSQL database primarily in that it has a schema that we have to build before we can save data to it.
+
+Let's look at how we could define the above data into its **Schema**. A schema is the definition of a specific database. It specifies the **tables** and **columns** to represent the data. Each column has a name and a type of data that the database will require data to fit.
 
 Here is an example image of a schema where each rectangle is a **table**, and each attribute is a **column** in the table. A **row** in a table is an instance of the resource.
 
 ![user-pet-schema](assets/user-pet-schema.png)
+
+The lines that connect the tables in the image above are **JOINs** that define **Associations**. We will look at JOINs more below.
 
 Here are some observations about this schema:
 
@@ -53,18 +67,6 @@ Here are some observations about this schema:
 * Pets and users have a `name` column
 * Pets are associated with users
 * Users have many pets
-
-## Why Learn SQL?
-
-SQL/Relational databases are enormously prevalent, more common in fact than Schemaless/NoSQL/Document-based databases, and SQL is the language you use to communicate with virtually any relational database.
-
-Even stacks that use noSQL databases operationally, will often still maintain a SQL database for reporting purposes bc it is so fast and reliable.
-
-Let's look at some of the simplest SQL features and commands.
-
-## Associations
-
-The lines that connect the tables in the image above are **JOINs** that define **Associations**. We will look at JOINs more below.
 
 ## Indexes
 
@@ -152,36 +154,32 @@ WHERE Email = 'alex@gmail.com'
 
 ### Joins - `JOIN`
 
-Generally when people try to explain joins they show you venn diagrams, but this is rather confusing and inaccurate. In fact A JOIN is really a cartesian product (also cross product) with a filter. A [Cartesian product](https://en.wikipedia.org/wiki/Cartesian_product#A_deck_of_cards) is a mathematical operation that returns a set (or product set or simply product) from multiple sets. That is, for sets A and B, the Cartesian product A × B is the set of all ordered pairs (a, b) where a ∈ A and b ∈ B. Products can be specified using set-builder notation, e.g.
-
-Reference: [Say "No" to Venn Diagrams When Explaining Joins](https://blog.jooq.org/2016/07/05/say-no-to-venn-diagrams-when-explaining-joins/)
+Joins are how we make associations in SQL.
 
 **Types of Joins**
 
-1. CROSS JOIN: In a cross join is just taking every item on the left side, and combines it with every item on the right side.
+![Join Types](assets/sql-joins.png)
 
-  ![CROSS JOIN](https://lukaseder.files.wordpress.com/2016/07/venn-cross-join1.png?w=662&h=497&zoom=2)
-
-1. (INNER) JOIN: In plain text, an INNER JOIN is a CROSS JOIN in which only those combinations are retained which fulfil a given predicate. For instance:
+1. (INNER) JOIN
 
   ```sql
-  -- "Classic" ANSI JOIN syntax
-  SELECT *
-  FROM author a
-  JOIN book b ON a.author_id = b.author_id
+  -- List all orders with customer information for orders by one customer
 
-  -- "Nice" ANSI JOIN syntax
-  SELECT *
-  FROM author a
-  JOIN book b USING (author_id)
-
-  -- "Old" syntax using a "CROSS JOIN"
-  SELECT *
-  FROM author a, book b
-  WHERE a.author_id = b.author_id
+  SELECT OrderNumber, TotalAmount, FirstName, LastName, City, Country
+    FROM [Order] JOIN Customer
+      ON [Order].CustomerId = Customer.Id
   ```
 
-  ![INNER JOIN](https://lukaseder.files.wordpress.com/2016/07/venn-join1.png?w=662&h=496&zoom=2)
+  ```sql
+  -- List all orders with product names, quantities, and prices and sort by Order number
+
+  SELECT O.OrderNumber, CONVERT(date,O.OrderDate) AS Date,
+         P.ProductName, I.Quantity, I.UnitPrice
+    FROM [Order] O
+    JOIN OrderItem I ON O.Id = I.OrderId
+    JOIN Product P ON P.Id = I.ProductId
+  ORDER BY O.OrderNumber
+  ```
 
 1. OUTER JOIN: OUTER JOIN types help where we want to retain those rows from either the LEFT side or the RIGHT or both (FULL) sides, for which there was no matching row where the predicate yielded true.
 
@@ -190,6 +188,8 @@ Reference: [Say "No" to Venn Diagrams When Explaining Joins](https://blog.jooq.o
   FROM author a
   LEFT JOIN book b USING (author_id)
   ```
+
+
   e.g. This query will produce all the authors and their books, but if an author doesn’t have any book, we still want to get the author with NULL as their only book value
 
 **Creating a JOIN example**
@@ -200,29 +200,6 @@ LastName ASC,
 FirstName ASC
 )
 go
-```
-
-**JOIN Examples**
-
-```sql
--- List all orders with customer information
-
-SELECT OrderNumber, TotalAmount, FirstName, LastName, City, Country
-  FROM [Order] JOIN Customer
-    ON [Order].CustomerId = Customer.Id
-```
-
-e.g.
-
-```sql
--- List all orders with product names, quantities, and prices
-
-SELECT O.OrderNumber, CONVERT(date,O.OrderDate) AS Date,
-       P.ProductName, I.Quantity, I.UnitPrice
-  FROM [Order] O
-  JOIN OrderItem I ON O.Id = I.OrderId
-  JOIN Product P ON P.Id = I.ProductId
-ORDER BY O.OrderNumber
 ```
 
 ## Baseline SQL Challenges - Interpreting a Schema
@@ -241,6 +218,10 @@ Now draw a schema diagram based on these observations:
 * Buildings have an `streetAddress` attribute
 * Units have a `number` attribute
 * tenants have many pets
+
+## Psuedocode for Queries
+
+
 
 ## Baseline SQL Challenges - todofactory
 
