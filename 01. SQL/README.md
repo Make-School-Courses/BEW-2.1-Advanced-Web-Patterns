@@ -163,7 +163,6 @@ Queries
 * Return all products who were bought by users in Texas.
 * Return all the articles that have greater than 100 comments.
 
-
 1. (INNER) JOIN
 
   ```sql
