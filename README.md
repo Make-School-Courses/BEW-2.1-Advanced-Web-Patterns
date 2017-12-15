@@ -22,24 +22,23 @@ For all in class work, you will be using a fork of the pet store starter project
 
 ## Lessons
 
-1. Kick off Consulting Project (Completed in Pairs)
-1. SQL & Consulting Projects Planning Docs
-1. Famous Amos & ORM & [Sequelize.js](http://docs.sequelizejs.com/)
-1. Sequelize.js Associations
-1. Success & Error Handling
-1. Simple Search & Pagination
-1. Build Systems w/ Bower and Gulp
-1. Project Work Day
-1. Project Work Day
-1. Contractor Presentations & Review Day
-1. Kick Off Custom Project - Upload images to S3
+1. Contractor Project Kick Off
+1. Contractor Project Work Day
+1. Intro to SQL
+1. Famos Amos Kick off Intro to ORMs - [Sequelize.js](http://docs.sequelizejs.com/) (Contractor projects due)
+1. Validation & Server-Side Success & Error Handling
+1. Sequelize.js Associations One-to-Many
+1. Sequelize.js Associations Many-to-Many
+1. Intro to Build Systems w/ Bower & Client-Side Validation and Success & Error Handling with Validate.js
+1. Simple Search & Pagination | Custom Project Kick Off
+1. Upload images to S3
 1. WebSockets
-1. Project Work & Code Reviews
 1. Payment Gateways
+1. Node.js Modules Under the Hood 
 1. Project Work & Code Reviews
 1. Project Work & Code Reviews
 1. Presentations
-1. Node.js Modules Under the Hood
+
 
 ## Projects
 
@@ -71,9 +70,9 @@ For all in class work, you will be using a fork of the pet store starter project
 In order to pass this course, you must
 
 1. Have fewer than 2 unexcused absences.
-1. Complete 80% of basic challenges from each lesson.
 1. Be able to recall the meaning of all vocabulary and best practices.
+1. Complete 80% of Famous Amos Pet Emporium Challenges.
 1. Complete and turn in the consulting project and ship it.
 1. Complete and turn in a custom project and ship it.
 1. Complete and turn in a project writeup for each project on medium.com.
-1. Receive at least 1 code review from the instructor.
+1. Receive at least 1 code review from the instructor per project and make suggested improvements.
