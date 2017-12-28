@@ -1,10 +1,11 @@
-# Success & Error Handling
+# Validation and Server-Side Success & Error Handling
 
 ## Competencies
 
-* Handle errors effectively in Express.js
-* Put in custom 404 and 500 pages in production
+* Set some common validations with the ORM, e.g. unique, required
+* Handle server-side errors effectively in Express.js
 * Display flash messages to keep users informed about errors and successes.
+* Put in custom 404 and 500 pages in production
 
 ## Background
 
@@ -12,11 +13,58 @@ Apps don't always work! Actually they often break, and when they do we should ha
 
 We're going to look at a few common patterns of error handling and how to implement them in Node.js with Express.js.
 
+Servers can not work as expected for all sorts of reasons, but probably the most common reasons are:
+
+1. A user tries to create or update a record in a way that is in invalid (e.g. sign up without a password)
+2. A user navigates to a route that no longer exists (a 404 status)
+3. A bug makes the server crash (a 500 status)
+
+## Validation
+
+The process of making sure that your data in your database is valid is called **Validation**, and it can be accomplished at the application or at the database level.
+
+> **Analogy - A Doorman Bouncer** - think of validation as the doorman bouncer of your database. Each club has its own set of rules for dress code, and if guests don't fit the bill, they aren't let it.
+
+![Bouncer](assets/bouncer.jpeg)
+
+Whether you are using a SQL or NoSQL database you define validations in the model. However, it is interesting to note that with SQL databases we can set these validations *in the database itself* as well, if we want to.
+
+**Validations Best Practice** - the best practice is to keep validations light as you are beginning a project, as they can slow down the pace of development, and then tighten them up later when you are opening up the project to more and more live users.
+
+Validations Example from Sequelize docs with built in validators and a custom validator:
+
+```js
+const Pub = Sequelize.define('pub', {
+  name: { type: Sequelize.STRING, notNull: true, notEmpty: true },
+  email: { type: Sequelize.STRING, isEmail: true, notNull: true, notEmpty: true },
+  url: { type: Sequelize.STRING, isUrl: true },
+  address: { type: Sequelize.STRING },
+  latitude: {
+    type: Sequelize.INTEGER,
+    allowNull: true,
+    defaultValue: null,
+    validate: { min: -90, max: 90 }
+  },
+  longitude: {
+    type: Sequelize.INTEGER,
+    allowNull: true,
+    defaultValue: null,
+    validate: { min: -180, max: 180 }
+  },
+}, {
+  validate: {
+    bothCoordsOrNone() {
+      if ((this.latitude === null) !== (this.longitude === null)) {
+        throw new Error('Require either both latitude and longitude or neither')
+      }
+    }
+  }
+})
+```
+
 ## Success & Error "Flash" Messages
 
 Whenever you succeed or fail at creating, updating, or deleting anything, it is best practice to notify the user. To do this we use an object sent with a response called `flash`.
-
-For alternative implementations of flash messages in express read [this lovely article](https://gist.github.com/brianmacarthur/a4e3e0093d368aa8e423).
 
 We're going to use the npm library [express-flash](https://www.npmjs.com/package/express-flash) to handle flashes. Flash messages typically require cookies and sessions in order to keep track of the state of the flash message.
 
@@ -46,13 +94,16 @@ We're going to use the npm library [express-flash](https://www.npmjs.com/package
   {{/if}}
 ```
 
-### Flash Challenge
+### Flash Challenges
 
+1. Read [Indicators, Validations, and Notifications: Pick the Correct Communication Option](https://www.nngroup.com/articles/indicators-validations-notifications/) and answer the following questions in groups of 4
+  1. Come up with a few examples of Indicators, Validations, and Notifications.
+  1. What is the difference between them?
 1. Add `express-flash` and display success and error messages in your sql-blog or client project.
 
 ## Express Error Handling
 
-When something fails to work, like a validation or something, then using a flash message to notify the user that something went wrong is a good solution. But what about when your app fully crashes? Express has its own error handling pattern. You can tell Express error handler middleware because it has 4 arguments. e.g.
+When something fails to work, like a validation, then using a flash message to notify the user that something went wrong is a good solution. But what about when your app fully crashes? Express has its own error handling pattern. You can tell Express error handler middleware because it has 4 arguments. e.g.
 
 ```js
 app.use(function(err, req, res, next) {
@@ -73,12 +124,11 @@ Because we don't want to assume that the app can even render a template, we can 
 
 The standard Express.js error handler code is below, but we're going to start off simpler:
 
-
 1. Add the code below to add a Not Found error that runs only if no other endpoint is triggered.
 
   ```js
   // server.js
-  
+
   app.use(function(req, res, next) {
     var err = new Error('Not Found');
     err.status = 404;

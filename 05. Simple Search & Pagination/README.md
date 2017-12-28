@@ -82,7 +82,7 @@ Compare and contrast these modules, and list their pros and cons. Now pick one t
 
 ## Challenges - Pagination
 
-1. Using one of these modules (or another) add pagination to your project.
+1. Using one of these modules (or another) add pagination to your Famos Amos search results.
 
 ## Reference - Pagination
 
@@ -90,4 +90,5 @@ Compare and contrast these modules, and list their pros and cons. Now pick one t
 
 ## Extra Stretch: Find or Create
 
-There is a common pattern in searching you might someday take advantage of where you allow people to search for something, and if it doesn't exist, create it.
+1. **Find or Create** - There is a common pattern in searching you might someday take advantage of where you allow people to search for something, and if it doesn't exist, create it. What would this look like?
+1. **Autocomplete** - now that you know simple search, how would you roll your own autocomplete dropdown menu?

@@ -64,16 +64,15 @@ city.setCountry(country).then(() => {
 
 In some cases you need to create a many-to-many association, for example Users, Events and Reservations. Users can attend various events, so users have many events, but the events and users are unique so events also have to have many users. In order to accomplish this, we create a third table, in this case we'll call it Reservations, that is a **join table** because it has three important columns that associates a user and an event together.
 
-
 **Users Table**
 
 | id | name  | email | age |
 | -- | ----  | ------| ------ |
-| 12  | Bob   | bob@bob.com  | 34  |
-| 14  | Bob   | bob@bob.com  | 34  |
-| 24  | Nick | nick@nick.com  | 20  |
-| 150  | Sally | sally@sally.com  | 87  |
-| 153  | Sally | sally@sally.com  | 87  |
+| 12  | Bob   | bob@bob.com  | 16  |
+| 14  | Sam   | sam@sam.com  | 34  |
+| 24  | Nick | nick@nick.com  | 55  |
+| 150  | Sonya | sonya@sonya.com  | 25  |
+| 153  | Derek | derek@derek.com  | 87  |
 
 **Events Table**
 
@@ -81,9 +80,9 @@ In some cases you need to create a many-to-many association, for example Users, 
 | -- | ---- | ------ |
 | 1  | Dance Dance Baby | Club Lizalia  |
 | 23  | Electric DJ Music | Otta-whoa!  |
-| 34  | Snakey | Python  |
-| 23  | Giggles | Cat  |
-| 510  | Tony | Cat  |
+| 34  | Jazzy-Zazzy | Hip Town Speakeasy  |
+| 23  | Old Timey Swing Dance  | Cat  |
+| 510  | Square Dance Bonanaza | The Rusty Spur  |
 
 **Reservations Table**
 
@@ -91,15 +90,13 @@ In some cases you need to create a many-to-many association, for example Users, 
 | -- | ----  | ------|
 | 1  | 23   | 12  |
 | 2  | 23 | 14  |
-| 3  | 510 | 150  |
-| 4  | 34  | 153  |
+| 3  | 510 | 153  |
+| 4  | 34  | 150  |
 | 5  | 510 | 24  |
 | 6  | 23 | 24  |
-| 7  | 34 | 19  |
+| 7  | 23 | 12  |
 
-Observations about the above data:
-
-*
+Here is some sample code for how to setup a many-to-many association using users joining many project teams.
 
 ```js
 Team = sequelize.define('teams', {
@@ -115,8 +112,9 @@ user.addProject(project, { through: { role: 'manager' }});
 
 ## Baseline Challenges
 
-**Goal: Grocking Associations**
+**Goal: Grocking Associations (Partner)**
 
+1. Review the Users, Events, Reservations data above. What observations can you and a partner make about the data? Who is going to the Dance Dance Baby event? How old are the attendees at event The Rusty Spur?
 1. With a partner, Come up with 5 examples of one-to-many associations and 5 for many-to-many in the real world.
 1. On your own, choose one and write the code that would define the model relationships between two resources using Sequelize.js.
 1. Now compare your code with your partner and check each other's work.
@@ -128,7 +126,7 @@ user.addProject(project, { through: { role: 'manager' }});
 
 **Goal: Adding Associations to a Project**
 
-Continue using your own consulting project for these challenges.
+Continue using Famous Amos for these challenges.
 
 1. Add a second resource that associates with your core resource. (hint - read the [Sequelize Associations Docs](http://docs.sequelizejs.com/manual/tutorial/associations.html))
 1. Make a way to create the second resource associated with the primary resource. (e.g. a comment form on an article)

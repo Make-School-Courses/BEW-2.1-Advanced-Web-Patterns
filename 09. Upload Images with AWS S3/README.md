@@ -2,6 +2,8 @@
 
 ## Competencies & Objectives
 
+* Upload files through a server to an AWS S3 bucket
+
 ## Intro
 
 Uploading a custom image is a very common pattern on any website.
@@ -26,15 +28,15 @@ In order for any of these libraries to work we'll have to accept an image throug
 
 ## Baseline Challenges
 
-1. Meet with a partner and make a plan for what changes you will have to make to add the following user stories to your SQL blog. (hint: read `s3-uploader` and `multer` documentation and try drawing a picture).
-  * When user creates a new post on the blog, they should be able to upload an image from their computer.
-  * That image should be visible on the post's thumbnail and a larger version should be visible on the post's.
+1. Meet with a partner and make a plan for what changes you will have to make to add the following user stories to Famous Amos' Pet Emporium. (hint: read `s3-uploader` and `multer` documentation and try drawing a picture).
+  * When user creates a new pet, they should be able to upload an image from their computer.
+  * A pet's image should be visible on the post's thumbnail and a larger version should be visible on the post's. The bigger one should be rectangular the thumbnail image, a square.
+1. Implement the first user story.
 
 ## Stretch Challenges
 
-1. There should be two versions of the image, one for thumbnail that is smaller and one for the page that is bigger.
+1. Implement the second user story where there are two versions of the image, one for thumbnail that is smaller and square, and one for the page that is bigger and rectangular.
 1. Add validations that these images are only images.
-1. Add allowing uploading a background picture for the top of your blog.
 
 ## Boiler Plate
 

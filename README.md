@@ -14,7 +14,7 @@ For all in class work, you will be using a fork of the pet store starter project
 
 1. Master SQL and Relational ORMs (Sequelize.js)
 1. Master a basic client-side build system - `bower`
-1. Implemnt jQuery to submit forms through AJAX 
+1. Implemnt jQuery to submit forms through AJAX
 1. Implement a Simple Search & Paginate the results
 1. Upload images to AWS S3 buckets and associate the images with a resource using `s3-uploader`
 1. Implement websockets for asynchronous bi-directional server-client communication
@@ -25,26 +25,24 @@ For all in class work, you will be using a fork of the pet store starter project
 1. Contractor Project Kick Off
 1. Contractor Project Work Day
 1. Intro to SQL
-1. Famos Amos Kick off Intro to ORMs - [Sequelize.js](http://docs.sequelizejs.com/) (Contractor projects due)
+1. Famous Amos Kick off & Intro to ORMs - [Sequelize.js](http://docs.sequelizejs.com/) (Contractor projects due)
+1. Sequelize.js Associations One-to-Many & Many-to-Many
 1. Validation & Server-Side Success & Error Handling
-1. Sequelize.js Associations One-to-Many
-1. Sequelize.js Associations Many-to-Many
-1. Intro to Build Systems w/ Bower & Client-Side Validation and Success & Error Handling with Validate.js
-1. Simple Search & Pagination | Custom Project Kick Off
+1. Front End Packages w/ Bower & Client-Side Validation and Success & Error Handling with Validate.js
+1. Simple Search & Pagination | Portfolio Project Kick Off
 1. Upload images to S3
 1. WebSockets
 1. Payment Gateways
-1. Node.js Modules Under the Hood 
+1. Node.js Modules Under the Hood
 1. Project Work & Code Reviews
 1. Project Work & Code Reviews
 1. Presentations
-
 
 ## Projects
 
 1. Consulting web project on team of 4 - [Web 3 Contracting Project](https://github.com/Product-College-Courses/WEB-3-Advanced-Web-Patterns/tree/master/00.%20The%20Gigster%20Project)
 1. [Famous Amos's Pet Emporium](https://github.com/Product-College-Labs/famous-amos)
-1. Custom Project - [Web 3 Custom Project Requirements](https://github.com/Product-College-Labs/Web-3-Custom-Project)
+1. Portfolio Project - [Web 3 Portfolio Project Requirements](https://github.com/Product-College-Labs/Web-3-Custom-Project)
 
 ## Vocabulary & Conventions
 
