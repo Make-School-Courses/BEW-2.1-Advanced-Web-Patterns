@@ -46,7 +46,7 @@ For all in class work, you will be using a fork of the pet store starter project
 
 ## Vocabulary & Conventions
 
-1. Build Systems - Bower & Gulp
+1. Build Systems and Front End Packages - Bower
 1. SQL
 1. ORM
 1. Resource Associations - hasMany, belongsTo, belongsToMany
