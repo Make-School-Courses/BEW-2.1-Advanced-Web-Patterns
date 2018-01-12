@@ -218,7 +218,7 @@ Now draw a schema diagram based on these observations:
 * Units have a `number` attribute
 * tenants have many pets
 
-### Psuedocode for Queries "Give me ..."
+### Pseudocode for Queries "Give me ..."
 
 * "Give me all cats that have had an appointment in the past 2 months."
 * "Give me all orders in the US in the past two years"
