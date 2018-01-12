@@ -226,15 +226,25 @@ Now draw a schema diagram based on these observations:
 
 Now you write 3 sample psuedocoded queries. Don't worry about converting them into SQL yet.
 
-### Baseline SQL Challenges - todofactory
+### Baseline SQL Challenges - dofactory.com
 
 ![schema](assets/sql-model.jpg)
 
 1. Examine the above schema. In groups of 2 write down as many observations as you can about the above schema.
-1. Continue in your groups to construct 5 of your own simple queries for the dofactory [SQL Sandbox](http://www.dofactory.com/sql/sandbox)  and run them. For reference for this schema scroll up to the image above or look at [this page](http://www.dofactory.com/sql/tutorial) of their tutorial e.g:
+1. Continue in your groups to construct 5 of your own simple queries for the dofactory [SQL Sandbox](http://www.dofactory.com/sql/sandbox)  and run them.
 
-  - Return all customers: `SELECT * from Customer`
-  - Return all orders: `SELECT * from Order`
+  * Return all customers: `SELECT * from Customer`
+  * Return all orders: `SELECT * from Order`
+
+1. Write queries for the following pseudocode requests. If you get stuck, review [the DoFactory SQL Tutorial Docs](http://www.dofactory.com/sql/tutorial).
+
+  * "Give me all discontinued products"
+  * "Give me all the products sorted by price"
+  * "Give me all the customers grouped by city"
+  * "Give me the city we do the most business in"
+  * "Give me all the products provided by X supplier"
+  * STRETCH - "Give me our top three suppliers"
+  * STRETCH "Give me our least popular products"
 
 ### Stretch SQL Challenges
 
