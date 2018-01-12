@@ -25,9 +25,8 @@ Now start building your sprints. Your project should be completely done by end o
 Your project must contain:
 
 1. Authentication & Authorization
-1. 2 Resources
+1. 2 associated Resources
 1. Asynchronous form submission using `$.ajax`
-
 
 ## How to Turn In
 

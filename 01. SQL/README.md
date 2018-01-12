@@ -205,13 +205,15 @@ FirstName ASC
 go
 ```
 
-## Baseline SQL Challenges - Interpreting a Schema
+## Challenges
+
+### Baseline SQL Challenges - Interpreting a Schema
 
 ![schema](assets/sql-model.jpg)
 
 In groups of 2 write down as many observations as you can about the above schema.
 
-## Baseline SQL Challenges - Schema Drawing
+### Baseline SQL Challenges - Schema Drawing
 
 Now draw a schema diagram based on these observations:
 
@@ -222,11 +224,15 @@ Now draw a schema diagram based on these observations:
 * Units have a `number` attribute
 * tenants have many pets
 
-## Psuedocode for Queries
+### Psuedocode for Queries "Give me ..."
 
+* "Give me all cats that have had an appointment in the past 2 months."
+* "Give me all orders in the US in the past two years"
+* "Give me all posts that have a comment by the user AGR8T_GUY29"
 
+Now you write 3 sample psuedocoded queries. Don't worry about converting them into SQL yet.
 
-## Baseline SQL Challenges - todofactory
+### Baseline SQL Challenges - todofactory
 
 1. Examine the database and schema code in the `sample db` folder. Can you identify what each part of the files do?
 1. With a partner construct 5 of your own simple queries for the dofactory sandbox and run them. For reference for this schema scroll up to the image above or look at [this page](http://www.dofactory.com/sql/tutorial) of their tutorial e.g:
@@ -236,12 +242,12 @@ Now draw a schema diagram based on these observations:
 
 1. Use dofactory's [SQL Sandbox](http://www.dofactory.com/sql/sandbox) to run the example JOIN queries.
 
-## Stretch SQL Challenges
+### Stretch SQL Challenges
 
 1. Watch this great [TED talk on data visualization](https://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization)
-1. Construct 3 JOIN queries for the dofactory sql sandbox and run it.
+1. Construct 3 queries for the dofactory sql sandbox that use the JOIN and run them.
 1. Review the types of Joins. With a partner come up with one hypothetical query (in English/psuedocode) that exemplifies each one. Share your queries with another two pairs.
 
-## Extra Stretch
+### Extra Stretch Challenges
 
 1. Write SQL queries for the psuedocode in `bank.sql` file.
