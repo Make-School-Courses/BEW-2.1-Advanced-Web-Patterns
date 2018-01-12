@@ -207,12 +207,6 @@ go
 
 ## Challenges
 
-### Baseline SQL Challenges - Interpreting a Schema
-
-![schema](assets/sql-model.jpg)
-
-In groups of 2 write down as many observations as you can about the above schema.
-
 ### Baseline SQL Challenges - Schema Drawing
 
 Now draw a schema diagram based on these observations:
@@ -234,13 +228,13 @@ Now you write 3 sample psuedocoded queries. Don't worry about converting them in
 
 ### Baseline SQL Challenges - todofactory
 
-1. Examine the database and schema code in the `sample db` folder. Can you identify what each part of the files do?
-1. With a partner construct 5 of your own simple queries for the dofactory sandbox and run them. For reference for this schema scroll up to the image above or look at [this page](http://www.dofactory.com/sql/tutorial) of their tutorial e.g:
+![schema](assets/sql-model.jpg)
+
+1. Examine the above schema. In groups of 2 write down as many observations as you can about the above schema.
+1. Continue in your groups to construct 5 of your own simple queries for the dofactory [SQL Sandbox](http://www.dofactory.com/sql/sandbox)  and run them. For reference for this schema scroll up to the image above or look at [this page](http://www.dofactory.com/sql/tutorial) of their tutorial e.g:
 
   - Return all customers: `SELECT * from Customer`
   - Return all orders: `SELECT * from Order`
-
-1. Use dofactory's [SQL Sandbox](http://www.dofactory.com/sql/sandbox) to run the example JOIN queries.
 
 ### Stretch SQL Challenges
 
