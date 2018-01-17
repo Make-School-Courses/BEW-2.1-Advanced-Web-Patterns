@@ -261,6 +261,7 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
 
 ## Stretch Challenges
 
+1. Create a seed (sort of like a migration), and use the `json` files to seed the database.
 1. Add two `weight`, `color` columns to the pets table and model. (hint generate a new migration and run it to add the columns)
 1. Change the attribute `species` to `breed`. (hint generate a new migration to change the column name)
 
