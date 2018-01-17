@@ -231,7 +231,7 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
 1. Create a database using PostgreSQL. 
 
    ```bash
-     $ createdb famous-amos
+     $ createdb famous-amos-development
    ```
 
 1. Next, you'll have to connect your app to your development database in the `server.js` file. Use the Getting Started documentation to find the code to connect to your databse. (Hint - remember ot use the "dialect" `postgres`, and change the username to the username of your computer.)
