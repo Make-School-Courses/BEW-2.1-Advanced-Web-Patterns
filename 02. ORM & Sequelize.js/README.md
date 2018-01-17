@@ -80,7 +80,7 @@ const Pub = Sequelize.define('pub', {
 ```
 
 
-## ORM/Sequelize Challenges - Making Your Contractor Project
+## ORM/Sequelize Challenges - Famos Amos Pet Emporium (Starter Project)
 
 **GOAL: Install PostgreSQL, `sequlize-cli`**
 
@@ -98,14 +98,10 @@ const Pub = Sequelize.define('pub', {
 
 **GOAL: Add Sequelize.js to a project**
 
-1. If you'd like, you can use this time to start your contracting project. Otherwise you can make a blog. Use the `express-generator` to generate an express app called "sql-blog". (heads up this will generate a project with the Jade templating engine unless you add `--hbs`).
+Reference the [Getting Started] Docs of Sequelize to complete these challenges.
 
-  ```bash
-  $ npm install express-generator -g
-  $ express --hbs [app name]
-  ```
-
-1. Now add Sequelize and pg to your npm project:
+1. Go to [Famos Amos Pet Emporium](https://github.com/Product-College-Labs/famous-amos) and fork the project and clone your fork down. Add a link to your fork to the [Web 3 Progress Tracker](https://docs.google.com/spreadsheets/d/1jlDyBlRDjLGrA6VOi3JuV-v07vKoEUn1a96FC2CkwBo/edit#gid=0)
+1. Now make a new branch called "sequalize". Now add Sequelize and pg to your npm project:
 
   ```bash
   $ npm install --save sequelize pg pg-hstore
@@ -129,7 +125,7 @@ const Pub = Sequelize.define('pub', {
     $ sequelize init
   ```
 
-1. Create a model called `Post` with a `title` and `body` attribute. Use the following code as a sample to make your own new model and migration.
+1. Create a model for `Pet` and look in the `json/pets.json` file for the model's attributes. Use the following code as a sample to make your own new model and migration.
 
   ```bash
     $ sequelize model:create --name User --attributes first_name:string,last_name:string,bio:text
@@ -138,13 +134,16 @@ const Pub = Sequelize.define('pub', {
 1. Create a database using PostgreSQL. 
 
   ```bash
-    $ createdb contracting-dev
+    $ createdb famos-amos
   ```
+  
+1. Next, you'll have to connect your app to your development database in the `server.js` file. Use the Getting Started documentation to find the code to connect to your databse. (Hint - remember ot use the "dialect" `postgres`, and change the username to the username of your computer.)
 
-1. Next, update your `config/config.json` file to reflect the new development database context. In the "development" context, update the database's name, the "dialect" to `postgres`, and change the username to the username of your computer.
 1. Next, migrate your db with `$ sequelize db:migrate`
+
 1. Use the [Postgres.app](https://postgresapp.com/documentation/gui-tools.html) to access your new database in the CLI. Use the command `\dt` to see the `Posts` table you created.
-1. Now, put the following code in your `server.js` file and run your app to test if your database has connected. (it probably won't - try to troubleshoot :D )
+
+1. Now, put the following code in your `server.js` file and run your app to test if your database has connected. (it probably won't - try to troubleshoot connecting your databse :D )
 
   ```js
   sequelize
@@ -157,7 +156,7 @@ const Pub = Sequelize.define('pub', {
     });
   ```
 
-1. Finally, can you complete cruding your core resource?
+1. Finally, begin converting each of the `pets` controller routes to use Sequelize for crudding your core resource?
   1. #new
   1. #create
   1. #show
@@ -168,4 +167,4 @@ const Pub = Sequelize.define('pub', {
 ## Stretch Challenges
 
 1. [The Best Stats You've Ever Seen - TED Hans Rosling](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
-1. If your contractor project has users and authentication, create a new model called `User` with an `email` and `password` attributes. Be sure that email has an index on it.
+
