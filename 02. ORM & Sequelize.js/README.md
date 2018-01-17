@@ -174,7 +174,7 @@ const Pub = Sequelize.define('pub', {
 ```
 
 
-## ORM/Sequelize Challenges - Famos Amos Pet Emporium (Starter Project)
+## ORM/Sequelize Challenges - Famous Amos Pet Emporium (Starter Project)
 
 **GOAL: Install PostgreSQL, `sequelize-cli`**
 
@@ -196,7 +196,7 @@ const Pub = Sequelize.define('pub', {
 
 Reference the [Getting Started] Docs of Sequelize to complete these challenges.
 
-1. Go to [Famos Amos Pet Emporium](https://github.com/Product-College-Labs/famous-amos) and fork the project and clone your fork down. Add a link to your fork to the [Web 3 Progress Tracker](https://docs.google.com/spreadsheets/d/1jlDyBlRDjLGrA6VOi3JuV-v07vKoEUn1a96FC2CkwBo/edit#gid=0)
+1. Go to [Famous Amos Pet Emporium](https://github.com/Product-College-Labs/famous-amos) and fork the project and clone your fork down. Add a link to your fork to the [Web 3 Progress Tracker](https://docs.google.com/spreadsheets/d/1jlDyBlRDjLGrA6VOi3JuV-v07vKoEUn1a96FC2CkwBo/edit#gid=0)
 1. Now make a new branch called "sequelize". Now add Sequelize and pg to your npm project:
 
    ```bash
@@ -231,7 +231,7 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
 1. Create a database using PostgreSQL. 
 
    ```bash
-     $ createdb famos-amos
+     $ createdb famous-amos
    ```
 
 1. Next, you'll have to connect your app to your development database in the `server.js` file. Use the Getting Started documentation to find the code to connect to your databse. (Hint - remember ot use the "dialect" `postgres`, and change the username to the username of your computer.)
