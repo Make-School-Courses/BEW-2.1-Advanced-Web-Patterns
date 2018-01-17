@@ -180,15 +180,15 @@ const Pub = Sequelize.define('pub', {
 
 1. Because PostgreSQL is a very popular SQL database and used by default in Heroku, we'll be using this database locally and remotely. So install that:
 
-  ```bash
-  $ brew install postgres
-  ```
+   ```bash
+   $ brew install postgres
+   ```
 
 1. We'll also add the sequelize-cli tool to create and manage our migrations.
 
-  ```bash
-  $ npm install -g sequelize-cli
-  ```
+   ```bash
+   $ npm install -g sequelize-cli
+   ```
 
 1. Download and install [Postico](https://eggerapps.at/postico/) to have a GUI browser for your local postgresql databases. 
 
@@ -199,40 +199,40 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
 1. Go to [Famos Amos Pet Emporium](https://github.com/Product-College-Labs/famous-amos) and fork the project and clone your fork down. Add a link to your fork to the [Web 3 Progress Tracker](https://docs.google.com/spreadsheets/d/1jlDyBlRDjLGrA6VOi3JuV-v07vKoEUn1a96FC2CkwBo/edit#gid=0)
 1. Now make a new branch called "sequelize". Now add Sequelize and pg to your npm project:
 
-  ```bash
-  $ npm install --save sequelize pg pg-hstore
-  ```
+   ```bash
+   $ npm install --save sequelize pg pg-hstore
+   ```
   
 1. Add a `.sequelizerc` file to the root of your project to define the paths of the folders sequelize-cli will create.
 
-  ```js 
-  const path = require('path');
-  module.exports = {
-    "config": path.resolve('./db/config', 'config.json'),
-    "models-path": path.resolve('./db/models'),
-    "seeders-path": path.resolve('./db/seeders'),
-    "migrations-path": path.resolve('./db/migrations')
-  };
-  ```
+   ```js 
+   const path = require('path');
+   module.exports = {
+     "config": path.resolve('./db/config', 'config.json'),
+     "models-path": path.resolve('./db/models'),
+     "seeders-path": path.resolve('./db/seeders'),
+     "migrations-path": path.resolve('./db/migrations')
+   };
+   ```
 
 1. Initialize sequelize with the sequelize-cli tool - 
 
-  ```bash
-    $ sequelize init
-  ```
+   ```bash
+     $ sequelize init
+   ```
 (Or use the [Postgres.app](https://postgresapp.com/documentation/gui-tools.html) to automatically start your local postgres database when you start you computer)
 
 1. Create a model for `Pet` and look in the `json/pets.json` file for the model's attributes. Use the following code as a sample to make your own new model and migration.
 
-  ```bash
-    $ sequelize model:create --name User --attributes first_name:string,last_name:string,bio:text
-  ```
+   ```bash
+     $ sequelize model:create --name User --attributes first_name:string,last_name:string,bio:text
+   ```
 
 1. Create a database using PostgreSQL. 
 
-  ```bash
-    $ createdb famos-amos
-  ```
+   ```bash
+     $ createdb famos-amos
+   ```
 
 1. Next, you'll have to connect your app to your development database in the `server.js` file. Use the Getting Started documentation to find the code to connect to your databse. (Hint - remember ot use the "dialect" `postgres`, and change the username to the username of your computer.)
 
@@ -240,16 +240,16 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
 
 1. Now, put the following code in your `server.js` file and run your app to test if your database has connected. (it probably won't - try to troubleshoot connecting your databse :D )
 
-  ```js
-  sequelize
-    .authenticate()
-    .then(() => {
-      console.log('Connection has been established successfully.');
-    })
-    .catch(err => {
-      console.error('Unable to connect to the database:', err);
-    });
-  ```
+   ```js
+   sequelize
+     .authenticate()
+     .then(() => {
+       console.log('Connection has been established successfully.');
+     })
+     .catch(err => {
+       console.error('Unable to connect to the database:', err);
+     });
+   ```
 
 1. Finally, begin converting each of the `pets` controller routes to use Sequelize for crudding your core resource.
   1. #new
