@@ -110,10 +110,24 @@ In Sequelize.js if we want to change our database we have to create migrations, 
     $ sequelize migration:create --name add_dob_to_users
 ```
 
-Say 
+And then we add the guts manually to add the column (to the `up` command), and remove the column (from the `down` command)
 
 ```js
+'use strict';
 
+module.exports = {
+  up: (queryInterface, Sequelize) => {
+    queryInterface.addColumn(
+      'Users',
+      'dob',
+      Sequelize.DATE
+    )
+  },
+
+  down: (queryInterface, Sequelize) => {
+    queryInterface.removeColumn('Users', 'dob',)
+  }
+};
 ```
 
 
