@@ -176,7 +176,7 @@ const Pub = Sequelize.define('pub', {
 
 ## ORM/Sequelize Challenges - Famos Amos Pet Emporium (Starter Project)
 
-**GOAL: Install PostgreSQL, `sequlize-cli`**
+**GOAL: Install PostgreSQL, `sequelize-cli`**
 
 1. Because PostgreSQL is a very popular SQL database and used by default in Heroku, we'll be using this database locally and remotely. So install that:
 
