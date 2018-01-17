@@ -252,12 +252,12 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
    ```
 
 1. Finally, begin converting each of the `pets` controller routes to use Sequelize for crudding your core resource.
-  1. #new
-  1. #create
-  1. #show
-  1. #index
-  1. #edit
-  1. #update
+   1. #new
+   1. #create
+   1. #show
+   1. #index
+   1. #edit
+   1. #update
 
 ## Stretch Challenges
 
