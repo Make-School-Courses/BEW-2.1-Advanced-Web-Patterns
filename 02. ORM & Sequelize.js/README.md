@@ -220,7 +220,7 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
    ```bash
      $ sequelize init
    ```
-(Or use the [Postgres.app](https://postgresapp.com/documentation/gui-tools.html) to automatically start your local postgres database when you start you computer)
+   (Or use the [Postgres.app](https://postgresapp.com/documentation/gui-tools.html) to automatically start your local postgres database when you start you computer)
 
 1. Create a model for `Pet` and look in the `json/pets.json` file for the model's attributes. Use the following code as a sample to make your own new model and migration.
 
