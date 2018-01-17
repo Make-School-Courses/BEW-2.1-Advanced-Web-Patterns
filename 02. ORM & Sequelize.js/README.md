@@ -37,6 +37,86 @@ sequelize.sync()
 
 ```
 
+## Models 
+
+In Sequelize.js we create models (and their corresponding migrations) using a command line generator. For example:
+
+```bash
+    $ sequelize model:create --name User --attributes first_name:string,last_name:string,bio:text
+```
+
+outputs a model and a migration. here is the model:
+
+```js
+// MODEL
+
+'use strict';
+module.exports = (sequelize, DataTypes) => {
+  var User = sequelize.define('User', {
+    first_name: DataTypes.STRING,
+    last_name: DataTypes.STRING,
+    bio: DataTypes.TEXT
+  });
+  
+  return User;
+};
+```
+
+And a migration: 
+
+```js
+// MIGRATION
+
+'use strict';
+module.exports = {
+  up: (queryInterface, Sequelize) => {
+    return queryInterface.createTable('Users', {
+      id: {
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
+      },
+      first_name: {
+        type: Sequelize.STRING
+      },
+      last_name: {
+        type: Sequelize.STRING
+      },
+      bio: {
+        type: Sequelize.TEXT
+      },
+      createdAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      }
+    });
+  },
+  down: (queryInterface, Sequelize) => {
+    return queryInterface.dropTable('Users');
+  }
+};
+```
+
+## Migrations
+
+In Sequelize.js if we want to change our database we have to create migrations, whether it is to change a table, add or remove a column, change a column's type, or even make changes to a lot of data. For example, if we wanted to add a `dob` (date of birth) column to 
+
+```bash
+    $ sequelize migration:create --name add_dob_to_users
+```
+
+Say 
+
+```js
+
+```
+
+
 ## Data Types
 
 A schema makes things much more complicated. There are many more datatypes to choose from in a SQl database. 
@@ -96,12 +176,14 @@ const Pub = Sequelize.define('pub', {
   $ npm install -g sequelize-cli
   ```
 
+1. Download and install [Postico](https://eggerapps.at/postico/) to have a GUI browser for your local postgresql databases. 
+
 **GOAL: Add Sequelize.js to a project**
 
 Reference the [Getting Started] Docs of Sequelize to complete these challenges.
 
 1. Go to [Famos Amos Pet Emporium](https://github.com/Product-College-Labs/famous-amos) and fork the project and clone your fork down. Add a link to your fork to the [Web 3 Progress Tracker](https://docs.google.com/spreadsheets/d/1jlDyBlRDjLGrA6VOi3JuV-v07vKoEUn1a96FC2CkwBo/edit#gid=0)
-1. Now make a new branch called "sequalize". Now add Sequelize and pg to your npm project:
+1. Now make a new branch called "sequelize". Now add Sequelize and pg to your npm project:
 
   ```bash
   $ npm install --save sequelize pg pg-hstore
@@ -124,6 +206,7 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
   ```bash
     $ sequelize init
   ```
+(Or use the [Postgres.app](https://postgresapp.com/documentation/gui-tools.html) to automatically start your local postgres database when you start you computer)
 
 1. Create a model for `Pet` and look in the `json/pets.json` file for the model's attributes. Use the following code as a sample to make your own new model and migration.
 
@@ -136,12 +219,10 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
   ```bash
     $ createdb famos-amos
   ```
-  
+
 1. Next, you'll have to connect your app to your development database in the `server.js` file. Use the Getting Started documentation to find the code to connect to your databse. (Hint - remember ot use the "dialect" `postgres`, and change the username to the username of your computer.)
 
 1. Next, migrate your db with `$ sequelize db:migrate`
-
-1. Use the [Postgres.app](https://postgresapp.com/documentation/gui-tools.html) to access your new database in the CLI. Use the command `\dt` to see the `Posts` table you created.
 
 1. Now, put the following code in your `server.js` file and run your app to test if your database has connected. (it probably won't - try to troubleshoot connecting your databse :D )
 
@@ -156,7 +237,7 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
     });
   ```
 
-1. Finally, begin converting each of the `pets` controller routes to use Sequelize for crudding your core resource?
+1. Finally, begin converting each of the `pets` controller routes to use Sequelize for crudding your core resource.
   1. #new
   1. #create
   1. #show
@@ -166,5 +247,9 @@ Reference the [Getting Started] Docs of Sequelize to complete these challenges.
 
 ## Stretch Challenges
 
+1. Add two `weight`, `color` columns to the pets table and model. (hint generate a new migration and run it to add the columns)
+1. Change the attribute `species` to `breed`. (hint generate a new migration to change the column name)
+
+## Extra Stretch :D
 1. [The Best Stats You've Ever Seen - TED Hans Rosling](https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen)
 
