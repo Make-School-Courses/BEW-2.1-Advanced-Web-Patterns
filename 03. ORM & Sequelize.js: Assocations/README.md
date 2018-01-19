@@ -13,7 +13,19 @@ There are a lot of different naming conventions out there for SQL tables, but he
 
 ## Types of Assoications
 
-### One-to-Many Associations
+### One-to-Many vs. Many-to-Many Associations
+
+The most common and simple assocation is the parent-child relationship called **one-to-many**. An article has many comments, a user has many articles, etc. 
+
+In some cases you need to associate many of one resource with many of another, such as teachers and students, or food dishes and ingredients. This is called a **many-to-many** association. To accomplish this we create a **join table** that connects the ids of one table with the ids of the other.
+
+Take for example an event planning app like EventBrite. Users can attend various events, so users have many events, but the events and users are unique so events also have to have many users. In order to accomplish this, we create a third table, in this case we'll call it Reservations, that is a **join table** because it has three important columns that associates a user and an event together.
+
+**CHALLENGES: Grocking One-to-Many and Many-to-Many Associations (Partner)**
+
+1. With a partner, Come up with 5 examples of one-to-many associations and 5 for many-to-many in the real world.
+
+### One-to-Many Associations Implementation
 
 ```js
 Project.hasMany(Task)
@@ -60,9 +72,26 @@ city.setCountry(country).then(() => {
 })
 ```
 
-### Many-to-Many Associations
+### Many-to-Many Associations Implementation
 
-In some cases you need to create a many-to-many association, for example Users, Events and Reservations. Users can attend various events, so users have many events, but the events and users are unique so events also have to have many users. In order to accomplish this, we create a third table, in this case we'll call it Reservations, that is a **join table** because it has three important columns that associates a user and an event together.
+Here is some sample code for how to setup a many-to-many association using users joining many project teams.
+
+```js
+Team = sequelize.define('teams', {
+  role: Sequelize.STRING
+});
+
+Project.belongsToMany(User, {through: 'Teams'});
+User.belongsToMany(Project, {through: 'Teams'});
+// through is required!
+
+user.addProject(project, { through: { role: 'manager' }});
+```
+
+
+**CHALLENGES: Grocking Many-to-Many Associations**
+
+1. With a partner, review the Users, Events, Reservations data below. What observations can you and a partner make about the data? Who is going to the Dance Dance Baby event? How old are the attendees at event The Rusty Spur?
 
 **Users Table**
 
@@ -94,29 +123,13 @@ In some cases you need to create a many-to-many association, for example Users, 
 | 4  | 34  | 150  | 3 |
 | 5  | 510 | 24  | 1 |
 | 6  | 23 | 24  | 6 | 
-| 7  | 23 | 12  | 2 |
+| 7  | 1 | 12  | 2 |
 
-Here is some sample code for how to setup a many-to-many association using users joining many project teams.
 
-```js
-Team = sequelize.define('teams', {
-  role: Sequelize.STRING
-});
+**Goal: Writing a Many-to-Many Implementation**
 
-Project.belongsToMany(User, {through: 'Teams'});
-User.belongsToMany(Project, {through: 'Teams'});
-// through is required!
+1. On your own, choose one of the many-to-many relationships you came up with before and write the code that would define the model relationships between two resources using Sequelize.js.
 
-user.addProject(project, { through: { role: 'manager' }});
-```
-
-## Baseline Challenges
-
-**Goal: Grocking Associations (Partner)**
-
-1. Review the Users, Events, Reservations data above. What observations can you and a partner make about the data? Who is going to the Dance Dance Baby event? How old are the attendees at event The Rusty Spur?
-1. With a partner, Come up with 5 examples of one-to-many associations and 5 for many-to-many in the real world.
-1. On your own, choose one and write the code that would define the model relationships between two resources using Sequelize.js.
 1. Now compare your code with your partner and check each other's work.
 
 **Goal: Explore Sequlize.js (Partner)**
@@ -128,7 +141,7 @@ user.addProject(project, { through: { role: 'manager' }});
 
 Continue using Famous Amos for these challenges.
 
-1. Add a second resource that associates with your core resource. (hint - read the [Sequelize Associations Docs](http://docs.sequelizejs.com/manual/tutorial/associations.html))
+1. Add a second resource (Comment) that associates with your main resource (Pet). (hint - read the [Sequelize Associations Docs](http://docs.sequelizejs.com/manual/tutorial/associations.html))
 1. Make a way to create the second resource associated with the primary resource. (e.g. a comment form on an article)
 1. Show all the second resource (e.g. comments on an article)
 1. Imagine you wanted to change the column name of `body` to `content`. How would you create a migration that changes the name of that column. Also add a validator that makes its max 240 characters.
