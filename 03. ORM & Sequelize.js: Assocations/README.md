@@ -86,15 +86,15 @@ In some cases you need to create a many-to-many association, for example Users, 
 
 **Reservations Table**
 
-| id | eventId  | userId |
-| -- | ----  | ------|
-| 1  | 23   | 12  |
-| 2  | 23 | 14  |
-| 3  | 510 | 153  |
-| 4  | 34  | 150  |
-| 5  | 510 | 24  |
-| 6  | 23 | 24  |
-| 7  | 23 | 12  |
+| id | eventId  | userId | headCount |
+| -- | ----  | ------| ------ |
+| 1  | 23   | 12  | 3| 
+| 2  | 23 | 14  | | 2 | 
+| 3  | 510 | 153  | 6 | 
+| 4  | 34  | 150  | 3 |
+| 5  | 510 | 24  | 1 |
+| 6  | 23 | 24  | 6 | 
+| 7  | 23 | 12  | 2 |
 
 Here is some sample code for how to setup a many-to-many association using users joining many project teams.
 
