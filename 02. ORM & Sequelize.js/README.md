@@ -173,8 +173,68 @@ const Pub = Sequelize.define('pub', {
 })
 ```
 
+## Queries and Commands
 
-## ORM/Sequelize Challenges - Famous Amos Pet Emporium (Starter Project)
+Sequelize (or any ORM) translates between an application language (.js in our case) and SQL. That means that the library creates a series of functions that themselves write SQL queries. e.g. `findAll()`, `where()`, and `
+
+```js
+User.findAll({
+  attributes: ['foo', 'bar']
+});
+
+SELECT foo, bar 
+FROM User
+
+Post.findAll({
+  where: {
+    authorId: 2
+  }
+});
+
+SELECT * 
+FROM post 
+WHERE authorId = 2
+
+Post.destroy({
+  where: {
+    status: 'inactive'
+  }
+});
+
+DELETE 
+FROM post 
+WHERE status = 'inactive';
+
+Post.findAll({
+  where: {
+    authorId: {
+      [Op.or]: [12, 13]
+    }
+  }
+});
+SELECT * 
+FROM post 
+WHERE authorId = 12 OR authorId = 13;
+
+Post.create(req.body).then(post => {
+		res.send({ post: post });
+	});
+ 
+INSERT INTO Post (COLUMNS) 
+VALUES (VALUES)
+```
+
+
+## ORM/Sequelize Challenges
+
+**GOAL: Translate between SQL and Sequelize.js** 
+
+Open a .js file and write the SQL and Sequelize commands for the following queries or commands:
+
+* Delete an Article
+* Post an Article
+* Return all Comments
+* Return all Articles ordered by createdAt
 
 **GOAL: Install PostgreSQL, `sequelize-cli`**
 
