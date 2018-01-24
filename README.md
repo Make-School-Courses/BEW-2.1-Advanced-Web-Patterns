@@ -28,12 +28,12 @@ For all in class work, you will be using a fork of the pet store starter project
 1. Famous Amos Kick off & Intro to ORMs - [Sequelize.js](http://docs.sequelizejs.com/) (Contractor projects due)
 1. Sequelize.js Associations One-to-Many & Many-to-Many
 1. Validation & Server-Side Success & Error Handling
+1. Simple Search & Pagination
 1. Front End Packages w/ Bower & Client-Side Validation and Success & Error Handling with Validate.js
-1. Simple Search & Pagination | Portfolio Project Kick Off
 1. Upload images to S3
-1. WebSockets
-1. Payment Gateways
-1. Node.js Modules Under the Hood
+1. WebSockets 
+1. Payment Gateways 
+1. Node.js Modules Under the Hood  | Portfolio Project Kick Off
 1. Project Work & Code Reviews
 1. Project Work & Code Reviews
 1. Presentations
