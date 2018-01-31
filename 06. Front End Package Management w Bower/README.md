@@ -34,34 +34,42 @@ You don't need to have a build system, but there are big advantages to having ev
 
 **Goal - Add Bower to your contractor project**
 
-1. Add bower to your contractor project.
+1. Add bower to your pet store project.
 1. Use bower to add bootstrap to your project.
 1. Use bower to add jquery to your project.
+
+## Advanced Front End Build Systems Recipes
+
+There are lots of recipes of mixing and 
+
+1. Bower (just plain old Bower)
+1. Bower + Gulp or Grunt
+1. yarn or npm + Browserify + Gulp
+1. yarn or npm + Webpack (What no task runner? npm can be a task runner too!)
 
 ## Various Types of Build System Tools
 
 There are three categories of build automation tools:
 
-1. Package Management
-  - [Bower](https://bower.io/)
-  - [npm](https://www.npmjs.com/
-  - [yarn](https://yarnpkg.com/en/
-1. Task Runners
-  - [Grunt](https://gruntjs.com/)
-  - [Gulp](https://gulpjs.com/)
-  - [Brunch](http://brunch.io/)
-1. Dependency Management / Module Loaders / Bundlers
-  - [Webpack](https://webpack.js.org/)
-  - [Browserify](http://browserify.org/)
-  - [RequireJS](http://requirejs.org/)
-  - [ES6 modules](http://2ality.com/2014/09/es6-modules-final.html)
+#### Package Management
+1. [Bower](https://bower.io/)
+1. [npm](https://www.npmjs.com/
+1. [yarn](https://yarnpkg.com/en/
 
-You can use more and fewer of these in conjunction or use them by themselves. Here are four build system recipes:
+#### Task Runners
+1. [Grunt](https://gruntjs.com/)
+1. [Gulp](https://gulpjs.com/)
+1. [Brunch](http://brunch.io/)
 
-1. Bower (just plain old Bower)
-1. Bower + Gulp or Grunt
-1. npm + Browserify + Gulp
-1. npm + Webpack (What no task runner? npm can be a task runner too!)
+#### Dependency Management / Module Loaders / Bundlers
+1. [Webpack](https://webpack.js.org/)
+1. [Browserify](http://browserify.org/)
+1. [RequireJS](http://requirejs.org/)
+1. [ES6 modules](http://2ality.com/2014/09/es6-modules-final.html)
+
+### Radify.io Article on Build Systems
+
+Read this excellent article on build systems - [Using Front-End Build Tools](http://radify.io/blog/using-build-tools/) by Radify.io.
 
 ### A Great Stack Overflow Answer
 
@@ -79,7 +87,7 @@ The first build system tools we'll look at are *Task Runners*. Task runners do y
 * [Gulp Tutorial](https://www.youtube.com/watch?v=LmdT2zhFmn4)
 * [Grunt Tutorial (for reference)](https://www.youtube.com/watch?v=TMKj0BxzVgw)
 
-## Baseline Challenges
+## Gulp Challenges
 
 **Goal - to concatenate and minify your js into one file with gulp**
 
