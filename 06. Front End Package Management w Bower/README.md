@@ -43,17 +43,18 @@ You don't need to have a build system, but there are big advantages to having ev
 There are three categories of build automation tools:
 
 1. Package Management
-  - Bower
-  - npm
+  - [Bower](https://bower.io/)
+  - [npm](https://www.npmjs.com/
+  - [yarn](https://yarnpkg.com/en/
 1. Task Runners
-  - Grunt
-  - Gulp
-  - Brunch
+  - [Grunt](https://gruntjs.com/)
+  - [Gulp](https://gulpjs.com/)
+  - [Brunch](http://brunch.io/)
 1. Dependency Management / Module Loaders / Bundlers
-  - Webpack
-  - Browserify
-  - RequireJS/AMD
-  - ES6 modules (using Babel to transpile ES6 into ES5)
+  - [Webpack](https://webpack.js.org/)
+  - [Browserify](http://browserify.org/)
+  - [RequireJS](http://requirejs.org/)
+  - [ES6 modules](http://2ality.com/2014/09/es6-modules-final.html)
 
 You can use more and fewer of these in conjunction or use them by themselves. Here are four build system recipes:
 
