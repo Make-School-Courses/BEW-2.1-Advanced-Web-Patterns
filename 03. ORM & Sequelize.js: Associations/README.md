@@ -11,7 +11,7 @@ Sequelizer also allows you to associate various tables together through associat
 
 There are a lot of different naming conventions out there for SQL tables, but here we will be following the convention set by [SQL Style Guide](http://www.sqlstyle.guide/) by Simon Holywell.
 
-## Types of Assoications
+## Types of Associations
 
 ### One-to-Many Associations
 
@@ -62,7 +62,7 @@ city.setCountry(country).then(() => {
 
 ### Many-to-Many Associations
 
-In some cases you need to create a many-to-many association, for example Users, Events and Reservations. Users can attend various events, so users have many events, but the events and users are unique so events also have to have many users. In order to accomplish this, we create a third table, in this case we'll call it Reservations, that is a **join table** because it has three important columns that associates a user and an event together.
+In some cases you need to create a many-to-many associations, for example Users, Events and Reservations. Users can attend various events, so users have many events, but the events and users are unique so events also have to have many users. In order to accomplish this, we create a third table, in this case we'll call it Reservations, that is a **join table** because it has three important columns that associates a user and an event together.
 
 **Users Table**
 
