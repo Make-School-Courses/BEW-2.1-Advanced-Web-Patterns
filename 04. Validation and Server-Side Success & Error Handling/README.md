@@ -72,10 +72,11 @@ We're going to use the npm library [express-flash](https://www.npmjs.com/package
   // server.js
   var flash = require('express-flash'),
       express = require('express'),
+      session = require('express-session'),
       app = express();
 
   app.use(express.cookieParser('keyboard cat'));
-  app.use(express.session({ cookie: { maxAge: 60000 }}));
+  app.use(session({ cookie: { maxAge: 60000 }}));
   app.use(flash());
 
   // controller.js

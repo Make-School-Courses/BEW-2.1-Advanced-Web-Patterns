@@ -1,4 +1,4 @@
-c# Simple Search & Pagination
+# Simple Search & Pagination
 
 ## Introduction
 
@@ -15,7 +15,7 @@ In order to conduct a simple search, we will use Sequelize's [query operators](h
 ### Challenges
 
 1. As a class let's generate the step-by-step together for how we would add simple search to a project.
-1. Solo, add simple search for your blog posts in your sql-blog. For reference look at the [express-sequelize-blog](https://github.com/ajbraus/express-sequelize-blog). Here's an example of how you would ask for either the title or the body like the search term. Kinda verbose!
+1. Solo, add simple search for the Famous Amos Pet Emporium. The search should be able to search by the pet's name to start, but remember people might search by species and breed too. For reference look at the [express-sequelize-blog](https://github.com/ajbraus/express-sequelize-blog). Here's an example of how you would ask for either the title or the body like the search term. Kinda verbose!
 
 	```js
 	// RAW SQL
@@ -42,6 +42,8 @@ In order to conduct a simple search, we will use Sequelize's [query operators](h
 1. (Mongoose) - Follow along with this [excellent video by Ian Schoonover](https://www.youtube.com/watch?v=9_lKMTXVk64) to add search to one of your projects.
 
 ## Pagination
+
+If you look around almost every website is paginatined. Why? Probably because pagination is **the easiest way to speed up many page loads**. If you are loading 1000 records on your index page, that will take 10 seconds to load. Pagination will speed it up by sending only the first 20 records. 
 
 ### Sequelize findAndCountAll()
 
