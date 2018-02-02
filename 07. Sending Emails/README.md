@@ -23,7 +23,8 @@ People have been trying to kill email for years. And they just can't seem to do 
 
 ### Resources
 
-* [How to use Nodemailer with Mailgun](http://jeffmcmahan.info/blog/how-to-use-nodemailer-with-mailgun/)
+<!-- * [How to use Nodemailer with Mailgun](http://jeffmcmahan.info/blog/how-to-use-nodemailer-with-mailgun/) -->
+* [Nodemailer + Mailgun](https://medium.com/hexient-labs/nodemailer-mailgun-4d9f18f955a9)
 * [SO: Nodemailer transport for Mailgun](https://stackoverflow.com/questions/26956251/sending-emails-using-mailgun-with-nodemailer-package)
 * [nodemailer-express-handlebars](https://github.com/yads/nodemailer-express-handlebars)
 
