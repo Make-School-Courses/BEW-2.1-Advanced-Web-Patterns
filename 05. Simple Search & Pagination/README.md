@@ -20,18 +20,20 @@ In order to conduct a simple search, we will use Sequelize's [query operators](h
 	```js
 	// RAW SQL
 	models.Post.findAll({
-			where: {
-					$or: [ {
-						title: {
-							$iLike: "%" + req.query.term + "%"
-						}
-					},
-					{
-						body: {
-							$iLike: "%" + req.query.term + "%"
-						}
-					}
-			}
+	  where: {
+	    $or: [ 
+	      {
+	        title: {
+	          $iLike: "%" + req.query.term + "%"
+	        }
+	      },
+	      {
+	        body: {
+		  $iLike: "%" + req.query.term + "%"
+	        }
+              }
+	    ]
+	  }
 	}).then((posts) => {
 			res.render('index', { posts: posts, term: req.query.term })
 	})
