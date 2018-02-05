@@ -18,7 +18,7 @@ In order to conduct a simple search, we will use Sequelize's [query operators](h
 1. Solo, add simple search for the Famous Amos Pet Emporium. The search should be able to search by the pet's name to start, but remember people might search by species and breed too. For reference look at the [express-sequelize-blog](https://github.com/ajbraus/express-sequelize-blog). Here's an example of how you would ask for either the title or the body like the search term. Kinda verbose!
 
 	```js
-	// RAW SQL
+	// Sequelize Query
 	models.Post.findAll({
 	  where: {
 	    $or: [ 
