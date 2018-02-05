@@ -29,8 +29,8 @@ In order for any of these libraries to work we'll have to accept an image throug
 ## Baseline Challenges
 
 1. Meet with a partner and make a plan for what changes you will have to make to add the following user stories to Famous Amos' Pet Emporium. (hint: read `s3-uploader` and `multer` documentation and try drawing a picture).
-  * When user creates a new pet, they should be able to upload an image from their computer.
-  * A pet's image should be visible on the post's thumbnail and a larger version should be visible on the post's. The bigger one should be rectangular the thumbnail image, a square.
+    * When user creates a new pet, they should be able to upload an image from their computer.
+    * A pet's image should be visible on the post's thumbnail and a larger version should be visible on the post's. The bigger one should be rectangular the thumbnail image, a square.
 1. Implement the first user story.
 
 ## Stretch Challenges
