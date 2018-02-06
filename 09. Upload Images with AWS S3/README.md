@@ -40,6 +40,7 @@ In order for any of these libraries to work we'll have to accept an image throug
 
 ## Boiler Plate
 
+
 ```html
 <form ... method="POST" enctype="multipart/form-data">
    ...
@@ -126,3 +127,4 @@ if (req.file) {
 ```
 
 Hint - you will need `dotenv` to protect your AWS credentials.
+Hint - install `imagemagick` with brew. (its a dependency for manipulating images).
