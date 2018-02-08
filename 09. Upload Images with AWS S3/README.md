@@ -129,7 +129,7 @@ if (req.file) {
 ```
 
 ```html
-<img src={{post.imgUrl + "-thumbnail.jpg"}}/>
+<img src="{{post.imgUrl}}-thumbnail.jpg"/>
 ```
 
 Hint - you will need `dotenv` to protect your AWS credentials.
