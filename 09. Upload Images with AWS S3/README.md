@@ -117,7 +117,8 @@ if (req.file) {
       post.imgUrl = url;
       post.save();
       
-      // Saving multiple images versions you can just save one url and then add the suffix to the url to get the image from AWS later. e.g. <img src="{{post.coverImgUrl}}-desktop." />
+      // Saving multiple images versions you can just save one url and then add the suffix to the 
+      // url to get the image from AWS later. e.g. <img src="{{post.coverImgUrl}}-desktop." />
     });
 
     res.send({ post: post });
