@@ -91,7 +91,6 @@ var client = new Upload(process.env.S3_BUCKET, {
   }]
 });
 
-
 ```
 
 ```js
@@ -117,6 +116,8 @@ if (req.file) {
       var url = urlArray.join('-');
       post.imgUrl = url;
       post.save();
+      
+      // Saving multiple images versions you can just save one url and then add the suffix to the url to get the image from AWS later. e.g. <img src="{{post.coverImgUrl}}-desktop." />
     });
 
     res.send({ post: post });
@@ -124,6 +125,10 @@ if (req.file) {
 } else {
   res.send({ post: post });
 }
+```
+
+```html
+<img src={{post.imgUrl + "-thumbnail.jpg"}}/>
 ```
 
 Hint - you will need `dotenv` to protect your AWS credentials.
