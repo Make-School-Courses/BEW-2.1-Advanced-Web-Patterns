@@ -45,9 +45,7 @@ io.on('connection', function (socket) {
 
 ## Baseline Challenges
 
-1. Imagine you are working for a pet rescue and they want their website to update what each pet is doing when they do it.
-1. Create a project called `pet-store` with the express generator.
-1. Add a Pet resource with new, create, show routes.
+1. Imagine Pete wants you to make it so that viewers of the website can see what each pet is doing as they do it, e.g. Playing, Eating, Bathing, Sleeping.
 1. Add socket.io and get a "hello world" working of websocket connections.
 1. Make the server update the client on the pets#show page with either: 1) eating, 2) bathing, 3) sleeping, or 4) playing. Implement WebSockets so that a pet's status is updated on their show page randomly every 10 seconds.
 
