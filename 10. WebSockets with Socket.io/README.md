@@ -36,6 +36,27 @@ io.on('connection', function (socket) {
 });
 ```
 
+Hint: If you are starting your server you need to include io in that server.
+
+```js
+// SERVER
+var app = require('express')();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+
+app.get('/', function(req, res){
+  res.sendFile(__dirname + '/index.html');
+});
+
+io.on('connection', function(socket){
+  console.log('a user connected');
+});
+
+http.listen(3000, function(){
+  console.log('listening on *:3000');
+});
+```
+
 ## Resources
 
 1. [WebSocket Example](http://codepen.io/voku/pen/GpVoNN?editors=1010)
