@@ -13,9 +13,8 @@ For all in class work, you will be using a fork of the pet store starter project
 ## Competencies & Objectives
 
 1. Master SQL and Relational ORMs (Sequelize.js)
-1. Master a basic client-side build system - `bower`
-1. Implemnt jQuery to submit forms through AJAX
 1. Implement a Simple Search & Paginate the results
+1. Send emails
 1. Upload images to AWS S3 buckets and associate the images with a resource using `s3-uploader`
 1. Implement websockets for asynchronous bi-directional server-client communication
 1. Edit existing npm modules and develop your own
