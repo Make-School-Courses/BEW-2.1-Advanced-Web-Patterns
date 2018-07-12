@@ -1,6 +1,6 @@
-# Full-Stack-JS-3
+# Advanced Web Patterns in Node.js 
 
-## Course Overview
+## Course Description
 
 We've learned a lot about the web; the common conventions and we've mastered authentication and authorization. Now pretty much you can sort through whatever someone asked for. However, what differentiates hackers and engineers is engineers understand what are going on under the hood of the mere conventions and tools. Engineers can also build their own tools.
 
@@ -10,10 +10,16 @@ We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that i
 
 For all in class work, you will be using a fork of the pet store starter project called [Famous Amos Pet Emporium](https://github.com/Product-College-Labs/famous-amos). You must FORK this project so that the instructor can keep track of all the patterns you have implemented and conduct code reviews quickly and easily. You must implement ALL the patterns in this class. If you miss class or do not complete the implementation in class, please do the work as homework. At the end of the class, you're pet store must be completely full featured.
 
-## Competencies & Objectives
+## Prerequisites
 
-1. Master SQL and Relational ORMs (Sequelize.js)
-1. Implement a Simple Search & Paginate the results
+1. BEW 1.1 & 1.2
+
+## Learning Objectives or Competencies (5-8)
+
+Students by the end of the course will be able to ...
+
+1. Implement a Simple Search
+1. Paginate results
 1. Send emails
 1. Upload images to AWS S3 buckets and associate the images with a resource using `s3-uploader`
 1. Implement websockets for asynchronous bi-directional server-client communication
@@ -21,21 +27,49 @@ For all in class work, you will be using a fork of the pet store starter project
 
 ## Lessons
 
-1. Contractor Project Kick Off
-1. Contractor Project Work Day
-1. Intro to SQL
-1. Famous Amos Kick off & Intro to ORMs - [Sequelize.js](http://docs.sequelizejs.com/) (Contractor projects due)
-1. Sequelize.js Associations One-to-Many & Many-to-Many
-1. Validation & Server-Side Success & Error Handling
-1. Simple Search & Pagination
-1. Front End Packages w/ Bower & Client-Side Validation and Success & Error Handling with Validate.js
+1. Pete's Proud Pet Emporium Kick Off
+1. Simple Search
+1. Pagination
 1. Upload images to S3
-1. WebSockets 
-1. Payment Gateways 
-1. Node.js Modules Under the Hood  | Portfolio Project Kick Off
-1. Project Work & Code Reviews
-1. Project Work & Code Reviews
+1. Payment Gateways
+1. Node.js Modules Under the Hood
+1. Node.js Modules II
+1. Intro to WebSockets - Websocket's Project Kickoff
+1. Advanced WebSockets
+1. How the Internet Works III
+1. 
+1. 
 1. Presentations
+
+### Projects and Readings
+
+- Link to all of the projects and readings (i.e. tutorials, contractor project, custom projects, books, etc)
+- Use a list
+
+## Evaluation
+
+To pass this course you must meet the following requirements:
+
+- No more than two no call no shows
+- No more than four excused absences
+- Make up all classwork from all absences
+- Finish all required tutorials and projects
+- Pass the final exam (summative assessment) >=80%
+
+## Make School Course Policies
+
+[Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)
+
+[Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)
+
+[Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)
+
+[Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)
+
+[Title IX Disclaimer](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluations-Title-X-Disclaimer.md)
+
+[Program Learning Outcomes](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Program-Learning-Outcomes.md)
+
 
 ## Projects
 
