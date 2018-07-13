@@ -1,4 +1,4 @@
-# Advanced Web Patterns in Node.js 
+# BEW 2.1 - Advanced Web Patterns in Node.js 
 
 ## Course Description
 
@@ -10,9 +10,19 @@ We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that i
 
 For all in class work, you will be using a fork of the pet store starter project called [Famous Amos Pet Emporium](https://github.com/Product-College-Labs/famous-amos). You must FORK this project so that the instructor can keep track of all the patterns you have implemented and conduct code reviews quickly and easily. You must implement ALL the patterns in this class. If you miss class or do not complete the implementation in class, please do the work as homework. At the end of the class, you're pet store must be completely full featured.
 
+## Course Specifics
+
+Weeks to Completion:  7 <br>
+Total Seat Hours:  37.5 hours <br>
+Total Out-of-Class Hours: 75 hours <br>
+Total Hours: 112.5 hours <br>
+Units:  3 units <br>
+Delivery Method:  Residential <br>
+Class Sessions:  14 classes, 7 labs 
+
 ## Prerequisites
 
-1. BEW 1.1 & 1.2
+BEW 1.1 & 1.2
 
 ## Learning Objectives or Competencies (5-8)
 
@@ -27,24 +37,72 @@ Students by the end of the course will be able to ...
 
 ## Lessons
 
+Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
+
 1. Pete's Proud Pet Emporium Kick Off
+    - **Before Class**
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. Simple Search
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. Pagination
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. Upload images to S3
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. Payment Gateways
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. Node.js Modules Under the Hood
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. Node.js Modules II
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. Intro to WebSockets - Websocket's Project Kickoff
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. Advanced WebSockets
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 1. How the Internet Works III
-1. 
-1. 
-1. Presentations
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
+1. Universal JavaScript
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
+1. What to Learn Next Now that You are Engineers?
+    - **Class Topic**
+    - **In Class Activities**
+    https://medium.com/midlandcode/5-developer-trends-for-2018-3d445aefdf72
+    Microservices?
+    - https://segment.com/blog/goodbye-microservices/
+    https://stackify.com/software-development-trends-2018/ - IoT, VR, Blockchain
+    - **After Class**
+1. Lesson Title
+    - **Class Topic**
+    - **In Class Activities**
+    - **After Class**
 
-### Projects and Readings
 
-- Link to all of the projects and readings (i.e. tutorials, contractor project, custom projects, books, etc)
-- Use a list
+## Tutorials & Projects
+
+1. [Proud Pete's Pet Emporium](https://github.com/Product-College-Labs/famous-amos)
+1. Sockets Tutorial
+1. Contractor Project
 
 ## Evaluation
 
@@ -58,52 +116,10 @@ To pass this course you must meet the following requirements:
 
 ## Make School Course Policies
 
-[Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)
-
-[Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)
-
-[Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)
-
+[Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)<br>
+[Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
+[Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)<br>
 [Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)
-
-[Title IX Disclaimer](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluations-Title-X-Disclaimer.md)
-
+<br>
+[Title IX Disclaimer](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluations-Title-X-Disclaimer.md)<br>
 [Program Learning Outcomes](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Program-Learning-Outcomes.md)
-
-
-## Projects
-
-1. Consulting web project on team of 2
-1. [Famous Amos's Pet Emporium](https://github.com/Product-College-Labs/famous-amos)
-1. Portfolio Project - [Web 3 Portfolio Project Requirements](https://github.com/Product-College-Labs/Web-3-Custom-Project)
-
-## Vocabulary & Conventions
-
-1. Build Systems and Front End Packages - Bower
-1. SQL
-1. ORM
-1. Resource Associations - hasMany, belongsTo, belongsToMany
-1. Streams & Buffers
-1. Node Modules
-
-## Best Practices
-
-1. Agile Planning
-1. Technical Planning
-1. Yagni - Ya' Ain't Gonna Need Its
-1. Agnostic vs. Opinionated Developers
-1. Use the right tool for the job
-1. Advanced Querying
-1. What is slow, what is fast? (network, controller vs. database, client)
-
-## Evaluation
-
-In order to pass this course, you must
-
-1. Have fewer than 2 unexcused absences.
-1. Be able to recall the meaning of all vocabulary and best practices.
-1. Complete 80% of Famous Amos Pet Emporium Challenges.
-1. Complete and turn in the consulting project and ship it.
-1. Complete and turn in a custom project and ship it.
-1. Complete and turn in a project writeup for each project on medium.com.
-1. Receive at least 1 code review from the instructor per project and make suggested improvements.
