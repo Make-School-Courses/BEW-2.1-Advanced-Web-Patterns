@@ -38,7 +38,6 @@ Students by the end of the course will be able to ...
 Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 1. Pete's Proud Pet Emporium Kick Off
-    - **Before Class**
     - **Class Topic**
     - **In Class Activities**
     - **After Class**
