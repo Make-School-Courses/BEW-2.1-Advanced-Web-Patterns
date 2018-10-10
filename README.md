@@ -1,12 +1,10 @@
-# BEW 2.1 - Advanced Web Patterns in Node.js 
+# BEW 2.1 - Advanced Web Patterns in Node.js
 
 ## Course Description
 
 We've learned a lot about the web; the common conventions and we've mastered authentication and authorization. Now pretty much you can sort through whatever someone asked for. However, what differentiates hackers and engineers is engineers understand what are going on under the hood of the mere conventions and tools. Engineers can also build their own tools.
 
 In this course we will go explore SQL and relational databases, look at some common advanced web functionality, and then go under the hood in Node.js and npm.
-
-We'll be doing projects in ES5 and ES6 - the newest version of JavaScript that is still being adopted.
 
 For all in class work, you will be using a fork of the pet store starter project called [Famous Amos Pet Emporium](https://github.com/Product-College-Labs/famous-amos). You must FORK this project so that the instructor can keep track of all the patterns you have implemented and conduct code reviews quickly and easily. You must implement ALL the patterns in this class. If you miss class or do not complete the implementation in class, please do the work as homework. At the end of the class, you're pet store must be completely full featured.
 
@@ -18,7 +16,7 @@ Total Out-of-Class Hours: 75 hours <br>
 Total Hours: 112.5 hours <br>
 Units:  3 units <br>
 Delivery Method:  Residential <br>
-Class Sessions:  14 classes, 7 labs 
+Class Sessions:  14 classes, 7 labs
 
 ## Prerequisites
 
@@ -80,21 +78,21 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - **Class Topic**
     - **In Class Activities**
     - **After Class**
-1. Universal JavaScript
+1.
     - **Class Topic**
     - **In Class Activities**
+    https://medium.com/midlandcode/5-developer-trends-for-2018-3d445aefdf72
     - **After Class**
 1. What to Learn Next Now that You are Engineers?
     - **Class Topic**
     - **In Class Activities**
-    https://medium.com/midlandcode/5-developer-trends-for-2018-3d445aefdf72
-    Microservices?
-    - https://segment.com/blog/goodbye-microservices/
-    https://stackify.com/software-development-trends-2018/ - IoT, VR, Blockchain
+      - Your company is a large ecommerce application and you are considering moving to a microservice architecture. Read the following three articles and then work together to decide which way to go.
+      - https://segment.com/blog/goodbye-microservices/
     - **After Class**
 1. Lesson Title
     - **Class Topic**
     - **In Class Activities**
+    https://stackify.com/software-development-trends-2018/ - IoT, VR, Blockchain
     - **After Class**
 
 
