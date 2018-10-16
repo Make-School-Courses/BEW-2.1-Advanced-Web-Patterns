@@ -38,57 +38,44 @@ Students by the end of the course will be able to ...
 Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 1. Pete's Proud Pet Emporium Kick Off
-    - **Class Topic**
     - **In Class Activities**
     - **After Class**
-1. Simple Search
-    - **Class Topic**
-    - **In Class Activities**
-    - **After Class**
-1. Pagination
-    - **Class Topic**
+1. Simple Search & Pagination
     - **In Class Activities**
     - **After Class**
 1. Upload images to S3
-    - **Class Topic**
     - **In Class Activities**
     - **After Class**
 1. Payment Gateways
-    - **Class Topic**
     - **In Class Activities**
     - **After Class**
 1. Node.js Modules Under the Hood
-    - **Class Topic**
-    - **In Class Activities**
-    - **After Class**
-1. Node.js Modules II
-    - **Class Topic**
     - **In Class Activities**
     - **After Class**
 1. Intro to WebSockets - Websocket's Project Kickoff
-    - **Class Topic**
-    - **In Class Activities**
-    - **After Class**
-1. Advanced WebSockets
-    - **Class Topic**
     - **In Class Activities**
     - **After Class**
 1. How the Internet Works III
-    - **Class Topic**
     - **In Class Activities**
     - **After Class**
-1.
-    - **Class Topic**
+1. Advanced WebSockets
+    - **In Class Activities**
+    - **After Class**
+1. Phonegap & Electron
+    - **In Class Activities**
+    - **After Class**
+1. Typescript & Flow
+    - **In Class Activities**
+    - **After Class**
+1. Project Code Review Day
     - **In Class Activities**
     https://medium.com/midlandcode/5-developer-trends-for-2018-3d445aefdf72
     - **After Class**
-1. What to Learn Next Now that You are Engineers?
+1. Final Exam
     - **Class Topic**
     - **In Class Activities**
-      - Your company is a large ecommerce application and you are considering moving to a microservice architecture. Read the following three articles and then work together to decide which way to go.
-      - https://segment.com/blog/goodbye-microservices/
     - **After Class**
-1. Lesson Title
+1. People's Choice Day
     - **Class Topic**
     - **In Class Activities**
     https://stackify.com/software-development-trends-2018/ - IoT, VR, Blockchain
@@ -97,19 +84,32 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 ## Tutorials & Projects
 
-1. [Proud Pete's Pet Emporium](https://github.com/Product-College-Labs/famous-amos)
-1. Sockets Tutorial
-1. Contractor Project
+1. [Proud Pete's Pet Emporium](https://www.makeschool.com/academy/track/pete-s-pet-emporium---advanced-web-recipes) - Due end of week 2
+1. [Make Chat](https://www.makeschool.com/academy/track/make-chat) - Due end of week 3
+1. Contractor/Custom Project - Due end of week 6
+  - Written in JavaScript using Node.js, Express.js, and MongoDB
+  - Include at least 3 of the following features:
+    - Simple Search or Full Stack Search
+    - Pagination
+    - Uploading Files
+    - Sending Email
+    - Websockets
+    - Include your own custom npm module
+  - A conventional UI using Bootstrap 4
+  - Pushed live to Heroku
+  - AJAX requests for POST/PUT/DELETE requests - Server-side rendering for GET requests (optional)
+  - No jQuery :D (optional)
+  - Use an external API (optional)
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
-- No more than two no call no shows
-- No more than four excused absences
-- Make up all classwork from all absences
 - Finish all required tutorials and projects
-- Pass the final exam (summative assessment) >=80%
+- Pass the final summative assessment >=75%
+- No more than two no call no shows - more than two will put you at risk of a PIP.
+- No more than four excused absences - more than four will put you at risk of a PIP.
+- Make up all classwork from all absences
 
 ## Make School Course Policies
 
