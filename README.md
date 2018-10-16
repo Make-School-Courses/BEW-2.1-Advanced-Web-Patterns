@@ -32,54 +32,51 @@ Students by the end of the course will be able to ...
 1. Upload images to AWS S3 buckets and associate the images with a resource using `s3-uploader`
 1. Implement websockets for asynchronous bi-directional server-client communication
 1. Edit existing npm modules and develop your own
+1. Describe hybrid desktop and mobile applications
+1. Compare and contrast strictly and dynamically typed implementations of JavaScript
+
+## People's Choice
+
+* Phonegap & Electron
+* Typescript & Flow
+* Amazon hosting
+* IoT
+* VR
+* Blockchain
+* ???
+
+* [Software Development Trends 2018](https://stackify.com/software-development-trends-2018/)
 
 ## Lessons
 
 Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 1. Pete's Proud Pet Emporium Kick Off
-    - **In Class Activities**
-    - **After Class**
+    - Review Syllabus & Learning Objectives
 1. Simple Search & Pagination
-    - **In Class Activities**
-    - **After Class**
+    -
 1. Upload images to S3
-    - **In Class Activities**
-    - **After Class**
+    -
 1. Payment Gateways
-    - **In Class Activities**
-    - **After Class**
+    -
 1. Node.js Modules Under the Hood
-    - **In Class Activities**
-    - **After Class**
+    -
 1. Intro to WebSockets - Websocket's Project Kickoff
-    - **In Class Activities**
-    - **After Class**
+    - Intro to websockets
+    - Demo of websockets
 1. How the Internet Works III
-    - **In Class Activities**
-    - **After Class**
-1. Advanced WebSockets
-    - **In Class Activities**
-    - **After Class**
-1. Phonegap & Electron
-    - **In Class Activities**
-    - **After Class**
-1. Typescript & Flow
-    - **In Class Activities**
-    - **After Class**
+    -
+1. Sending Emails
+    -
+1. People's Choice 1
+    -
+1. People's Choice 2
+    -
 1. Project Code Review Day
-    - **In Class Activities**
-    https://medium.com/midlandcode/5-developer-trends-for-2018-3d445aefdf72
-    - **After Class**
-1. Final Exam
-    - **Class Topic**
-    - **In Class Activities**
-    - **After Class**
-1. People's Choice Day
-    - **Class Topic**
-    - **In Class Activities**
-    https://stackify.com/software-development-trends-2018/ - IoT, VR, Blockchain
-    - **After Class**
+    -
+1. Final Exam & Project Presentations
+    -
+1. People's Choice 3
 
 
 ## Tutorials & Projects
