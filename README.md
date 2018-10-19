@@ -45,7 +45,7 @@ Students by the end of the course will be able to ...
 * Blockchain
 * ???
 
-* [Software Development Trends 2018](https://stackify.com/software-development-trends-2018/)
+[Software Development Trends 2018](https://stackify.com/software-development-trends-2018/)
 
 ## Lessons
 
@@ -53,8 +53,10 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 1. Pete's Proud Pet Emporium Kick Off
     - Review Syllabus & Learning Objectives
+    
 1. Simple Search & Pagination
     - 
+    
 1. Upload images to S3
     - 
 1. Payment Gateways
