@@ -40,6 +40,7 @@ Students by the end of the course will be able to ...
 * Phonegap & Electron
 * Typescript & Flow
 * Amazon hosting
+* Node.js Modules Under the Hood
 * IoT
 * VR
 * Blockchain
@@ -52,33 +53,18 @@ Students by the end of the course will be able to ...
 Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 1. Pete's Proud Pet Emporium Kick Off
-    - Review Syllabus & Learning Objectives
-    
 1. Simple Search & Pagination
-    - 
-    
 1. Upload images to S3
-    - 
 1. Payment Gateways
-    -
-1. Node.js Modules Under the Hood
-    -
-1. Intro to WebSockets - Websocket's Project Kickoff
-    - Intro to websockets
-    - Demo of websockets
-1. How the Internet Works III
-    -
 1. Sending Emails
-    -
+1. Intro to WebSockets - Websocket's Project Kickoff
+1. How the Internet Works III
 1. People's Choice 1
-    -
 1. People's Choice 2
-    -
 1. Project Code Review Day
-    -
 1. Final Exam & Project Presentations
-    -
 1. People's Choice 3
+1. People's Choice 4
 
 
 ## Tutorials & Projects
