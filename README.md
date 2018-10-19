@@ -37,6 +37,8 @@ Students by the end of the course will be able to ...
 
 ## People's Choice
 
+We will have 4 classes on topics that the group chooses. During these classes we will work together to survey the topic, discuss the possiblities and limitations of the technology, and get a "hello world" working on our computers. Here are a few examples of topics we could cover:
+
 * Phonegap & Electron
 * Typescript & Flow
 * Amazon hosting
