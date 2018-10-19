@@ -54,9 +54,9 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 1. Pete's Proud Pet Emporium Kick Off
     - Review Syllabus & Learning Objectives
 1. Simple Search & Pagination
-    -
+    - 
 1. Upload images to S3
-    -
+    - 
 1. Payment Gateways
     -
 1. Node.js Modules Under the Hood
