@@ -27,7 +27,6 @@ In order to keep a user's credit card data secure, third-party payment services 
 
 ## Resources
 
-1. [Famous Amos Starter Project](https://github.com/Product-College-Labs/famous-amos)
 1. [Stripe](stripe.com)
 1. [npm `stripe`](https://www.npmjs.com/package/stripe)
 1. [Stripe's API Documentation](https://stripe.com/docs/api)
@@ -35,7 +34,7 @@ In order to keep a user's credit card data secure, third-party payment services 
 
 ## Baseline Challenges
 
-1. Write a user narrative and draw a wireframe of how users will purchase pets in Famous Amos' Pet Emporium. (10 min)
+1. Write a user narrative and draw a wireframe of how users will purchase pets in Proud Pete's Pet Emporium. (10 min)
 1. With your partner, make a step-by-step plan and draw a picture of how the client will communicate with your payment provider service and your server. What information will be stored on your server? In which attribute of which model? The transaction? The customer? (10 min)
 1. Implement the client of your checkout process by dropping in the "drop in UI" options that both Stripe and Braintree offer. (10 min)
 1. Rip out the drop in UI interface and build the custom interface using HTML and Stripe.js or Stripe Card Elements.
