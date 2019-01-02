@@ -1,5 +1,9 @@
 # Strict Typing
 
+## Intro. WTFJS
+
+https://github.com/denysdovhan/wtfjs
+
 ## Activity: What to Do?
 
 _The following scenario is a REAL scenario that was happening in real-time 4 months ago at a major, billion-dollar startup. The team of engineers who had to make this decision was only about 8 people, so today's exercise should be similar to their exact process._
