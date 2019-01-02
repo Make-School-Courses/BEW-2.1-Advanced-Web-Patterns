@@ -38,6 +38,8 @@ io.on('connection', function (socket) {
 
 Hint: If you are starting your server you need to include io in that server.
 
+> **NOTE** - `broadcast.emit()` and `emit()` are different. `emit()` sends to all attached sockets, `broadcast.emit()` sends to all except the one that is sending the message.
+
 ```js
 // SERVER
 var app = require('express')();
@@ -63,13 +65,3 @@ http.listen(3000, function(){
 1. [REST vs. WebSockets (PubNub)](https://www.pubnub.com/blog/2015-01-05-websockets-vs-rest-api-understanding-the-difference/)
 1. [Introducing WebSockets: Bringing Sockets to the Web](https://www.html5rocks.com/en/tutorials/websockets/basics/)
 1. [What are WebSockets (Pusher)](https://pusher.com/websockets)
-
-## Baseline Challenges
-
-1. Imagine Pete wants you to make it so that viewers of the website can see what each pet is doing as they do it, e.g. Playing, Eating, Bathing, Sleeping.
-1. Add socket.io and get a "hello world" working of websocket connections.
-1. Make the server update the client on the pets#show page with either: 1) eating, 2) bathing, 3) sleeping, or 4) playing. Implement WebSockets so that a pet's status is updated on their show page randomly every 10 seconds.
-
-## Stretch Challenges
-
-1. Make it so that on the pets#index page the pets' statuses are also updated at random.
