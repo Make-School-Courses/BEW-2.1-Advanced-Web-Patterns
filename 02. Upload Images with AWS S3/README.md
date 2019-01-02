@@ -32,7 +32,6 @@ In order for any of these libraries to work we'll have to accept an image throug
 
 ## Boiler Plate
 
-
 ```html
 <form ... method="POST" enctype="multipart/form-data">
    ...

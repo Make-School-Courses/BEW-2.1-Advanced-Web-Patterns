@@ -38,6 +38,7 @@ Students by the end of the course will be able to ...
 
 We will have 4 classes on topics that the group chooses. During these classes we will work together to survey the topic, discuss the possiblities and limitations of the technology, and get a "hello world" working on our computers. Here are a few examples of topics we could cover:
 
+* SQL
 * IoT
 * Amazon hosting
 * Sending Texts
@@ -87,7 +88,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
 To pass this course you must meet the following requirements:
 
-- Finish and turn in 
+- Finish and turn in
   - Pete's Pet Emporium
   - Make Chat
   - One Public Project that uses 3 features above and beyond resourceful routing and auth (this can be an old project that you added these additional features to)
