@@ -25,25 +25,12 @@ In order to keep a user's credit card data secure, third-party payment services 
 
 ![token](token-path.png)
 
+## Brief Demo (10 min)
+
+
 ## Resources
 
 1. [Stripe](stripe.com)
 1. [npm `stripe`](https://www.npmjs.com/package/stripe)
 1. [Stripe's API Documentation](https://stripe.com/docs/api)
 1. [Braintree](braintreepayments.com)
-
-## Baseline Challenges
-
-1. Write a user narrative and draw a wireframe of how users will purchase pets in Proud Pete's Pet Emporium. (10 min)
-1. With your partner, make a step-by-step plan and draw a picture of how the client will communicate with your payment provider service and your server. What information will be stored on your server? In which attribute of which model? The transaction? The customer? (10 min)
-1. Implement the client of your checkout process by dropping in the "drop in UI" options that both Stripe and Braintree offer. (10 min)
-1. Rip out the drop in UI interface and build the custom interface using HTML and Stripe.js or Stripe Card Elements.
-1. Once you get a token back from Stripe, send your token via a POST request to an endpoint at the path `/pets/:id/purchase` on your server. (10 min) Log the token to the console to confirm that it is received by the server.
-1. Add stripe to your server (`npm install --save stripe`), and get your Stripe keys and make them available in the context of your app using your `.env` file. Intialize the stripe object.
-1. Use the Node.JS SDK documentation of Stripe to process the transaction using the token you are getting from the client. Verify that the payment went through on your Stripe dashboard.
-1. Be sure to mark the pet as purchased by adding the column `purchasedAt` and updating it to the current datetime after the purchase succeeds.
-1. With your partner come up with a list of things that could go wrong with payments. What is a worst case scenario? What are common hiccups or problems or features of payments? Make a plan for how a user would deal with each of these problems.
-
-## Stretch Challenges
-
-1. Compare and contrast Braintree and Stripe. Outline the pros and cons, limitations and affordances - compare and contrast these two services with a partner. (10 min)
