@@ -12,8 +12,9 @@ What is the fastest way to speed up a query for 1,000,000,000 (1 Billion) record
 
 <details>
   <summary>
-    ![google](google.png)
+    The answer (do not click!)
   </summary>
+  ![google](google.png)
 </details>
 
 ## Introduction
