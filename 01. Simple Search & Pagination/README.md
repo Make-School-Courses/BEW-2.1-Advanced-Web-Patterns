@@ -1,5 +1,13 @@
 # Simple Search & Pagination
 
+## Challenge
+
+Which weighs more, a ton of bricks or a ton of feathers?
+
+![feathers-bricks](feathers-bricks.jpg)
+
+What is the fastest way to speed up a query for 1,000,000,000 (1 Billion) records?
+
 ## Introduction
 
 ![google](google.png)
