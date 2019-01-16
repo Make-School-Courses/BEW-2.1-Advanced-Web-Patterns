@@ -6,11 +6,19 @@ Which weighs more, a ton of bricks or a ton of feathers?
 
 ![feathers-bricks](feathers-bricks.jpg)
 
-What is the fastest way to speed up a query for 1,000,000,000 (1 Billion) records?
+The solutions to problems in engineering are often simpler than we think.
+
+What is the fastest way to speed up a query for 1,000,000,000 (1 Billion) records? Graph databases? Sharded decentralized databases? Quantum computers?
+
+<details>
+  <summary>
+    ![google](google.png)
+  </summary>
+</details>
 
 ## Introduction
 
-![google](google.png)
+
 
 In a project you might want to do a simple search for example on words in a title or body of articles or comments. We're going to look at an implementation for Mongoose - the Mongoose implementation is based on Regex's, a SQL implementation uses the SQL operator `LIKE`.
 
