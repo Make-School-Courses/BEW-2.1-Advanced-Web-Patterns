@@ -1,27 +1,10 @@
 # Simple Search & Pagination
 
-## Challenge
+![autocomplete](autocomplete.gif)
 
-Which weighs more, a ton of bricks or a ton of feathers?
+In a project you might want an **Autocomplete** dropdown, or a **Simple Search**—one based on the text of one or a few attributes, e.g. on words in a title or body of articles or comments.
 
-![feathers-bricks](feathers-bricks.jpg)
-
-The solutions to problems in engineering are often simpler than we think.
-
-What is the fastest way to speed up a query for 1,000,000,000 (1 Billion) records? Graph databases? Sharded decentralized databases? Quantum computers?
-
-<details>
-  <summary>
-    The answer (do not click!)
-  </summary>
-  <img src='google.png' />
-</details>
-
-## Introduction
-
-
-
-In a project you might want to do a simple search for example on words in a title or body of articles or comments. We're going to look at an implementation for Mongoose - the Mongoose implementation is based on Regex's, a SQL implementation uses the SQL operator `LIKE`.
+We're going to look at an implementation for Mongoose - the Mongoose implementation is based on Regex's, a SQL implementation uses the SQL operator `LIKE`.
 
 Once we can search, we are going to paginate the responses. One of the quickest ways to speed up response times on pages that are loading a lot of records is pagination.
 
@@ -31,7 +14,7 @@ A great example of pagination is Google's search results. At the bottom it says 
 
 ### Sequelize
 
-In order to conduct a simple search, we will use Sequelize's [query operators](http://docs.sequelizejs.com/manual/tutorial/querying.html#operators) `$like` or `$iLike` (PG only). These are basically equivalent except $iLike is case insensitive and for Postgres databases only.
+In order to conduct a simple search, we will use Sequelize's [query operators](http://docs.sequelizejs.com/manual/tutorial/querying.html#operators) `$like` or `$iLike` (PG only). These are basically equivalent except `$iLike` is case insensitive and for Postgres databases only.
 
 ### Mongoose
 
@@ -50,17 +33,33 @@ User.find({ name: regex }, (err, docs) => { });
 
 ## Pagination
 
+### Riddle
+
+Which weighs more, a ton of bricks or a ton of feathers?
+
+![feathers-bricks](feathers-bricks.jpg)
+
+The solutions to problems in engineering are often simpler than we think.
+
+What is the fastest way to speed up a query for 1,000,000,000 (1 Billion) records? Graph databases? Sharded decentralized databases? Quantum computers?
+
+<details>
+  <summary>
+    The answer (do not click!)
+  </summary>
+  Use pagination to only return the first 20 records like .... Google does!
+  <img src='google.png' />
+</details>
+
+
 If you look around almost every website is paginated. Why? Probably because pagination is **the easiest way to speed up many page loads**. If you are loading 1000 records on your index page, that will take 10 seconds to load. Pagination will speed it up by sending only the first 20 records.
 
 ### Activity: Picking a Pagination Module
 
-1. Compare and contrast these modules, and list their pros and cons.
-
-  [https://www.npmjs.com/package/paginate](paginate)
-
-  [https://www.npmjs.com/package/mongoose-paginate](mongoose-paginate)
-
-  [https://www.npmjs.com/package/express-paginate](express-paginate)
+1. Compare and contrast these modules, list their pros and cons, and decide which one you would use and why. (10 min)
+  - [https://www.npmjs.com/package/paginate](paginate)
+  - [https://www.npmjs.com/package/mongoose-paginate](mongoose-paginate)
+  - [https://www.npmjs.com/package/express-paginate](express-paginate)
 
 2. Now go to the table marked for each one and discuss with the people there why you chose to use this module.
 
@@ -71,4 +70,5 @@ If you look around almost every website is paginated. Why? Probably because pagi
 ## Extra Stretch: Find or Create
 
 1. **Find or Create** - There is a common pattern in searching you might someday take advantage of where you allow people to search for something, and if it doesn't exist, create it. What would this look like?
+
 1. **Autocomplete** - now that you know simple search, how would you roll your own autocomplete dropdown menu?
