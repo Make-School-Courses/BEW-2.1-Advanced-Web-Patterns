@@ -2,11 +2,15 @@
 
 Eventually you gotta get paid...
 
+![Get paid](tenor.gif)
+
 And there enters paywalls or "payment services" like [Stripe](stripe.com) and [Braintree](braintreepayments.com).
 
 Why do we use a service? Why not role our own?
 
 The answer to this is we use services to make sure our data is [PCI Compliant](http://www.onlinetech.com/resources/references/what-is-pci-compliance) - the set of standards and regulations for the secure storage and usage of credit card information. In order to be PCI compliant on your own you'd have to do a lot of extra work. So instead of doing this in house, we use payment services or payment processors.
+
+![boring](giphy.gif)
 
 ## Competencies & Objectives
 
@@ -25,8 +29,20 @@ In order to keep a user's credit card data secure, third-party payment services 
 
 ![token](token-path.png)
 
-## Brief Demo (10 min)
+## Activity: Technical Decision Making - 30 min
 
+1. Form into groups of 6
+1. Come up with an imaginary use case for your app. You can either be a:
+  1. Ecommerce
+  1. Marketplace
+  1. Something new and weird that you decide on.
+1. Now decide on which payment gateway your app will use. Stripe? Braintree? Another?
+1. List their pro's and con's.
+1. How can you come to a consensus?
+
+![scrum](scrum.gif)
+
+What process did you and your team follow to come to a conclusion. Did everyone finally agree? What were the requirements and pros and cons of each?
 
 ## Resources
 
