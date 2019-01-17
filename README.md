@@ -70,19 +70,23 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 1. [Proud Pete's Pet Emporium](https://www.makeschool.com/academy/track/pete-s-pet-emporium---advanced-web-recipes) - Due end of week 2
 1. [Make Chat](https://www.makeschool.com/academy/track/make-chat) - Due end of week 3
 1. Contractor/Custom Project - Due end of week 6
+  - (you can also add these features to an old project)
   - Written in JavaScript using Node.js, Express.js, and MongoDB
   - Include at least 3 of the following features:
     - Simple Search or Full Stack Search
     - Pagination
     - Uploading Files
     - Sending Email
-    - Websockets
+    - WebSockets
     - Include your own custom npm module
   - A conventional UI using Bootstrap 4
   - Pushed live to Heroku
   - AJAX requests for POST/PUT/DELETE requests - Server-side rendering for GET requests (optional)
-  - No jQuery :D (optional)
   - Use an external API (optional)
+1. Technical Blog post—pick an interesting NPM module or BEW project (e.g. TypeScript) and write >1000 words. Post must be Persuasive, Informative, and Entertaining. - Due end of Week 6
+  - The project/library's history
+  - A tutorial on how to implement it
+  - Its various pro's, con's and gotchas
 
 ## Evaluation
 
