@@ -128,9 +128,9 @@ if (req.file) {
 ```
 
 Hint - you will need `dotenv` to protect your AWS credentials.
+
 Hint - install `imagemagick` with brew. (its a dependency for manipulating images).
 
-```
 
 ## Readings
 
