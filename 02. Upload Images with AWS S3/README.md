@@ -1,5 +1,7 @@
 # Uploading Images with AWS S3
 
+![tenor](tenor.gif)
+
 ## Competencies & Objectives
 
 * Upload files through a server to an AWS S3 bucket
@@ -24,6 +26,8 @@ In order for any of these libraries to work we'll have to accept an image throug
 
 **Conducted by Instructor**
 
+![aws-s3](aws-s3.gif)
+
 ## Resources
 
 1. [AWS Management Console](https://aws.amazon.com/console/)
@@ -33,7 +37,7 @@ In order for any of these libraries to work we'll have to accept an image throug
 ## Boiler Plate
 
 ```html
-<form ... method="POST" enctype="multipart/form-data">
+<form ... method="POST" **enctype="multipart/form-data"**>
    ...
    <div class="form-group">
      <label for="coverImg">Cover Image (1000px min width)</label>
@@ -125,3 +129,9 @@ if (req.file) {
 
 Hint - you will need `dotenv` to protect your AWS credentials.
 Hint - install `imagemagick` with brew. (its a dependency for manipulating images).
+
+```
+
+## Readings
+
+1. [History of AWS - TechCrunch](https://techcrunch.com/2016/07/02/andy-jassys-brief-history-of-the-genesis-of-aws/)

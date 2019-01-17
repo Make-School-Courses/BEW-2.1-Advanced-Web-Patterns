@@ -1,14 +1,19 @@
 # Simple Search & Pagination
 
+## Competencies & Objectives
+
+* Implement Simple Search
+* Implement Pagination 
+
 ![autocomplete](autocomplete.gif)
 
-In a project you might want an **Autocomplete** dropdown, or a **Simple Search**—one based on the text of one or a few attributes, e.g. on words in a title or body of articles or comments.
+In a project you might want to add a **Search Form** or an **Autocomplete** dropdown. In either case, you'll probably want to use the advanced web pattern or recipe called **Simple Search**.
 
-We're going to look at an implementation for Mongoose - the Mongoose implementation is based on Regex's, a SQL implementation uses the SQL operator `LIKE`.
+> A Simple Search is a search based on the text of one or a few attributes, e.g. on words in a title or body of articles or comments.
 
-Once we can search, we are going to paginate the responses. One of the quickest ways to speed up response times on pages that are loading a lot of records is pagination.
+We're going to look at an implementation of Simple Search for Mongoose using Regex's. (The SQL implementation uses the SQL operator `LIKE`.)
 
-A great example of pagination is Google's search results. At the bottom it says "Gooooooooooooooogle" and each "o" is another page of search results.
+Once we can search, we are going to paginate the responses.
 
 ## Simple Search
 
