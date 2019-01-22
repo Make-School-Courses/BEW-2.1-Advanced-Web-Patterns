@@ -84,9 +84,9 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
    - AJAX requests for POST/PUT/DELETE requests - Server-side rendering for GET requests (optional)
    - Use an external API (optional)
 1. Technical Blog post—pick an interesting NPM module or BEW project (e.g. TypeScript) and write >1000 words. Post must be Persuasive, Informative, and Entertaining. - Due end of Week 6
-  - The project/library's history
-  - A tutorial on how to implement it
-  - Its various pro's, con's and gotchas
+    - The project/library's history
+    - A tutorial on how to implement it
+    - Its various pro's, con's and gotchas
 
 ## Evaluation
 
