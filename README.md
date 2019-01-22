@@ -93,9 +93,10 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 To pass this course you must meet the following requirements:
 
 - Finish and turn in
-  - Pete's Pet Emporium
-  - Make Chat
+  - Pete's Pet Emporium (GitHub & live link)
+  - Make Chat (GitHub & live link)
   - One Public Project that uses 3 features above and beyond resourceful routing and auth (this can be an old project that you added these additional features to)
+  - One Technical Blog Post (>1000 words)
 - Pass the final summative assessment >=75%
 - More than two no-call-no-shows, or more than four excused absenses will put you at risk of academic probation
 
