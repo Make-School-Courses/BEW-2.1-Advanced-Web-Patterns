@@ -70,8 +70,8 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 1. [Proud Pete's Pet Emporium](https://www.makeschool.com/academy/track/pete-s-pet-emporium---advanced-web-recipes) - Due end of week 2
 1. [Make Chat](https://www.makeschool.com/academy/track/make-chat) - Due end of week 3
 1. Contractor/Custom Project - Due end of week 6
-  - (you can also add these features to an old project)
-  - Written in JavaScript using Node.js, Express.js, and MongoDB
+  * (you can also add these features to an old project)
+  * Written in JavaScript using Node.js, Express.js, and MongoDB
   - Include at least 3 of the following features:
     - Simple Search or Full Stack Search
     - Pagination
