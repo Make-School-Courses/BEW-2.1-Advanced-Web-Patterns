@@ -38,14 +38,19 @@ Students by the end of the course will be able to ...
 
 We will have 4 classes on topics that the group chooses. During these classes we will work together to survey the topic, discuss the possiblities and limitations of the technology, and get a "hello world" working on our computers. Here are a few examples of topics we could cover:
 
-* SQL
-* IoT
-* Amazon hosting
 * Sending Texts
-* Blockchain & DAPPs
-* ???
 * async/await, turning callback => promise
 * Generators & Decorators
+* SQL
+* Monolithic, SOA, Microservices
+* Security
+* IoT
+  * Control LED strip
+  * Use an API like weather data
+  * Talk to routers
+* Blockchain & DAPPs
+* Amazon hosting
+* ???
 
 [Software Development Trends 2018](https://stackify.com/software-development-trends-2018/)
 
