@@ -4,7 +4,7 @@
 
 We've learned a lot about the web; the common conventions and we've mastered authentication and authorization. Now pretty much you can sort through whatever someone asked for. However, there are a few extra features that are quite conventional that you have not gained mastery over yet. Those tricky features can stymie a novice engineer who doesn't know what tools and patterns they have available to them. For example, simple and full text search, uploading files and images, sending emails
 
-For all in class work, you will be using a fork of the pet store starter project called [Proud Pete's Pet Emporium](https://github.com/Product-College-Labs/petes-pets). You must FORK this project so that the instructor can keep track of all the patterns you have implemented and conduct code reviews quickly and easily. You must implement ALL the patterns in this class. If you miss class or do not complete the implementation in class, please do the work as homework. At the end of the class, you're pet store must be completely full featured.
+For all in class work, you will be using a clone of the pet store starter project called [Proud Pete's Pet Emporium](https://github.com/Product-College-Labs/petes-pets). You must implement ALL the patterns in this class. If you miss class or do not complete the implementation in class, please do the work as homework. At the end of the class, you're pet store must be completely full featured.
 
 ## Course Specifics
 
