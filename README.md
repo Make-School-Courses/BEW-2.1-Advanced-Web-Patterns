@@ -58,19 +58,19 @@ We will have 4 classes on topics that the group chooses. During these classes we
 
 Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 
-1. Pete's Proud Pet Emporium Kick Off & Simple Search & Pagination
-1. Lab Day on PPP Emporium
+1. Pete's Proud Pet Emporium Kick Off & 
+1. Simple Search & Pagination
+1. Async/Await
 1. Upload images to S3
 1. Payment Gateways
 1. Sending Emails
 1. Intro to WebSockets - Websocket's Project Kickoff
 1. Lab Day Web Sockets
 1. How the Internet Works III
-1. People's Choice 1
 1. TypeScript & Flow - Strict Typing in JS
 1. Project Code Review Day
-1. Final Exam
-1. People's Choice 4
+1. People's Choice 1
+1. People's Choice 2
 
 ## Tutorials & Projects
 
