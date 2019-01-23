@@ -44,6 +44,8 @@ We will have 4 classes on topics that the group chooses. During these classes we
 * Sending Texts
 * Blockchain & DAPPs
 * ???
+* async/await, turning callback => promise
+* Generators & Decorators
 
 [Software Development Trends 2018](https://stackify.com/software-development-trends-2018/)
 
