@@ -33,9 +33,9 @@ In order to keep a user's credit card data secure, third-party payment services 
 
 1. Form into groups of 6
 1. Come up with an imaginary use case for your app. You can either be a:
-  1. Ecommerce
-  1. Marketplace
-  1. Something new and weird that you decide on.
+    - Ecommerce
+    - Marketplace
+    - Something new and weird that you decide on.
 1. Now decide on which payment gateway your app will use. Stripe? Braintree? Another?
 1. List their pro's and con's.
 1. How can you come to a consensus?
