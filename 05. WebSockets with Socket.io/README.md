@@ -16,7 +16,7 @@ In February 2010, Google (being a champion of HTML5) made Chrome 4 the first bro
 
 The WebSocket standard begins with an HTTP handshake, but then switches to the WebSocket standard that does not conform to the HTTP protocol.
 
-<img src="WebSockets-Diagram.png" width="350" />
+<img src="WebSockets-Diagram.png" width="400" />
 
 Here's an example of how the request for the handshake and the server's response looks:
 
