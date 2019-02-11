@@ -65,8 +65,7 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
 1. Payment Gateways
 1. Sending Emails
 1. Intro to WebSockets - Websocket's Project Kickoff
-1. Lab Day Web Sockets
-1. How the Internet Works III
+1. Blog Post Writing Day
 1. TypeScript & Flow - Strict Typing in JS
 1. Project Code Review Day
 1. People's Choice 1
