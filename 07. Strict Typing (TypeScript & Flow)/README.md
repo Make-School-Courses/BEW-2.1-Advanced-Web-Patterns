@@ -15,7 +15,8 @@ _The following scenario is a REAL scenario that was happening in real-time 4 mon
 1. Start a "Decision Document" for your team
 1. Research the various options and solutions to the problem of Type Errors
 1. List the options your team would like to use, and list pros and cons (There is no limit to the resources you can use to pick the best solution.)
-1. Decide as a group on one recommended path forward
+1. Decide as a group on one recommended path forward.
+1. Implement a "hello world" with the tools you recommend.
 
 ### Scenario
 
