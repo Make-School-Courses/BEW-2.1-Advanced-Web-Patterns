@@ -16,6 +16,7 @@ _The following scenario is a REAL scenario that was happening in real-time 4 mon
 1. Research the various options and solutions to the problem of Type Errors
 1. List the options your team would like to use, and list pros and cons (There is no limit to the resources you can use to pick the best solution.)
 1. Decide as a group on one recommended path forward.
+1. Make a "hello world" example of your recommendation.
 1. Convert part or all of Pete's Pets to the path your team recommended.
 
 ### Scenario
