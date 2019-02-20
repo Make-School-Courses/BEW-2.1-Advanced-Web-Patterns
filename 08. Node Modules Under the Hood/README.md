@@ -27,8 +27,7 @@ We've been using npm and Node Modules this whole time. But what are they exactly
 ## Challenges
 
 1. Follow [tmpvar's instructions for building and shipping a new npm module](https://gist.github.com/tmpvar/8746055)
-
-## Stretch Challenge
-
-1. Brainstorm a more complex node module you'd like to make and make it!
+1. Now brainstorm in groups of 4 a module you could build. 
+1. Each person pick one and design what steps you would take to build the module. 
+1. Build the module you designed!
 1. Explore some node modules, download their source code and see if you can make some improvements.
