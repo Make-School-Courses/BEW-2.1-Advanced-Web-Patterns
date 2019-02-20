@@ -26,7 +26,7 @@ We've been using npm and Node Modules this whole time. But what are they exactly
 
 ## Challenges
 
-1. Follow [tmpvar's instructions for building and shipping a new npm module]([tmpvar/my-first-node-module.md](https://gist.github.com/tmpvar/8746055))
+1. Follow [tmpvar's instructions for building and shipping a new npm module](https://gist.github.com/tmpvar/8746055)
 
 ## Stretch Challenge
 
