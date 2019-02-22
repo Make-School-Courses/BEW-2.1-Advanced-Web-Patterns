@@ -26,13 +26,13 @@ Students by the end of the course will be able to ...
 
 1. Implement a Simple Search
 1. Paginate a collection
-1. Send emails
-1. Upload images to AWS S3 buckets and associate the images with a resource using `s3-uploader`
-1. Implement websockets for asynchronous bi-directional server-client communication using socket.io
-1. Edit existing npm modules and develop your own
+1. Use Transactional Email APIs to send emails
+1. Upload images to AWS S3 buckets and associate the images with a resource
+1. Implement websockets for asynchronous bi-directional server-client communication
+1. Edit existing npm modules and develop their own
 1. Compare and contrast strictly and dynamically typed implementations of JavaScript
-1. Typescript & Flow (Strict Typing)
-1. Node.js Modules Under the Hood
+1. Practice using Typescript & Flow (Strict Typing)
+1. Understand how Node.js Modules work under the hood
 
 ## People's Choice
 
