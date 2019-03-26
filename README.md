@@ -18,7 +18,7 @@ Class Sessions:  14 classes, 7 labs
 
 ## Prerequisites
 
-BEW 1.1 & 1.2
+[BEW 1.2](https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations)
 
 ## Learning Objectives or Competencies (5-8)
 
@@ -107,10 +107,11 @@ To pass this course you must meet the following requirements:
 
 ## Make School Course Policies
 
-[Academic Honesty](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Academic-Honesty-and-Plagiarism.md)<br>
-[Accomodation Policy](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Accommodation-Policy.md)<br>
-[Diversity Statement](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Diversity-Statement.md)<br>
-[Evaluation Methods](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluation-Methods.md)
+[Academic Honesty](https://make.sc/academic-honesty)<br>
+[Accommodations for Students](https://make.sc/accommodations-for-students)<br>
+[Attendance Policy](https://make.sc/attendance-policy)  
+[Diversity and Inclusion Policy](https://make.sc/diversity-and-inclusion-policy)<br>
+[Grading System](https://make.sc/grading-system)
 <br>
-[Title IX Disclaimer](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Evaluations-Title-X-Disclaimer.md)<br>
-[Program Learning Outcomes](https://github.com/Product-College-Courses/Common-Syllabus-Sections/blob/master/Program-Learning-Outcomes.md)
+[Title IX Policy](https://make.sc/title-ix-policy)<br>
+[Program Learning Outcomes](https://make.sc/program-learning-outcomes)
