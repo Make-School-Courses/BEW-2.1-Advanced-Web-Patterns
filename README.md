@@ -20,7 +20,7 @@ Class Sessions:  14 classes, 7 labs
 
 [BEW 1.2](https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations)
 
-## Learning Objectives or Competencies (5-8)
+## Learning Outcomes
 
 Students by the end of the course will be able to ...
 
