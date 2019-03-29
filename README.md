@@ -36,7 +36,7 @@ Students by the end of the course will be able to ...
 
 ## People's Choice
 
-We will have 4 classes on topics that the group chooses. During these classes we will work together to survey the topic, discuss the possiblities and limitations of the technology, and get a "hello world" working on our computers. Here are a few examples of topics we could cover:
+We will have 2 classes on topics that the group chooses. During these classes we will work together to survey the topic, discuss the possiblities and limitations of the technology, and get a "hello world" working on our computers. Here are a few examples of topics we could cover:
 
 * Sending Texts
 * async/await, turning callback => promise
@@ -54,22 +54,27 @@ We will have 4 classes on topics that the group chooses. During these classes we
 
 [Software Development Trends 2018](https://stackify.com/software-development-trends-2018/)
 
-## Lessons
+## Schedule
+**Course Dates:** Monday, April 1 – Wednesday, May 15, 2019 (7 weeks)
 
-Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
+**Class Times:** Monday and Wednesday at 1:30–3:20pm (14 class sessions)
 
-1. Pete's Proud Pet Emporium Kick Off & 
-1. Simple Search & Pagination
-1. Async/Await
-1. Upload images to S3
-1. Payment Gateways
-1. Sending Emails
-1. Intro to WebSockets - Websocket's Project Kickoff
-1. Blog Post Writing Day
-1. TypeScript & Flow - Strict Typing in JS
-1. Project Code Review Day
-1. People's Choice 1
-1. People's Choice 2
+| Class |          Date          |                 Topics                  |
+|:-----:|:----------------------:|:---------------------------------------:|
+|  1 |  Monday, April 1                         | Pete's Proud Pet Emporium & Kick Off |
+|  2 |  Wednesday, April 3                      | Simple Search & Pagination |
+|  3 |  Monday, April 8                         | Async/Await |
+|  4 |  Wednesday, April 10                     | Upload images to S3 |
+|  5 |  Monday, April 15                        | Payment Gateways |
+|  6 |  Wednesday, April 17                     | Sending Emails |
+|  7 |  Monday, April 22                        | Intro to WebSockets - Websocket's Project Kickoff |
+|  8 |  Wednesday, April 24                     | Blog Post Writing Day |
+|  9 |  Monday, April 29                        | TypeScript & Flow - Strict Typing in JS |
+| 10 |  Wednesday, May 1                        | Project Code Review Day |
+| 11 |  Monday, May 6                           | People's Choice 1 |  
+| 12 |  Wednesday, May 8                        | People's Choice 2 |
+| 13 |  Monday, May 13                          | Final Class (presentations, etc) |
+| 14 |  Wednesday, May 15                       | Final Exams/Presentations |
 
 ## Tutorials & Projects
 
@@ -93,6 +98,32 @@ Should be ~13 planned lessons (7 weeks x 2 meetings per week -~1 holiday)
     - The project/library's history
     - A tutorial on how to implement it
     - Its various pro's, con's and gotchas
+    
+### Project Policy
+
+**All projects will require a minimum of 10 commits, and must take place throughout the entirety of the course**
+
+- **Good Example:** 40+ commits throughout the length of the course, looking for a healthy spattering of commits each week (such as 3-5 per day).
+- **Bad Example:** 10 commits on one day during the course and no others. Students who do this will be at severe risk of not passing the class.
+- **Unacceptable Example:** 2 commits the day before a project is due. Students who do this should not expect to pass the class. 
+
+#### Why are we doing this?
+
+We want to encourage best practices that you will see working as a professional software engineer. Breaking up a project by doing a large amount of commits helps engineers in the following ways:
+
+- It's much easier to retrace your steps if you break your project/product/code up into smaller pieces
+- It helps with being able to comprehend the larger problem, and also will help with your debugging (i.e. finding exactly when you pushed that piece of broken code)
+- It allows for more streamlined, iterative communication in your team, as it's much easier to hand off a small change to someone (updating a function) than a huge one (changed the architecture of the project)
+
+Through this requirement, we hope to encourage you to think about projects with an iterative, modular mindset. Doing so will allow you to break projects down into smaller milestones that come together to make your fully-realized solution.
+
+    
+## Final Exam
+
+-  **Passing the exam is a requirement for passing the class.**
+- You will have 2 hours to complete this exam - it will be in class using paper and pencil, or a format of the instructor's choosing
+- There are no retakes of the exam.
+- If you have a disability that needs an accommodation such as extended time or a different format, please take advantage of our [accommodations program](make.sc/disability-policy).
 
 ## Evaluation
 
@@ -104,6 +135,15 @@ To pass this course you must meet the following requirements:
   - One Public Project that uses 3 features above and beyond resourceful routing and auth (this can be an old project that you added these additional features to)
   - One Technical Blog Post (>1000 words)
 - More than two no-call-no-shows, or more than four excused absenses will put you at risk of academic probation
+
+## Attendance
+Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions including classes, huddles, coaching and school meetings, and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
+
+Attendance requirements for scheduled sessions are:
+- No more than two no call no shows per term in any scheduled session.
+- No more than four excused absences per term in any scheduled session.
+
+Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School. 
 
 ## Make School Course Policies
 
