@@ -78,14 +78,8 @@ Students by the end of the course will be able to ...
     - The project/library's history
     - A tutorial on how to implement it
     - Its various pro's, con's and gotchas
-    
-### Project Policy
 
-**All projects will require a minimum of 10 commits, and must take place throughout the time allotted for the project's completion, not just at the end**
-
-- **Good Example:** 40+ commits throughout the length of the course, looking for a healthy spattering of commits each week (such as 3-5 per day).
-- **Bad Example:** 10 commits on one day during the course and no others. Students who do this will be at severe risk of not receiving credit for the project.
-- **Unacceptable Example:** 2 commits the day before a project is due. Students who do this should not expect to pass the class. 
+**All tutorials and projects require a minimum of 10 commits, and must take place throughout the time allotted for the project's completion, not just at the end. Failure to include more than 10 commits will lead to not getting credit for the project and having to redo it.**
 
 ## Evaluation
 
