@@ -24,15 +24,10 @@ Class Sessions:  14 classes, 7 labs
 
 Students by the end of the course will be able to ...
 
-1. Implement a Simple Search
-1. Paginate a collection
-1. Use Transactional Email APIs to send emails
-1. Upload images to AWS S3 buckets and associate the images with a resource
-1. Implement websockets for asynchronous bi-directional server-client communication
+1. Master various common advanced backend patterns: Simple Search, Paginate a collection, send Transactional Email via an API, Upload images to AWS, Websockets for asynchronous bi-directional server-client communication,
 1. Edit existing npm modules and develop their own
 1. Compare and contrast strictly and dynamically typed implementations of JavaScript
-1. Practice using Typescript & Flow (Strict Typing)
-1. Understand how Node.js Modules work under the hood
+1. Master various common strategies for speeding up a website and server.
 
 ## Schedule
 **Course Dates:** Monday, April 1 – Wednesday, May 15, 2019 (7 weeks)
