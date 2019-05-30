@@ -74,7 +74,7 @@ We will have 2 classes on topics that the group chooses. During these classes we
 | 11 |  Monday, May 6                           | People's Choice 1 |  
 | 12 |  Wednesday, May 8                        | People's Choice 2 |
 | 13 |  Monday, May 13                          | Final Class (presentations, etc) |
-| 14 |  Wednesday, May 15                       | Final Exams/Presentations |
+| 14 |  Wednesday, May 15                       | Presentations |
 
 ## Tutorials & Projects
 
@@ -116,14 +116,6 @@ We want to encourage best practices that you will see working as a professional 
 - It allows for more streamlined, iterative communication in your team, as it's much easier to hand off a small change to someone (updating a function) than a huge one (changed the architecture of the project)
 
 Through this requirement, we hope to encourage you to think about projects with an iterative, modular mindset. Doing so will allow you to break projects down into smaller milestones that come together to make your fully-realized solution.
-
-    
-## Final Exam
-
--  **Passing the exam is a requirement for passing the class.**
-- You will have 2 hours to complete this exam - it will be in class using paper and pencil, or a format of the instructor's choosing
-- There are no retakes of the exam.
-- If you have a disability that needs an accommodation such as extended time or a different format, please take advantage of our [accommodations program](make.sc/disability-policy).
 
 ## Evaluation
 
