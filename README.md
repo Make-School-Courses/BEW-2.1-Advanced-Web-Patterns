@@ -15,14 +15,11 @@ Total Hours: 112.5 hours <br>
 Units:  3 units <br>
 Delivery Method:  Residential <br>
 Class Sessions:  14 classes, 7 labs
-
-## Prerequisites
-
-[BEW 1.2](https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations)
+Prerequisites: [BEW 1.2](https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations)
 
 ## Learning Outcomes
 
-Students by the end of the course will be able to ...
+Participants by the end of the course will be able to ...
 
 1. Master various common advanced backend patterns: Simple Search, Paginate a collection, send Transactional Email via an API, Upload images to AWS, Websockets for asynchronous bi-directional server-client communication,
 1. Edit existing npm modules and develop their own
