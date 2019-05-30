@@ -29,27 +29,22 @@ Students by the end of the course will be able to ...
 1. Compare and contrast strictly and dynamically typed implementations of JavaScript
 1. Master various common strategies for speeding up a website and server.
 
-## Schedule
-**Course Dates:** Monday, April 1 – Wednesday, May 15, 2019 (7 weeks)
+## Lessons
 
-**Class Times:** Monday and Wednesday at 1:30–3:20pm (14 class sessions)
-
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Monday, April 1                         | Pete's Proud Pet Emporium & Kick Off |
-|  2 |  Wednesday, April 3                      | Simple Search & Pagination |
-|  3 |  Monday, April 8                         | Async/Await |
-|  4 |  Wednesday, April 10                     | Upload images to S3 |
-|  5 |  Monday, April 15                        | Payment Gateways |
-|  6 |  Wednesday, April 17                     | Sending Emails |
-|  7 |  Monday, April 22                        | Intro to WebSockets - Websocket's Project Kickoff |
-|  8 |  Wednesday, April 24                     | Blog Post Writing Day |
-|  9 |  Monday, April 29                        | TypeScript & Flow - Strict Typing in JS |
-| 10 |  Wednesday, May 1                        | Node Modules |
-| 11 |  Monday, May 6                           | Need for Speed - Strategies to Make Servers Fast I |  
-| 12 |  Wednesday, May 8                        | Need for Speed - Strategies to Make Servers Fast II |
-| 13 |  Monday, May 13                          | Lab Day |
-| 14 |  Wednesday, May 15                       | Final Class (presentations, etc) |
+1. Pete's Proud Pet Emporium & Kick Off
+2. Simple Search & Pagination
+3. Async/Await
+4. Upload images to S3
+5. Payment Gateways
+6. Sending Emails
+7. Intro to WebSockets - Websocket's Project Kickoff
+8. Blog Post Writing Day
+9. TypeScript & Flow - Strict Typing in JS
+10. Node Modules
+11. Need for Speed - Strategies to Make Servers Fast I |
+12. Need for Speed - Strategies to Make Servers Fast II
+13. Lab Day
+14. Final Class (presentations, etc)
 
 ## Tutorials & Projects
 
