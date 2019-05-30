@@ -34,26 +34,6 @@ Students by the end of the course will be able to ...
 1. Practice using Typescript & Flow (Strict Typing)
 1. Understand how Node.js Modules work under the hood
 
-## People's Choice
-
-We will have 2 classes on topics that the group chooses. During these classes we will work together to survey the topic, discuss the possiblities and limitations of the technology, and get a "hello world" working on our computers. Here are a few examples of topics we could cover:
-
-* Sending Texts
-* async/await, turning callback => promise
-* Generators & Decorators
-* SQL
-* Monolithic, SOA, Microservices
-* Security
-* IoT
-  * Control LED strip
-  * Use an API like weather data
-  * Talk to routers
-* Blockchain & DAPPs
-* Amazon hosting
-* ???
-
-[Software Development Trends 2018](https://stackify.com/software-development-trends-2018/)
-
 ## Schedule
 **Course Dates:** Monday, April 1 – Wednesday, May 15, 2019 (7 weeks)
 
@@ -70,11 +50,11 @@ We will have 2 classes on topics that the group chooses. During these classes we
 |  7 |  Monday, April 22                        | Intro to WebSockets - Websocket's Project Kickoff |
 |  8 |  Wednesday, April 24                     | Blog Post Writing Day |
 |  9 |  Monday, April 29                        | TypeScript & Flow - Strict Typing in JS |
-| 10 |  Wednesday, May 1                        | Project Code Review Day |
-| 11 |  Monday, May 6                           | People's Choice 1 |  
-| 12 |  Wednesday, May 8                        | People's Choice 2 |
-| 13 |  Monday, May 13                          | Final Class (presentations, etc) |
-| 14 |  Wednesday, May 15                       | Presentations |
+| 10 |  Wednesday, May 1                        | Node Modules |
+| 11 |  Monday, May 6                           | Need for Speed - Strategies to Make Servers Fast I |  
+| 12 |  Wednesday, May 8                        | Need for Speed - Strategies to Make Servers Fast II |
+| 13 |  Monday, May 13                          | Lab Day |
+| 14 |  Wednesday, May 15                       | Final Class (presentations, etc) |
 
 ## Tutorials & Projects
 
@@ -101,10 +81,10 @@ We will have 2 classes on topics that the group chooses. During these classes we
     
 ### Project Policy
 
-**All projects will require a minimum of 10 commits, and must take place throughout the entirety of the course**
+**All projects will require a minimum of 10 commits, and must take place throughout the time allotted for the project's completion, not just at the end**
 
 - **Good Example:** 40+ commits throughout the length of the course, looking for a healthy spattering of commits each week (such as 3-5 per day).
-- **Bad Example:** 10 commits on one day during the course and no others. Students who do this will be at severe risk of not passing the class.
+- **Bad Example:** 10 commits on one day during the course and no others. Students who do this will be at severe risk of not receiving credit for the project.
 - **Unacceptable Example:** 2 commits the day before a project is due. Students who do this should not expect to pass the class. 
 
 ## Evaluation
@@ -117,15 +97,6 @@ To pass this course you must meet the following requirements:
   - One Public Project that uses 3 features above and beyond resourceful routing and auth (this can be an old project that you added these additional features to)
   - One Technical Blog Post (>1000 words)
 - More than two no-call-no-shows, or more than four excused absenses will put you at risk of academic probation
-
-## Attendance
-Just like any job, attendance at Make School is required and a key component of your success. Attendance is being onsite from 9:30 to 5:30 each day, attending all scheduled sessions including classes, huddles, coaching and school meetings, and working in the study labs when not in a scheduled session. Working onsite allows you to learn with your peers, have access to support from TAs, instructors and others, and is vital to your learning.
-
-Attendance requirements for scheduled sessions are:
-- No more than two no call no shows per term in any scheduled session.
-- No more than four excused absences per term in any scheduled session.
-
-Failure to meet these requirements will result in a PIP (Participation Improvement Plan).  Failure to improve after the PIP is cause for not being allowed to continue at Make School. 
 
 ## Make School Course Policies
 
