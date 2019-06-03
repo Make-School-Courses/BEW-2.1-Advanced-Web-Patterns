@@ -21,10 +21,10 @@ Prerequisites: [BEW 1.2](https://github.com/Make-School-Courses/BEW-1.2-Authenti
 
 Participants by the end of the course will be able to ...
 
-1. Master various common advanced backend patterns: Simple Search, Paginate a collection, send Transactional Email via an API, Upload images to AWS, Websockets for asynchronous bi-directional server-client communication,
-1. Edit existing npm modules and develop their own
-1. Compare and contrast strictly and dynamically typed implementations of JavaScript
-1. Master various common strategies for speeding up a website and server.
+1. Implement navigation and discoverability best practices for the web
+1. Create asynchronous bi-directional server-client communication
+1. Integrate an object storage service to store external resources
+1. Build out advanced features - such as payment transactions and automatic emails - using APIs
 
 ## Lessons
 
