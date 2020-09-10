@@ -8,14 +8,9 @@ For all in class work, you will be using a clone of the pet store starter projec
 
 ## Course Specifics
 
-Weeks to Completion:  7 <br>
-Total Seat Hours:  37.5 hours <br>
-Total Out-of-Class Hours: 75 hours <br>
-Total Hours: 112.5 hours <br>
-Units:  3 units <br>
-Delivery Method:  Residential <br>
-Class Sessions:  14 classes, 7 labs
-Prerequisites: [BEW 1.2](https://github.com/Make-School-Courses/BEW-1.2-Authentication-and-Associations)
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
 
 ## Learning Outcomes
 
@@ -78,6 +73,12 @@ To pass this course you must meet the following requirements:
   - One Public Project that uses 3 features above and beyond resourceful routing and auth (this can be an old project that you added these additional features to)
   - One Technical Blog Post (>1000 words)
 - More than two no-call-no-shows, or more than four excused absenses will put you at risk of academic probation
+
+## Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
