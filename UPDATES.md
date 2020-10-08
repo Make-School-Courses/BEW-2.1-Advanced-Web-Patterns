@@ -26,13 +26,19 @@ A braindump to base curriculum from.
 ## Syllabus + Repo Changes
 
 - [ ] Add Docsify to repo --- see <https://make.sc/bew2.4> for best version!
-- [ ] Standarize syllabus format
+- [ ] Standardize syllabus format
+- [ ] Standardize repo scaffolding
 - [ ] Update syllabus schedule and class names for 2020-T2
 - [ ] Update assignments section in syllabus
 
 ## Assignments
 
-- MakeChat tutorial code
+- [25%] Add pagination, search, image upload, payment, and email to intro project
+- [10%] MakeChat tutorial code
+- [25%] Use websockets in your own project
+  - IDEA: Add Intercom-style interactive help to intro project
+- [25%] Node module
+- [15%] Final presentation: websocket app or node module
 
 ## Lesson Plans
 
