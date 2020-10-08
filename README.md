@@ -6,6 +6,10 @@ We've learned a lot about the web; the common conventions and we've mastered aut
 
 For all in class work, you will be using a clone of the pet store starter project called [Proud Pete's Pet Emporium](https://github.com/Product-College-Labs/petes-pets). You must implement ALL the patterns in this class. If you miss class or do not complete the implementation in class, please do the work as homework. At the end of the class, you're pet store must be completely full featured.
 
+## Prerequisites:  
+
+- [BEW 1.3](http://make.sc/bew1.3)
+
 ## Course Specifics
 
 **Course Delivery**: online | 7 weeks | 14 sessions
