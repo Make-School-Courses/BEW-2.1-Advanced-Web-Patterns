@@ -20,8 +20,9 @@ A braindump to base curriculum from.
   - [Day 10: Review Day / TBD](#day-10-review-day--tbd)
   - [Day 11: Building and Deploying a Node Module](#day-11-building-and-deploying-a-node-module)
   - [Day 12: TBD](#day-12-tbd)
-  - [Day 13: Lab Day - Node Modules](#day-13-lab-day---node-modules)
-  - [Day 14: Demo WebSocket Project or Node Module](#day-14-demo-websocket-project-or-node-module)
+  - [Day 13: TBD](#day-13-tbd)
+  - [Day 14: Lab Day - Node Modules](#day-14-lab-day---node-modules)
+  - [Day 15: Demo WebSocket Project or Node Module](#day-15-demo-websocket-project-or-node-module)
 
 ## Syllabus + Repo Changes
 
@@ -60,6 +61,17 @@ A braindump to base curriculum from.
 
 ### Day 6: Intro to WebSockets
 
+
+- Warmup: Demo and play <https://litebrite.live>
+
+#### TT
+
+- Added in the HTML5 specification
+- Used in full stack applications
+  - Front end JS + back end protocol
+- Protocol is WS:// or WSS:// instead of HTTP or HTTPS
+- How events are sent between the front and back end
+
 ### Day 7: Tutorial - MakeChat
 
 ### Day 8: Using WebSockets IRL
@@ -89,6 +101,8 @@ A braindump to base curriculum from.
 
 ### Day 12: TBD
 
-### Day 13: Lab Day - Node Modules
+### Day 13: TBD
 
-### Day 14: Demo WebSocket Project or Node Module
+### Day 14: Lab Day - Node Modules
+
+### Day 15: Demo WebSocket Project or Node Module
