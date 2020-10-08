@@ -1,7 +1,5 @@
 # Curriculum Updates for 2020-T2
 
-A braindump to base curriculum from.
-
 <!-- omit in toc -->
 ## Table of Contents
 
@@ -9,6 +7,8 @@ A braindump to base curriculum from.
 - [Assignments](#assignments)
 - [Lesson Plans](#lesson-plans)
   - [Day 1: Pagination & Search](#day-1-pagination--search)
+  - [TT: Pagination](#tt-pagination)
+  - [TT: Search](#tt-search)
   - [Day 2: Upload Images on AWS](#day-2-upload-images-on-aws)
   - [Day 3: Upload Images on AWS](#day-3-upload-images-on-aws)
   - [Day 4: Payment Gateway](#day-4-payment-gateway)
@@ -45,6 +45,19 @@ A braindump to base curriculum from.
 
 ### Day 1: Pagination & Search
 
+- Go over syllabus and assignments
+- Join slack and gradescope
+- Introduce our intro project where our first assignment's code will be written
+- Discuss why we are enhancing an existing project vs creating a new one
+
+### TT: Pagination
+
+- Why do we need pagination?
+
+### TT: Search
+
+- Why is search an important feature on Amazon? YouTube?
+
 ### Day 2: Upload Images on AWS
 
 - Foundational use case with a public policy
@@ -60,7 +73,6 @@ A braindump to base curriculum from.
 - Use the Mailgun API
 
 ### Day 6: Intro to WebSockets
-
 
 - Warmup: Demo and play <https://litebrite.live>
 
