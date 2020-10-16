@@ -90,7 +90,7 @@
 
 - End with a demonstration on how to deploy MakeChat
 
-### Day 9: Polishing Backend Web Projects
+### Day 9: Serverless Architecture
 
 ### Day 10: Review Day / TBD
 
@@ -111,10 +111,6 @@
 - Create a node module that ______ (easy + stretch)
 - Deploy what you made on NPM
 
-### Day 12: TBD
+### Day 12: Lab Day - Node Modules
 
-### Day 13: TBD
-
-### Day 14: Lab Day - Node Modules
-
-### Day 15: Demo WebSocket Project or Node Module
+### Day 13: Demo WebSocket Project or Node Module
