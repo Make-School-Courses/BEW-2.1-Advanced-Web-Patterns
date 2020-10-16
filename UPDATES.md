@@ -16,13 +16,11 @@
   - [Day 6: Intro to WebSockets](#day-6-intro-to-websockets)
   - [Day 7: Tutorial - MakeChat](#day-7-tutorial---makechat)
   - [Day 8: Using WebSockets IRL](#day-8-using-websockets-irl)
-  - [Day 9: Polishing Backend Web Projects](#day-9-polishing-backend-web-projects)
+  - [Day 9: Serverless Architecture](#day-9-serverless-architecture)
   - [Day 10: Review Day / TBD](#day-10-review-day--tbd)
   - [Day 11: Building and Deploying a Node Module](#day-11-building-and-deploying-a-node-module)
-  - [Day 12: TBD](#day-12-tbd)
-  - [Day 13: TBD](#day-13-tbd)
-  - [Day 14: Lab Day - Node Modules](#day-14-lab-day---node-modules)
-  - [Day 15: Demo WebSocket Project or Node Module](#day-15-demo-websocket-project-or-node-module)
+  - [Day 12: Lab Day - Node Modules](#day-12-lab-day---node-modules)
+  - [Day 13: Demo WebSocket Project or Node Module](#day-13-demo-websocket-project-or-node-module)
 
 ## Syllabus + Repo Changes
 
