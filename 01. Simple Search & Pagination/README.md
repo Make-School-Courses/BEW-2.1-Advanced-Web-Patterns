@@ -4,7 +4,7 @@
 
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
--Objectives
+- Objectives
 - Welcome to Class
 - Introduce Intro Project
 - Pagination
@@ -12,7 +12,7 @@
 
 <!-- > -->
 
-## 🏆 Competencies & Objectives
+## 🏆 Learning Outcomes
 
 By the end of this lesson, you should be able to...
 
