@@ -2,9 +2,7 @@
 
 ## Course Description
 
-We've learned a lot about the web; the common conventions and we've mastered authentication and authorization. Now pretty much you can sort through whatever someone asked for. However, there are a few extra features that are quite conventional that you have not gained mastery over yet. Those tricky features can stymie a novice engineer who doesn't know what tools and patterns they have available to them. For example, simple and full text search, uploading files and images, sending emails
-
-For all in class work, you will be using a clone of the pet store starter project called [Proud Pete's Pet Emporium](https://github.com/Product-College-Labs/petes-pets). You must implement ALL the patterns in this class. If you miss class or do not complete the implementation in class, please do the work as homework. At the end of the class, you're pet store must be completely full featured.
+In this course students deepen their understanding of the web and implement advanced features that add complexity and uniqueness to a server’s structure. Advanced full stack patterns covered include WebSockets, simple search, payment gateways, chat room, uploading images and files, full text search, and sending emails and texts. 
 
 ## Prerequisites:  
 
@@ -25,57 +23,64 @@ Participants by the end of the course will be able to ...
 1. Integrate an object storage service to store external resources
 1. Build out advanced features - such as payment transactions and automatic emails - using APIs
 
-## Lessons
+## Schedule
 
-1. Pete's Proud Pet Emporium & Kick Off
-2. Simple Search & Pagination
-3. Async/Await
-4. Upload images to S3
-5. Payment Gateways
-6. Sending Emails
-7. Intro to WebSockets - Websocket's Project Kickoff
-8. Blog Post Writing Day
-9. TypeScript & Flow - Strict Typing in JS
-10. Node Modules
-11. Need for Speed - Strategies to Make Servers Fast I |
-12. Need for Speed - Strategies to Make Servers Fast II
-13. Lab Day
-14. Final Class (presentations, etc)
+**Course Dates:** Wednesday, October 21 – Wednesday, December 9, 2020 (8 weeks)
+
+**Class Times:** Monday, Wednesday at 9:30am–12:15pm (13 class sessions)
+
+| Class |          Date          |                 Topics                  |
+|:-----:|:----------------------:|:---------------------------------------:|
+|  1 |  Wed, Oct 21               | [Pagination & Search] |
+|  2 |  Mon, Oct 26               | [Uploading Images on AWS - Part 1] |
+|  3 |  Wed, Oct 28               | [Uploading Images on AWS - Part 2] |
+|  - |  Mon, Nov 2              | **Vote! - Civic Responsibility Break** |
+|  4 |  Wed, Nov 4               | [Payment Gateways] |
+|  5 |  Mon, Nov 9               | [Sending Emails] |
+|  6 |  Wed, Nov 11               | [Intro to WebSockets] |
+|  7 |  Mon, Nov 16              | [MakeChat] |
+|  8 |  Wed, Nov 18              | [WebSockets IRL] |
+|  9 |  Mon, Nov 23              | [Serverless Architecture] |
+|  - |  Wed, Nov 25               | **Holiday - Thanksgiving** |
+| 10 |  Mon, Nov 30              | Review Day |
+| 11 |  Wed, Dec 2              | [Building and Deploying a Node Module] |
+| 12 |  Mon, Dec 7              | Lab Day - Node Modules |
+| 13 |  Wed, Dec 9                | Final Presentations |  
+
+[Pagination & Search]:01-Search-Pagination/README.md
+[Uploading Images on AWS - Part 1]:02-AWS-1/README.md
+[Uploading Images on AWS - Part 2]:03-AWS-2/README.md
+[Payment Gateways]:04-Payments/README.md
+[Sending Emails]:05-Emails/README.md
+[Intro to WebSockets]:06-Web-Sockets-Intro/README.md
+[MakeChat]:07-MakeChat/README.md
+[WebSockets IRL]:08-WebSockets-IRL/README.md
+[Serverless Architecture]:09-Serverless-Architecture/README.md
+[Building and Deploying a Node Module]:11-Node-Modules/README.md
+
 
 ## Tutorials & Projects
 
-1. [Proud Pete's Pet Emporium](https://www.makeschool.com/academy/track/pete-s-pet-emporium---advanced-web-recipes) - Due end of week 2
-1. [Make Chat](https://www.makeschool.com/academy/track/make-chat) - Due end of week 3
-1. Contractor/Custom Project - Due end of week 6
-   * (you can also add these features to an old project)
-   * Written in JavaScript using Node.js, Express.js, and MongoDB
-   - Include at least 3 of the following features:
-      - Simple Search or Full Stack Search
-      - Pagination
-      - Uploading Files
-      - Sending Email
-      - WebSockets
-      - Include your own custom npm module
-   - A conventional UI using Bootstrap 4
-   - Pushed live to Heroku
-   - AJAX requests for POST/PUT/DELETE requests - Server-side rendering for GET requests (optional)
-   - Use an external API (optional)
-1. Technical Blog post—pick an interesting NPM module or BEW project (e.g. TypeScript) and write >1000 words. Post must be Persuasive, Informative, and Entertaining. - Due end of Week 6
-    - The project/library's history
-    - A tutorial on how to implement it
-    - Its various pro's, con's and gotchas
+1. [25%] Add pagination, search, image upload, payment, and email to intro project
+1. [10%] [Make Chat](https://www.makeschool.com/academy/track/make-chat) tutorial code
+1. [25%] Use websockets in your own project
+1. [25%] Node module
+1. [15%] Final presentation: websocket app or node module
+
 
 **All tutorials and projects require a minimum of 10 commits, and must take place throughout the time allotted for the project's completion, not just at the end. Failure to include more than 10 commits will lead to not getting credit for the project and having to redo it.**
+
+We will be using Gradescope this term, which allows us to provide fast and accurate feedback on your work. All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope. As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+
+Your Gradescope login is your Make School email, and your password can be changed at https://gradescope.com/reset_password. The same link can be used if you need to set your password for the first time.
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
 - Finish and turn in
-  - Pete's Pet Emporium (GitHub & live link)
   - Make Chat (GitHub & live link)
   - One Public Project that uses 3 features above and beyond resourceful routing and auth (this can be an old project that you added these additional features to)
-  - One Technical Blog Post (>1000 words)
 - More than two no-call-no-shows, or more than four excused absenses will put you at risk of academic probation
 
 ## Information Resources
@@ -86,11 +91,11 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 
 ## Make School Course Policies
 
-[Academic Honesty](https://make.sc/academic-honesty)<br>
-[Accommodations for Students](https://make.sc/accommodations-for-students)<br>
-[Attendance Policy](https://make.sc/attendance-policy)  
-[Diversity and Inclusion Policy](https://make.sc/diversity-and-inclusion-policy)<br>
-[Grading System](https://make.sc/grading-system)
-<br>
-[Title IX Policy](https://make.sc/title-ix-policy)<br>
-[Program Learning Outcomes](https://make.sc/program-learning-outcomes)
+- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
+- [Grading System](https://make.sc/grading-system) - How grading is done at Make School
+- [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity and Inclusion at Make School
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
+- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
+- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
+- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
+- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
