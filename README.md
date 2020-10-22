@@ -78,10 +78,9 @@ Your Gradescope login is your Make School email, and your password can be change
 
 To pass this course you must meet the following requirements:
 
-- Finish and turn in
-  - Make Chat (GitHub & live link)
-  - One Public Project that uses 3 features above and beyond resourceful routing and auth (this can be an old project that you added these additional features to)
-- More than two no-call-no-shows, or more than four excused absenses will put you at risk of academic probation
+- Complete all required tutorials, assignments, and projects.
+- Actively participate in class and abide by the attendance policy.
+- Make up all classwork from all absences.
 
 ## Information Resources
 
