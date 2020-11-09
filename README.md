@@ -2,21 +2,21 @@
 
 ## Course Description
 
-In this course students deepen their understanding of the web and implement advanced features that add complexity and uniqueness to a server’s structure. Advanced full stack patterns covered include WebSockets, simple search, payment gateways, chat room, uploading images and files, full text search, and sending emails and texts. 
+In this course students deepen their understanding of the web and implement advanced features that add complexity and uniqueness to a server’s structure. Advanced full stack patterns covered include WebSockets, simple search, payment gateways, chat room, uploading images and files, full text search, and sending emails and texts.
 
-## Prerequisites:  
+## Prerequisites
 
+- [BEW 1.2](http://make.sc/bew1.2)
 - [BEW 1.3](http://make.sc/bew1.3)
 
 ## Course Specifics
 
-**Course Delivery**: online | 7 weeks | 14 sessions
-
+**Course Delivery**: online | 7 weeks | 14 sessions<br>
 **Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
 
 ## Learning Outcomes
 
-Participants by the end of the course will be able to ...
+**By the end of the course, you'll be able to**&hellip;
 
 1. Implement navigation and discoverability best practices for the web
 1. Create asynchronous bi-directional server-client communication
@@ -25,38 +25,39 @@ Participants by the end of the course will be able to ...
 
 ## Schedule
 
-**Course Dates:** Wednesday, October 21 – Wednesday, December 9, 2020 (8 weeks)
+**Course Dates**: Wednesday, October 21 – Wednesday, December 9, 2020 _(8 weeks)_<br>
+**Class Times**: Monday, Wednesday at 9:30am – 12:15pm _(13 class sessions)_
 
-**Class Times:** Monday, Wednesday at 9:30am–12:15pm (13 class sessions)
-
-| Class |          Date          |                 Topics                  |
-|:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Wed, Oct 21               | [Pagination & Search] |
-|  2 |  Mon, Oct 26               | [Uploading Images on AWS - Part 1] |
-|  3 |  Wed, Oct 28               | [Uploading Images on AWS - Part 2] |
-|  - |  Mon, Nov 2              | **Vote! - Civic Responsibility Break** |
-|  4 |  Wed, Nov 4               | [Payment Gateways] |
-|  5 |  Mon, Nov 9               | [Sending Emails] |
-|  6 |  Wed, Nov 11               | [Intro to WebSockets] |
-|  7 |  Mon, Nov 16              | [MakeChat] |
-|  8 |  Wed, Nov 18              | [WebSockets IRL] |
-|  9 |  Mon, Nov 23              | [Serverless Architecture] |
-|  - |  Wed, Nov 25               | **Holiday - Thanksgiving** |
-| 10 |  Mon, Nov 30              | Review Day |
-| 11 |  Wed, Dec 2              | [Building and Deploying a Node Module] |
-| 12 |  Mon, Dec 7              | Lab Day - Node Modules |
-| 13 |  Wed, Dec 9                | Final Presentations |  
+| Class |    Date     | Topics                                                                                        |
+| :---: | :---------: | --------------------------------------------------------------------------------------------- |
+|   1   | Wed, Oct 21 | [Pagination & Search]<br>💡 _Two tricks to quickly optimize your site_                         |
+|   2   | Mon, Oct 26 | [Sending Emails]<br>💡 _Improve trust & reliability by using a third-party API to send emails_ |
+|   3   | Wed, Oct 28 | [Payment Gateways]<br>💡 _Integrate Stripe and process payments like the pros_             |
+|   -   | Mon, Nov 2  | **NO CLASS**<br>🇺🇸 _**Vote**! Civic Responsibility Break_                                      |
+|   4   | Wed, Nov 4  | [Introduction to Amazon S3]<br>💡 _TODO_                                                       |
+|   5   | Mon, Nov 9  | [AWS In Depth]<br>💡 _TODO_                                                                    |
+|   6   | Wed, Nov 11 | [Getting Started with Serverless]                                                             |
+|   7   | Mon, Nov 16 | [Getting Serious with Serverless]<br>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)_   |
+|   8   | Wed, Nov 18 | [Intro to WebSockets]<br>💡 _TODO_                                                             |
+|   9   | Mon, Nov 23 | [MakeChat]<br>💡 _TODO_                                                                        |
+|   -   | Wed, Nov 25 | **NO CLASS**<br>🦃 _Thanksgiving Holiday_                                                      |
+|  10   | Mon, Nov 30 | [WebSockets IRL]<br>💡 _TODO_                                                                  |
+|  11   | Wed, Dec 2  | [Building and Deploying a Node Module]<br>💡 _Beyond web apps with Javascript on the command line_                                            |
+|  12   | Mon, Dec 7  | Lab Day - Node Modules<br>💡 _TODO_                                                            |
+|  13   | Wed, Dec 9  | Final Presentations<br>💡 _TODO_                                                               |
 
 [Pagination & Search]:01-Search-Pagination/README.md
-[Uploading Images on AWS - Part 1]:02-AWS-1/README.md
-[Uploading Images on AWS - Part 2]:03-AWS-2/README.md
+[Introduction to Amazon S3]:02-AWS-1/README.md
+[AWS in Depth]:03-AWS-2/README.md
 [Payment Gateways]:04-Payments/README.md
 [Sending Emails]:05-Emails/README.md
 [Intro to WebSockets]:06-Web-Sockets-Intro/README.md
 [MakeChat]:07-MakeChat/README.md
 [WebSockets IRL]:08-WebSockets-IRL/README.md
-[Serverless Architecture]:09-Serverless-Architecture/README.md
+[Getting Started with Serverless]:09-Serverless-Architecture/README.md
+[Getting Serious with Serverless]:09-Serverless-Architecture/README.md
 [Building and Deploying a Node Module]:11-Node-Modules/README.md
+[James Beswick]:https://aws.amazon.com/blogs/compute/author/jbeswick/
 
 
 ## Tutorials & Projects
