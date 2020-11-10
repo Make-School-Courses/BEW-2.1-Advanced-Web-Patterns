@@ -35,8 +35,8 @@ In this course students deepen their understanding of the web and implement adva
 |   3   | Wed, Oct 28 | [Payment Gateways]<br>💡 _Integrate Stripe and process payments like the pros_             |
 |   -   | Mon, Nov 2  | **NO CLASS**<br>🇺🇸 _**Vote**! Civic Responsibility Break_                                      |
 |   4   | Wed, Nov 4  | [Introduction to Amazon S3]<br>💡 _TODO_                                                       |
-|   5   | Mon, Nov 9  | [AWS In Depth]<br>💡 _TODO_                                                                    |
-|   6   | Wed, Nov 11 | [Getting Started with Serverless]                                                             |
+|   5   | Mon, Nov 9  | [Getting Started with Serverless]<br>💡 _TODO_                                                                    |
+|   6   | Wed, Nov 11 | [Serverless Architecture]                                                             |
 |   7   | Mon, Nov 16 | [Getting Serious with Serverless]<br>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)_   |
 |   8   | Wed, Nov 18 | [Intro to WebSockets]<br>💡 _TODO_                                                             |
 |   9   | Mon, Nov 23 | [MakeChat]<br>💡 _TODO_                                                                        |
@@ -48,13 +48,13 @@ In this course students deepen their understanding of the web and implement adva
 
 [Pagination & Search]:01-Search-Pagination/README.md
 [Introduction to Amazon S3]:02-AWS-1/README.md
-[AWS in Depth]:03-AWS-2/README.md
+[Getting Started with Serverless]:03-AWS-2/README.md
 [Payment Gateways]:04-Payments/README.md
 [Sending Emails]:05-Emails/README.md
 [Intro to WebSockets]:06-Web-Sockets-Intro/README.md
 [MakeChat]:07-MakeChat/README.md
 [WebSockets IRL]:08-WebSockets-IRL/README.md
-[Getting Started with Serverless]:09-Serverless-Architecture/README.md
+[Serverless Architecture]:09-Serverless-Architecture/README.md
 [Getting Serious with Serverless]:09-Serverless-Architecture/README.md
 [Building and Deploying a Node Module]:11-Node-Modules/README.md
 [James Beswick]:https://aws.amazon.com/blogs/compute/author/jbeswick/

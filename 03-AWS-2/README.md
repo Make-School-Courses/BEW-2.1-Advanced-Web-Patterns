@@ -60,31 +60,45 @@ Break students into groups of 6 for a standup meeting on tutorial progress.
 
 ## [**20m**] 💬 **TT**: Intro to Serverless
 
+- Go through [Comparisons: Serverless vs. other tools](https://www.serverless.com/learn/comparisons/)
+-
+
 <!-- > -->
 
 ## [**10m**] 🌴 **BREAK 1** {docsify-ignore}
 
 <!-- > -->
 
-## [**90m**] 💻 **Activity**: Serverless
+## [**30m**] 💻 **Activity**: Serverless Hello World
+
+Get hands-on with your first serverless application by running the [Hello World Node.js Example on AWS](https://www.serverless.com/framework/docs/providers/aws/examples/hello-world/node/) in your own terminal.
+
+Once it's working, modify the code to return you and your partner's names instead!
+
+<!-- > -->
+
+## [**30m**] 💻 **Activity**: Serverless Full Stack
 
 Learn multiple ways to deploy and configure websites on AWS by completing the [Full-Stack Application Development on AWS](https://www.serverless.com/learn/courses/full-stack-application-development-on-aws) video course in pairs.
 
-Submit the deployed URL on [Gradescope](https://make.sc/bew2.1-gradescope) when complete.
+This tutorial will take approximately two hours to complete --- start working on it now, and we'll have time in class to continue working on it before it's due next Monday!
 
 <!-- > -->
 
-## [**10m**] 🌴 **BREAK 2** {docsify-ignore}
+## [**10m**] 🔄 **Recap**: Full Stack Progress + Homework
 
-<!-- > -->
+Finish the tutorial with your partner as homework. When done, submit the deployed URL to your full stack application on [Gradescope](https://make.sc/bew2.1-gradescope).
 
-## [**10m**] 🔄 **Recap**: Today's Takeaways
-
-`TODO`
+Remember, this assignment is due next Monday before class! Finish it to prepare for our guest speaker.
 
 <!-- > -->
 
 <!-- omit in toc -->
 ## 📚 Resources & Credits
 
-`TODO`
+- [The Serverless Application Framework | Serverless.com](https://www.serverless.com/)
+- [Serverless Framework Documentation](https://www.serverless.com/framework/docs/)
+- [Hello World Node.js Example on AWS](https://www.serverless.com/framework/docs/providers/aws/examples/hello-world/node/)
+- [Deploy a REST API using Serverless, Express and Node.js](https://www.serverless.com/blog/serverless-express-rest-api/)
+- [Full-Stack Application Development on AWS (Free Video Course)](https://www.serverless.com/learn/courses/full-stack-application-development-on-aws)
+- [Serverless Examples Directory (90+ Examples w/ Filters)](https://www.serverless.com/examples/)
