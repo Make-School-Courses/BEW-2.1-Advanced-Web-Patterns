@@ -71,7 +71,9 @@ Break students into groups of 6 for a standup meeting on tutorial progress.
 
 ## [**30m**] 💻 **Activity**: Serverless Hello World
 
-Get hands-on with your first serverless application by running the [Hello World Node.js Example on AWS](https://www.serverless.com/framework/docs/providers/aws/examples/hello-world/node/) in your own terminal.
+First, be sure to set up your credentials for AWS using the docs: [Serverless Framework - AWS Lambda Guide - Credentials](https://www.serverless.com/framework/docs/providers/aws/guide/credentials/)
+
+Then, get hands-on with your first serverless application by running the [Hello World Node.js Example on AWS](https://www.serverless.com/framework/docs/providers/aws/examples/hello-world/node/) in your own terminal.
 
 Once it's working, modify the code to return you and your partner's names instead!
 
