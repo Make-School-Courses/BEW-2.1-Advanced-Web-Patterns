@@ -81,19 +81,22 @@ Once it's working, modify the code to return you and your partner's names instea
 
 <!-- > -->
 
-## [**30m**] 💻 **Activity**: Serverless Full Stack
+## [**30m**] 💻 **Activity**: Choose Your Own Serverless Adventure
 
-Learn multiple ways to deploy and configure websites on AWS by completing the [Full-Stack Application Development on AWS](https://www.serverless.com/learn/courses/full-stack-application-development-on-aws) video course in pairs.
+- **OPTION 1**: Complete the [tutorial](https://www.serverless.com/blog/serverless-express-rest-api/) as written _(solo or pair project)_
 
-This tutorial will take approximately two hours to complete --- start working on it now, and we'll have time in class to continue working on it before it's due next Monday!
+- **OPTION 2**: Complete the [tutorial](https://www.serverless.com/blog/serverless-express-rest-api/) but change `Users` to an entity of your choosing. For example, `Pokemon`, `Cars`, or `Products`  _(solo or pair project)_
+
+- **OPTION 3**: [**STRETCH CHALLENGE**] Take an existing Node and Express project and convert it to use the Serverless framework. Use [Converting an existing Express application](https://www.serverless.com/blog/serverless-express-rest-api#converting-an-existing-express-application) to guide you!  _(up to 3 per team)_
+
+When done, submit the deployed URL to your full stack application on [Gradescope](https://make.sc/bew2.1-gradescope).
 
 <!-- > -->
 
 ## [**10m**] 🔄 **Recap**: Full Stack Progress + Homework
 
-Finish the tutorial with your partner as homework. When done, submit the deployed URL to your full stack application on [Gradescope](https://make.sc/bew2.1-gradescope).
 
-Remember, this assignment is due next Monday before class! Finish it to prepare for our guest speaker.
+Remember, the assignment above is due next Monday before class! Finish it to prepare for our guest speaker.
 
 <!-- > -->
 
