@@ -68,20 +68,21 @@ To access each tutorial, **click the bold links** below. Be sure to complete the
 - **Challenge 2**:  Mini Websocket App _([Instructions](Challenges.md#Mini-Websocket-App))_ **Due 12/09 @ 11:59PM PST**
 - **Challenge 3**: Node Module _([Instructions](Challenges.md#Node-Module))_ **Due 12/09 @ 11:59PM PST**
 
-### Presentations
+### Final Presentation
 
 The delivery of a live or pre-recorded presentation is required to pass this course. **Presentations will be delivered on Wednesday, December 9th on our final day of class**.
 
 Your **three to five minute presentation** should focus on the **experience you gained** and **lessons you learned** while implementing one of the three [Challenges](#challenges) in this course.
 
-**Your final presentation will be evaluated based on the [Make School Presentation Rubric](https://docs.google.com/document/d/1WTLcZNyvRGYDz5L8Kr8a0ILbFAyr92u85paoqGFjxPg/edit). You must earn an average of 2.5 on the rubric to pass.**
+**Your final presentation will be evaluated based on the [Make School Presentation Rubric](https://docs.google.com/document/d/1WTLcZNyvRGYDz5L8Kr8a0ILbFAyr92u85paoqGFjxPg/edit). You must earn an average of 2.5 on the rubric to pass**.
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
-- Fully complete both the [Pete's Pets] and [Make Chat] tutorials. Each must be submitted on [Gradescope].
-- Submit each challenge on [Gradescope]
+- **Complete both** the **[Pete's Pets]** and **[Make Chat]** tutorials and submit your code on [Gradescope].
+- **Submit all three [challenges](#challenges)** on [Gradescope].
+- **Deliver a [final presentation](#final-presentation)** on the last day of class.
 - Actively **participate in class** and **abide by the attendance policy**.
 - **Make up all classwork** from all absences.
 
