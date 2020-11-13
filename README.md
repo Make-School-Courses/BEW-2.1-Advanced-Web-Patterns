@@ -44,7 +44,7 @@ In this course students deepen their understanding of the web and implement adva
 |  10   | Mon, Nov 30 | [WebSockets IRL] |
 |  11   | Wed, Dec 2  | [Building and Deploying a Node Module] |
 |  12   | Mon, Dec 7  | Lab Day - Node Modules<br> |
-|  13   | Wed, Dec 9  | [Final Presentations](#presentations) |
+|  13   | Wed, Dec 9  | [Final Presentations](#final-presentations) |
 
 
 ## Class Assignments
