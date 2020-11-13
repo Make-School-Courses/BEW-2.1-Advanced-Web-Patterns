@@ -57,16 +57,20 @@ Your Gradescope login is your Make School email, and your password can be change
 
 To access each tutorial, **click the bold links** below. Be sure to complete the exercise in your browser and follow each instruction carefully.
 
-- **[Pete's Pets]**: _Add polish to your projects by implement sophisticated web patterns --- pagination, payment gateways, uploading images, and more --- in this tutorial_. **Due 11/16 @ 11:59PM PST**
-- **[Make Chat]**: _Create your very own live messaging application resembling the popular real-time communication service, Slack_. **Due 11/30 @ 11:59PM PST**
+| Name | Description | Due Date |
+| ---- | ----------- | -------- |
+| **[Pete's Pets]** | _Add common features to improve an existing codebase._ | **Due 11/16 @ 11:59PM** |
+| **[Make Chat]** | _Create your very own live messaging application!_ |  **Due 11/30 @ 11:59PM** |
 
 **PLEASE NOTE**: _All tutorials and projects require a minimum of 10 commits, and must take place throughout the time allotted for the project's completion, not just at the end. Failure to include more than 10 commits will lead to not getting credit for the project and having to redo it._
 
 ### Challenges
 
-- **Challenge 1**: Choose Your Own Serverless Adventure _([Instructions](Challenges.md#Choose-Your-Own-Serverless-Adventure)) **Due 11/16 @ 2:45PM PST**
-- **Challenge 2**:  Mini Websocket App _([Instructions](Challenges.md#Mini-Websocket-App))_ **Due 12/09 @ 11:59PM PST**
-- **Challenge 3**: Node Module _([Instructions](Challenges.md#Node-Module))_ **Due 12/09 @ 11:59PM PST**
+| Name | More Info | Due Date |
+| ---- | ----------- | -------- |
+|  **Challenge 1**: Choose Your Own Serverless Adventure  | [Instructions](Challenges.md#Choose-Your-Own-Serverless-Adventure) | **Due 11/16 @ 02:45PM** |
+| **Challenge 2**:  Mini Websocket App | [Instructions](Challenges.md#Mini-Websocket-App) | **Due 12/09 @ 11:59PM** |
+| **Challenge 3**: Node Module | [Instructions](Challenges.md#Node-Module) | **Due 12/09 @ 11:59PM** |
 
 ### Final Presentation
 
