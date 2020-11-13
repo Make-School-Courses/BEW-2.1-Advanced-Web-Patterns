@@ -95,7 +95,6 @@ When done, submit the deployed URL to your full stack application on [Gradescope
 
 ## [**10m**] 🔄 **Recap**: Q+A & Homework
 
-
 Remember, the assignment above is due next Monday before class! Finish it to prepare for our guest speaker.
 
 <!-- > -->

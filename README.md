@@ -26,25 +26,101 @@ In this course students deepen their understanding of the web and implement adva
 ## Schedule
 
 **Course Dates**: Wednesday, October 21 – Wednesday, December 9, 2020 _(8 weeks)_<br>
-**Class Times**: Monday, Wednesday at 9:30am – 12:15pm _(13 class sessions)_
+**Class Times**: Monday, Wednesday at 9:30am – 12:15PM _(13 class sessions)_
 
 | Class |    Date     | Topics                                                                                        |
 | :---: | :---------: | --------------------------------------------------------------------------------------------- |
-|   1   | Wed, Oct 21 | [Pagination & Search]<br>💡 _Two tricks to quickly optimize your site_                         |
-|   2   | Mon, Oct 26 | [Sending Emails]<br>💡 _Improve trust & reliability by using a third-party API to send emails_ |
-|   3   | Wed, Oct 28 | [Payment Gateways]<br>💡 _Integrate Stripe and process payments like the pros_             |
+|   1   | Wed, Oct 21 | [Pagination & Search] |
+|   2   | Mon, Oct 26 | [Sending Emails] |
+|   3   | Wed, Oct 28 | [Payment Gateways] |
 |   -   | Mon, Nov 2  | **NO CLASS**<br>🇺🇸 _**Vote**! Civic Responsibility Break_                                      |
-|   4   | Wed, Nov 4  | [Introduction to Amazon S3]<br>💡 _TODO_                                                       |
-|   5   | Mon, Nov 9  | [Getting Started with Serverless]<br>💡 _TODO_                                                                    |
+|   4   | Wed, Nov 4  | [Introduction to Amazon S3] |
+|   5   | Mon, Nov 9  | [Getting Started with Serverless] |
 |   6   | Wed, Nov 11 | [Serverless Architecture]                                                             |
-|   7   | Mon, Nov 16 | [Getting Serious with Serverless]<br>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)_   |
-|   8   | Wed, Nov 18 | [Intro to WebSockets]<br>💡 _TODO_                                                             |
-|   9   | Mon, Nov 23 | [MakeChat]<br>💡 _TODO_                                                                        |
-|   -   | Wed, Nov 25 | **NO CLASS**<br>🦃 _Thanksgiving Holiday_                                                      |
-|  10   | Mon, Nov 30 | [WebSockets IRL]<br>💡 _TODO_                                                                  |
-|  11   | Wed, Dec 2  | [Building and Deploying a Node Module]<br>💡 _Beyond web apps with Javascript on the command line_                                            |
-|  12   | Mon, Dec 7  | Lab Day - Node Modules<br>💡 _TODO_                                                            |
-|  13   | Wed, Dec 9  | Final Presentations<br>💡 _TODO_                                                               |
+|   7   | Mon, Nov 16 | [Getting Serious with Serverless]<br>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)_  |
+|   8   | Wed, Nov 18 | [Intro to WebSockets] |
+|   9   | Mon, Nov 23 | [MakeChat] |
+|   -   | Wed, Nov 25 | **NO CLASS**<br>🦃 _Thanksgiving Holiday_ |
+|  10   | Mon, Nov 30 | [WebSockets IRL] |
+|  11   | Wed, Dec 2  | [Building and Deploying a Node Module] |
+|  12   | Mon, Dec 7  | Lab Day - Node Modules<br> |
+|  13   | Wed, Dec 9  | [Final Presentations](#presentations) |
+
+
+## Class Assignments
+
+We will be using Gradescope this term, which allows us to provide fast and accurate feedback on your work. All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope. As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+
+Your Gradescope login is your Make School email, and your password can be changed at <https://gradescope.com/reset_password>. The same link can be used if you need to set your password for the first time.
+
+### Tutorials
+
+To access each tutorial, **click the bold links** below. Be sure to complete the exercise in your browser and follow each instruction carefully.
+
+- **[Pete's Pets]**: _Add polish to your projects by implement sophisticated web patterns --- pagination, payment gateways, uploading images, and more --- in this tutorial_. **Due 11/16 @ 11:59PM PST**
+- **[Make Chat]**: _Create your very own live messaging application resembling the popular real-time communication service, Slack_. **Due 11/30 @ 11:59PM PST**
+
+**PLEASE NOTE**: _All tutorials and projects require a minimum of 10 commits, and must take place throughout the time allotted for the project's completion, not just at the end. Failure to include more than 10 commits will lead to not getting credit for the project and having to redo it._
+
+### Challenges
+
+- **Challenge 1**: Choose Your Own Serverless Adventure _([Instructions](Challenges.md#Choose-Your-Own-Serverless-Adventure)) **Due 11/16 @ 2:45PM PST**
+- **Challenge 2**:  Mini Websocket App _([Instructions](Challenges.md#Mini-Websocket-App))_ **Due 12/09 @ 11:59PM PST**
+- **Challenge 3**: Node Module _([Instructions](Challenges.md#Node-Module))_ **Due 12/09 @ 11:59PM PST**
+
+### Presentations
+
+The delivery of a live or pre-recorded presentation is required to pass this course. **Presentations will be delivered on Wednesday, December 9th on our final day of class**.
+
+Your **three to five minute presentation** should focus on the **experience you gained** and **lessons you learned** while implementing one of the three [Challenges](#challenges) in this course.
+
+**Your final presentation will be evaluated based on the [Make School Presentation Rubric](https://docs.google.com/document/d/1WTLcZNyvRGYDz5L8Kr8a0ILbFAyr92u85paoqGFjxPg/edit). You must earn an average of 2.5 on the rubric to pass.**
+
+## Evaluation
+
+To pass this course you must meet the following requirements:
+
+- Fully complete both the [Pete's Pets] and [Make Chat] tutorials. Each must be submitted on [Gradescope].
+- Submit each challenge on [Gradescope]
+- Actively **participate in class** and **abide by the attendance policy**.
+- **Make up all classwork** from all absences.
+
+## Academic Honesty Policy
+
+At Make School, we highly encourage collaboration between students on assignments. Working with other people is the best way to learn!
+
+However, there's a big difference between **collaboration** (writing code together with another person) and **plagiarism** (copying code from a classmate or outside source without providing proper attribution).
+
+Here are some guidelines to follow in order to avoid plagiarism:
+
+1. If you are looking at an outside source for help, **close the window** containing the code before writing your own solution.
+1. Do not write down a line of code unless you **completely understand** how it works. (This is true even if the source you're referencing is the lesson slides/examples/etc!)
+1. If your code is still similar to an outside source or another student's, **provide attribution** by adding a comment to your code explaining where it was taken from.
+
+We take academic honesty very seriously at Make School. The consequences for violating the policy are as follows:
+
+- You will be required to write a [Self-Reflection Letter](https://docs.google.com/document/d/140_PHfDh7gu33OZI_caxEtvNzAlAepjnGcbQcXZ-MRo/edit?usp=sharing) to reflect on how your actions affected others.
+- If this is your first offense, you may be permitted to redo the assignment for a reduced grade (at the instructor's discretion).
+- The incident will be added to your permanent record at Make School and you may be placed on a Participation Improvement Plan (PIP).
+
+For subsequent offenses, more serious consequences may be considered. For more information, please see [Make School's academic honesty policy](https://make.sc/academic-honesty-policy).
+
+## Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
+
+## Make School Course Policies
+
+- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
+- [Grading System](https://make.sc/grading-system) - How grading is done at Make School
+- [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism, cheating, and other forms of academic misconduct
+- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
+- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
+- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
+- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
 
 [Pagination & Search]:01-Search-Pagination/README.md
 [Introduction to Amazon S3]:02-AWS-1/README.md
@@ -58,44 +134,6 @@ In this course students deepen their understanding of the web and implement adva
 [Getting Serious with Serverless]:09-Serverless-Architecture/README.md
 [Building and Deploying a Node Module]:11-Node-Modules/README.md
 [James Beswick]:https://aws.amazon.com/blogs/compute/author/jbeswick/
-
-
-## Tutorials & Projects
-
-1. [25%] Add pagination, search, image upload, payment, and email to intro project
-1. [10%] [Make Chat](https://www.makeschool.com/academy/track/make-chat) tutorial code
-1. [25%] Use websockets in your own project
-1. [25%] Node module
-1. [15%] Final presentation: websocket app or node module
-
-
-**All tutorials and projects require a minimum of 10 commits, and must take place throughout the time allotted for the project's completion, not just at the end. Failure to include more than 10 commits will lead to not getting credit for the project and having to redo it.**
-
-We will be using Gradescope this term, which allows us to provide fast and accurate feedback on your work. All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope. As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
-
-Your Gradescope login is your Make School email, and your password can be changed at https://gradescope.com/reset_password. The same link can be used if you need to set your password for the first time.
-
-## Evaluation
-
-To pass this course you must meet the following requirements:
-
-- Complete all required tutorials, assignments, and projects.
-- Actively participate in class and abide by the attendance policy.
-- Make up all classwork from all absences.
-
-## Information Resources
-
-Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
-
-- [make.sc/library](http://make.sc/library)
-
-## Make School Course Policies
-
-- [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
-- [Grading System](https://make.sc/grading-system) - How grading is done at Make School
-- [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
-- [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
-- [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
-- [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
-- [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
+[Make Chat]:https://www.makeschool.com/academy/track/make-chat
+[Pete's Pets]:https://www.makeschool.com/academy/track/pete-s-pet-emporium---advanced-web-recipes
+[Gradescope]:https://www.gradescope.com/courses/207186
