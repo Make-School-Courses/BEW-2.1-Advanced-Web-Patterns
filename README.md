@@ -33,19 +33,18 @@ In this course students deepen their understanding of the web and implement adva
 |   1   | Wed, Oct 21 | [Pagination & Search] |
 |   2   | Mon, Oct 26 | [Sending Emails] |
 |   3   | Wed, Oct 28 | [Payment Gateways] |
-|   -   | Mon, Nov 2  | **NO CLASS**<br>🇺🇸 _**Vote**! Civic Responsibility Break_                                      |
+|   -   | Mon, Nov 2  | **NO CLASS**<br><small>🇺🇸 _**Vote**! Civic Responsibility Break_<small>                                      |
 |   4   | Wed, Nov 4  | [Introduction to Amazon S3] |
 |   5   | Mon, Nov 9  | [Getting Started with Serverless] |
 |   6   | Wed, Nov 11 | [Serverless Architecture]                                                             |
-|   7   | Mon, Nov 16 | [Getting Serious with Serverless]<br>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)_  |
+|   7   | Mon, Nov 16 |**[Serverless IRL] + Guest Speaker**<br><small>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)</small>_  |
 |   8   | Wed, Nov 18 | [Intro to WebSockets] |
-|   9   | Mon, Nov 23 | [MakeChat] |
-|   -   | Wed, Nov 25 | **NO CLASS**<br>🦃 _Thanksgiving Holiday_ |
-|  10   | Mon, Nov 30 | [WebSockets IRL] |
+|   9   | Mon, Nov 23 | [Make Chat] |
+|   -   | Wed, Nov 25 | **NO CLASS**<br>🦃_<small>Thanksgiving Holiday_ |
+|  10   | Mon, Nov 30 | [Working With WebSockets] |
 |  11   | Wed, Dec 2  | [Building and Deploying a Node Module] |
 |  12   | Mon, Dec 7  | Lab Day - Node Modules<br> |
 |  13   | Wed, Dec 9  | [Final Presentations](#final-presentations) |
-
 
 ## Class Assignments
 
@@ -68,9 +67,9 @@ To access each tutorial, **click the bold links** below. Be sure to complete the
 
 | Name | More Info | Due Date |
 | ---- | ----------- | -------- |
-|  **Challenge 1**: Choose Your Own Serverless Adventure  | [Instructions](Challenges.md#Choose-Your-Own-Serverless-Adventure) | **Due 11/16 @ 02:45PM** |
-| **Challenge 2**:  Mini Websocket App | [Instructions](Challenges.md#Mini-Websocket-App) | **Due 12/09 @ 11:59PM** |
-| **Challenge 3**: Node Module | [Instructions](Challenges.md#Node-Module) | **Due 12/09 @ 11:59PM** |
+| **Challenge 1**: Choose Your Own Serverless Adventure  | [Instructions](Challenges/Serverless.md) | **Due 11/16 @ 02:45PM** |
+| **Challenge 2**: Mini Websocket App | [Instructions](Challenges/Websockets.md) | **Due 12/09 @ 11:59PM** |
+| **Challenge 3**: Node Module | [Instructions](Challenges/Module.md) | **Due 12/09 @ 11:59PM** |
 
 ### Final Presentation
 
@@ -127,18 +126,17 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
 - [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
 
-[Pagination & Search]:01-Search-Pagination/README.md
-[Introduction to Amazon S3]:02-AWS-1/README.md
-[Getting Started with Serverless]:03-AWS-2/README.md
-[Payment Gateways]:04-Payments/README.md
-[Sending Emails]:05-Emails/README.md
-[Intro to WebSockets]:06-Web-Sockets-Intro/README.md
-[MakeChat]:07-MakeChat/README.md
-[WebSockets IRL]:08-WebSockets-IRL/README.md
-[Serverless Architecture]:09-Serverless-Architecture/README.md
-[Getting Serious with Serverless]:09-Serverless-Architecture/README.md
-[Building and Deploying a Node Module]:11-Node-Modules/README.md
-[James Beswick]:https://aws.amazon.com/blogs/compute/author/jbeswick/
-[Make Chat]:https://www.makeschool.com/academy/track/make-chat
-[Pete's Pets]:https://www.makeschool.com/academy/track/pete-s-pet-emporium---advanced-web-recipes
-[Gradescope]:https://www.gradescope.com/courses/207186
+[Pagination & Search]: Lessons/SearchPagination.md
+[Introduction to Amazon S3]: Lessons/UploadS3.md
+[Getting Started with Serverless]: Lessons/ServerlessIntro.md
+[Payment Gateways]: Lessons/Payments.md
+[Sending Emails]: Lessons/Emails.md
+[Intro to WebSockets]: Lessons/WebsocketsIntro.md
+[Working with WebSockets]: Lessons/WebSocketsIRL.md
+[Serverless Architecture]:Lessons/ServerlessDiagrams.md
+[Serverless IRL]: Lessons/ServerlessIRL.md
+[Building and Deploying a Node Module]: Lessons/NodeModules.md
+[James Beswick]: https://aws.amazon.com/blogs/compute/author/jbeswick/
+[Make Chat]: https://www.makeschool.com/academy/track/make-chat
+[Pete's Pets]: https://www.makeschool.com/academy/track/pete-s-pet-emporium---advanced-web-recipes
+[Gradescope]: https://www.gradescope.com/courses/207186

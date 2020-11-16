@@ -38,13 +38,13 @@ Wait a minute, a project _already?!_
 
 **How Not To React:**
 
-![fire_spongebob](fire_spongebob.gif)
+![fire_spongebob](assets/fire_spongebob.gif)
 
 <!-- v -->
 
 **Instead:**
 
-![do_it](do_it.gif)
+![do_it](assets/do_it.gif)
 
 <!-- v -->
 
@@ -62,7 +62,7 @@ Wait a minute, a project _already?!_
 
 You may be asking, "why are we enhancing an existing project instead of creating a new one?"
 
-![teams](teams.jpg)
+![teams](assets/teams.jpg)
 
 - More common as a junior engineer to be working on an existing project
 - You will have to revamp/add features to an existing project at some point in your career
@@ -89,7 +89,7 @@ You may be asking, "why are we enhancing an existing project instead of creating
 
 <!-- v -->
 
-![pagination](pagination.png)
+![pagination](assets/pagination.png)
 
 If you look around almost every website is paginated. Why? Probably because pagination is **one of the easiest ways to speed up page loads**. If you are loading 1000 records on your index page, that will take 10 seconds to load. Pagination will speed it up by sending only the first 20 records.
 
@@ -109,19 +109,17 @@ What are other benefits to pagination?
 
 ### Activity: Technical Debate - Picking a Pagination Module
 
-![debate](debate.jpeg)
+![debate](assets/debate.jpeg)
 
 Throughout your career, you will have many technical debates with your teams. We're going to practice that here:
 
 1. Compare and contrast these modules, list their pros and cons, and decide which one you would use and why.
-  - [paginate](https://www.npmjs.com/package/paginate)
-  - [mongoose-paginate](https://www.npmjs.com/package/mongoose-paginate)
-  - [express-paginate](https://www.npmjs.com/package/express-paginate)
 
+     - [paginate](https://www.npmjs.com/package/paginate)
+     - [mongoose-paginate](https://www.npmjs.com/package/mongoose-paginate)
+     - [express-paginate](https://www.npmjs.com/package/express-paginate)
 2. Divide into groups where everyone in the group agrees on which package they would use
-
 3. Now split your group into thirds, one third stay stays, the other two thirds go to another group and try to convince them to use your module.
-
 4. Could you convince anyone to change? What arguments are the most compelling for people?  What arguments were most compelling to you?
 
 <!-- > -->
@@ -138,7 +136,7 @@ Throughout your career, you will have many technical debates with your teams. We
 
 ## Search
 
-![autocomplete](autocomplete.gif)
+![autocomplete](assets/autocomplete.gif)
 
 Think of how many websites you visit where a **Search Form** or an **Autocomplete** dropdown exists. This is a common web pattern or recipe called Simple Search.
 
@@ -154,7 +152,7 @@ Once we can search, we can then *paginate* the responses!
 
 ### Sequelize
 
-![sequelize](sequelize.png)
+![sequelize](assets/sequelize.png)
 
 In order to conduct a simple search, we will use Sequelize's [query operators](https://sequelize.org/v4/manual/tutorial/querying.html#operators) `like` or `iLike` (PG only). These are basically equivalent except `iLike` is case insensitive and for Postgres databases only.
 
@@ -171,7 +169,7 @@ Go back and read through the [Sequelize Querying doc](https://sequelize.org/v4/m
 
 ### Mongoose
 
-![mongoose](mongoose.png)
+![mongoose](assets/mongoose.png)
 
 For mongoose, we can search by passing a Regex (regular expression) for the term we want to search for.
 
@@ -190,14 +188,14 @@ User.find({ name: regex }, (err, docs) => { });
 
 ### RegEx
 
-![regex](regex.jpeg)
+![regex](assets/regex.jpeg)
 
 Need a refresher? Read up on [this guide to RegEx](https://www.freecodecamp.org/news/a-quick-and-simple-guide-to-javascript-regular-expressions-48b46a68df29/), and then write RegExs for the following:
 
 1. Return anything that has the letter "x"
 1. Return anything that contains "ar"
 
-**Stretch Challenges** 
+**Stretch Challenges**
 
 1. Return anything that starts with "the"
 1. Return anything that ends with "ed"

@@ -24,7 +24,7 @@ By the end of this lesson, you should be able to...
 
 ## Warmup
 
-<img src="npm.png" width="300" />
+<img src="assets/npm.png" width="300" />
 
 - Head to [NPM's website](https://www.npmjs.com/) and search the packages for the most unique/entertaining/creative package you can find!
 - Report back your finding!
@@ -33,7 +33,7 @@ By the end of this lesson, you should be able to...
 
 ## What is NPM?
 
-<img src="package.png" width="400" />
+<img src="assets/package.png" width="400" />
 
 NPM is a company that promotes open source development for all things JavaScript! What they're most known for though, is the **Node Package Manager** (also NPM) which allows for the easy installation of JavaScript modules.
 
@@ -47,7 +47,7 @@ From [time manipulation](https://www.npmjs.com/package/moment) to [web framework
 
 ## What Happens When I Install a Package?
 
-<img src="install.jpg" width="400" />
+<img src="assets/install.jpg" width="400" />
 
 You install packages with NPM by running `npm install <package_name>`. If the folder doesn't already exist, a `node_modules` folder will be added to your project, and all modules installed by NPM will live there.
 
@@ -119,7 +119,7 @@ Now you can call anything in the lodash library by using the lodash variable!
 
 ### Why should I deploy my module?
 
-<img src="open_source.png" width="400" />
+<img src="assets/open_source.png" width="400" />
 
 <!--Talk about how awesome it is to contribute to open source-->
 
@@ -162,7 +162,7 @@ Now it's your turn to create more node modules! Take some time to create modules
 ## Resources
 
 1. [What is npm](https://docs.npmjs.com/getting-started/what-is-npm)
-1. [Insalling NPM packages locally](https://youtu.be/JDSfqFFbNYQ) 
+1. [Insalling NPM packages locally](https://youtu.be/JDSfqFFbNYQ)
 1. [Creating Node.js Modules (npm doc) (video & documentation)](https://docs.npmjs.com/getting-started/creating-node-modules)
 1. [Publishing npm Packages (npm doc)](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 1. [How to Create and Publish your First Node.js Module (a beautiful article!)](https://medium.com/@jdaudier/how-to-create-and-publish-your-first-node-js-module-444e7585b738)

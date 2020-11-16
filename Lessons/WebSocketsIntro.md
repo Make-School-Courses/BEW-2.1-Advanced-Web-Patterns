@@ -4,6 +4,7 @@
 
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
+
 - Objectives
 - LiteBrite
 - What are Web Sockets?
@@ -22,9 +23,9 @@ By the end of this lesson, you should be able to...
 
 <!-- > -->
 
-# LiteBrite
+## LiteBrite
 
-![litebrite](litebrite.gif)
+![litebrite](assets/litebrite.gif)
 
 **Check out this [LiteBrite Demo](https://litebrite.live/)!**
 
@@ -34,7 +35,7 @@ By the end of this lesson, you should be able to...
 
 <!-- v -->
 
-![howitworks](howitworks.jpg)
+![how it works](assets/howitworks.jpg)
 
 Any thoughts?
 
@@ -42,11 +43,11 @@ Let's talk about it!
 
 <!-- > -->
 
-# WebSocket History
+## WebSocket History
 
 Before we jump into building with websockets, lets take a second to look at where the WebSocket standard came from and how it works. Much of this complexity is buried into the libraries and tools we use, so lets take a minute to look at them.
 
-As HTML5 was being developed, it became clear that the web needed a bidirectional **full-duplex** standard to allow for bidirectional communication. 
+As HTML5 was being developed, it became clear that the web needed a bidirectional **full-duplex** standard to allow for bidirectional communication.
 
 <!-- v -->
 
@@ -72,7 +73,7 @@ How did this work with the LiteBrite demo we did earlier?
 
 <!-- > -->
 
-# HTML5 Bidirectional Communication => WebSocket
+### HTML5 Bidirectional Communication => WebSocket
 
 A new standard called WebSocket was recommended in June of 2008 by Michael Carter—an influential HTML5 game developer.
 
@@ -80,19 +81,19 @@ In February 2010, Google (being a champion of HTML5) made Chrome 4 the first bro
 
 The WebSocket standard begins with an **HTTP handshake**, but then switches to the **WebSocket Standard (WS, or WSS for WebSocket Secure)** that does not conform to the HTTP protocol.
 
-<img src="WebSockets-Diagram.png" width="400" />
+<img src="assets/WebSockets-Diagram.png" width="400" />
 
 <!-- v -->
 
 Here's the same diagram, highlighting exactly where the upgrade from HTTP to WS occurs:
 
-<img src="WebSockets-Diagram-Explained.png" width="400" />
+<img src="assets/WebSockets-Diagram-Explained.png" width="400" />
 
 <!-- v -->
 
 Here's an example of how the request for the handshake and the server's response looks:
 
-```
+```txt
 GET /chat HTTP/1.1
 Host: server.example.com
 Upgrade: websocket
@@ -105,7 +106,7 @@ Origin: http://example.com
 
 Server response:
 
-```
+```txt
 HTTP/1.1 101 Switching Protocols
 Upgrade: websocket
 Connection: Upgrade
@@ -119,18 +120,18 @@ For more information read this [WebSocket documentation](https://hpbn.co/websock
 
 <!-- > -->
 
-# Communication between front and back ends
+## Communication between front and back ends
 
 Back to the LiteBrite...
 
 1. Which component was the front end?
-1. Which compontent was the back end?
+1. Which component was the back end?
 
 <!-- v -->
 
-# Another Example
+## Another Example
 
-<img src="chat-example.gif" width="600" />
+<img src="assets/chat-example.gif" width="600" />
 
 **Answer the below questions about this example:**
 
@@ -142,11 +143,11 @@ Back to the LiteBrite...
 
 <!-- > -->
 
-# Use Cases for WebSockets
+## Use Cases for WebSockets
 
-<img src="slack.png" width="150"/>
-<img src="docs.png" width="150" /> <br />
-<img src="dataviz.jpg" width="250" />
+<img src="assets/slack.png" width="150"/>
+<img src="assets/docs.png" width="150" /> <br />
+<img src="assets/dataviz.jpg" width="250" />
 
 ## What other use cases can you think of?
 
@@ -212,7 +213,7 @@ http.listen(3000, function(){
 
 <!-- > -->
 
-# Try It Yourself
+## Try It Yourself
 
 **Follow the [Getting Started project from Socket.io](https://socket.io/get-started/chat/)**
 

@@ -1,6 +1,6 @@
 # Uploading Images with AWS S3
 
-![tenor](tenor.gif)
+![tenor](assets/tenor.gif)
 
 ## Competencies & Objectives
 
@@ -26,7 +26,7 @@ In order for any of these libraries to work we'll have to accept an image throug
 
 **Conducted by Instructor**
 
-![aws-s3](aws-s3.gif)
+![aws-s3](assets/aws-s3.gif)
 
 ## Resources
 
