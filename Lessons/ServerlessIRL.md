@@ -7,10 +7,9 @@
 
 - [[**15m**] ☀️ **Warm Up**: Get to Know Our Guest Speaker](#15m-%e2%98%80%ef%b8%8f-warm-up-get-to-know-our-guest-speaker)
 - [[**60m**] 🎤 **Guest Speaker**: James Beswick](#60m-%f0%9f%8e%a4-guest-speaker-james-beswick)
-- [[**10m**] 🌴 **BREAK**](#10m-%f0%9f%8c%b4-break-docsify-ignore)
-- [[**20m**] 💬 **TT**: TODO](#20m-%f0%9f%92%ac-tt-todo)
-- [[**40m**] 💻 **Activity**: TODO](#40m-%f0%9f%92%bb-activity-todo)
+- [[**10m**] 🌴 **BREAK** {docsify-ignore}](#10m-%f0%9f%8c%b4-break-docsify-ignore)
 - [[**10m**] 📣 **Announcements**: Midterm Grades](#10m-%f0%9f%93%a3-announcements-midterm-grades)
+- [[**40m**] 💻 **Activity**: Lab Time](#40m-%f0%9f%92%bb-activity-lab-time)
 
 <!-- > -->
 
