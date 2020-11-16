@@ -52,27 +52,21 @@ During the next hour, our guest speaker will present slides, live code, and rese
 
 <!-- > -->
 
-## [**20m**] 💬 **TT**: TODO
-
-`TODO`
-
-
-## [**40m**] 💻 **Activity**: TODO
-
-`TODO`
-
-<!-- > -->
-
 ## [**10m**] 📣 **Announcements**: Midterm Grades
 
-- All assignments in Gradescope are **graded and published**.
-- **Midterm grades are due by the end of the day tomorrow**.
-  - Please make sure your **completed tutorial code** is submitted on Gradescope ([👀 Tutorial Check In #3](https://www.gradescope.com/courses/207186/assignments/830281)) by **Tuesday, November 17th at 5:00PM PST**.
-  - You MUST submit a complete Pete's Pets implementation to be considered **On Track** in this course!
+1. **Midterm grades are due by the end of the day tomorrow**.
+     - Please make sure your **completed tutorial code** is submitted on Gradescope ([👀 Tutorial Check In #3](https://www.gradescope.com/courses/207186/assignments/830281)) by **Tuesday, November 17th at 5:00PM PST**.
+     - You MUST submit a complete Pete's Pets implementation to be considered **On Track** in this course!
+1. Make sure to sign up for Mock Interviews this week! Check the `#important-announcements` channel on Slack for information on how to set up an interview with an instructor.
 
 <!-- > -->
 
-<!-- omit in toc -->
-## 📚 Resources & Credits
+## [**40m**] 💻 **Activity**: Lab Time
 
-`TODO`
+Use this time to work solo on the following assignments:
+
+1. Complete your Pete's Pets tutorial and turn it in on Gradescope.
+1. Complete the [Choose Your Own Serverless Adventure](Challenges/Serverless.md) challenge and turn it in on Gradescope.
+1. Sign up for a mock interview.
+
+<!-- > -->

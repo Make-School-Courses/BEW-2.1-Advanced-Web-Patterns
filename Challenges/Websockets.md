@@ -1,11 +1,14 @@
 # ⚙️ Challenge 2: Websockets
 
+> [!NOTE]
+> This challenge is a work in progress. Please check back for updates.
+
 _Challenge description here._
 
 <!-- omit in toc -->
 ## 📚 Table of Contents
 
-- [Learning Objectives](#learning-objectives)
+- [Description](#description)
 - [Deliverables](#deliverables)
   - [Requirements](#requirements)
   - [Stretch Challenges](#stretch-challenges)
@@ -13,11 +16,9 @@ _Challenge description here._
   - [Lesson Plans](#lesson-plans)
   - [Example Code](#example-code)
 
-## Learning Objectives
+## Description
 
-1. Objective 1
-1. Objective 2
-1. Objective 3
+TODO: Add description for websockets project.
 
 ## Deliverables
 
