@@ -37,7 +37,7 @@ In this course students deepen their understanding of the web and implement adva
 |   4   | Wed, Nov 4  | [Introduction to Amazon S3] |
 |   5   | Mon, Nov 9  | [Getting Started with Serverless] |
 |   6   | Wed, Nov 11 | [Serverless Architecture]                                                             |
-|   7   | Mon, Nov 16 |**[Serverless IRL] + Guest Speaker**<br><small>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)</small>_  |
+|   7   | Mon, Nov 16 |**[Serverless IRL] + Guest Speaker ([Slides](assets/MakeSchoolServerless.pdf))**<br><small>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)</small>_  |
 |   8   | Wed, Nov 18 | [Intro to WebSockets] |
 |   9   | Mon, Nov 23 | [Make Chat] |
 |   -   | Wed, Nov 25 | **NO CLASS**<br>🦃_<small>Thanksgiving Holiday_ |
