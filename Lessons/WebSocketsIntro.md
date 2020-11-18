@@ -5,23 +5,21 @@
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
 
-- [[**05j**] 🏆 Learning Outcomes](#05j-%F0%9F%8F%86-learning-outcomes)
+- [[**05m**] 🏆 Learning Outcomes](#05m-%F0%9F%8F%86-learning-outcomes)
 - [[**15m**] ☀️ **Warm Up**: Play LiteBrite](#15m-%E2%98%80%EF%B8%8F-warm-up-play-litebrite)
-- [WebSocket History](#websocket-history)
-- [What was that?](#what-was-that)
-  - [Bidirectional full-duplex!](#bidirectional-full-duplex)
-- [Back to WebSockets](#back-to-websockets)
+- [[**20m**] 💬 TT: WebSockets](#20m-%F0%9F%92%AC-tt-websockets)
+  - [History](#history)
+  - [Bidirectional Full Duplex: What Made Old School Phones Great](#bidirectional-full-duplex-what-made-old-school-phones-great)
+  - [Back to WebSockets](#back-to-websockets)
   - [Question](#question)
   - [HTML5 Bidirectional Communication => WebSocket](#html5-bidirectional-communication--websocket)
-- [Communication between front and back ends](#communication-between-front-and-back-ends)
-- [Another Example](#another-example)
-- [Use Cases for WebSockets](#use-cases-for-websockets)
-- [What other use cases can you think of?](#what-other-use-cases-can-you-think-of)
+  - [Client / Server Communication](#client--server-communication)
+  - [Another Example](#another-example)
+- [[**10m**] 💻 **Activity**: Use Cases for WebSockets](#10m-%F0%9F%92%BB-activity-use-cases-for-websockets)
 - [[**10m**] 🌴 BREAK {docsify-ignore}](#10m-%F0%9F%8C%B4-break-docsify-ignore)
-- [The Code](#the-code)
-- [Try It Yourself](#try-it-yourself)
+- [[**20m**] 💬 **TT**: The Code](#20m-%F0%9F%92%AC-tt-the-code)
+- [[**30m**] 💻 **Activity**: Try It Yourself](#30m-%F0%9F%92%BB-activity-try-it-yourself)
 - [Resources](#resources)
-
 <!-- > -->
 
 ## [**05m**] 🏆 Learning Outcomes
