@@ -5,15 +5,26 @@
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
 
-- Objectives
-- LiteBrite
-- What are Web Sockets?
-- Sending Events
-- Practice
+- [[**05j**] 🏆 Learning Outcomes](#05j-%F0%9F%8F%86-learning-outcomes)
+- [[**15m**] ☀️ **Warm Up**: Play LiteBrite](#15m-%E2%98%80%EF%B8%8F-warm-up-play-litebrite)
+- [WebSocket History](#websocket-history)
+- [What was that?](#what-was-that)
+  - [Bidirectional full-duplex!](#bidirectional-full-duplex)
+- [Back to WebSockets](#back-to-websockets)
+  - [Question](#question)
+  - [HTML5 Bidirectional Communication => WebSocket](#html5-bidirectional-communication--websocket)
+- [Communication between front and back ends](#communication-between-front-and-back-ends)
+- [Another Example](#another-example)
+- [Use Cases for WebSockets](#use-cases-for-websockets)
+- [What other use cases can you think of?](#what-other-use-cases-can-you-think-of)
+- [[**10m**] 🌴 BREAK {docsify-ignore}](#10m-%F0%9F%8C%B4-break-docsify-ignore)
+- [The Code](#the-code)
+- [Try It Yourself](#try-it-yourself)
+- [Resources](#resources)
 
 <!-- > -->
 
-## 🏆 Learning Outcomes
+## [**05m**] 🏆 Learning Outcomes
 
 By the end of this lesson, you should be able to...
 
@@ -23,9 +34,9 @@ By the end of this lesson, you should be able to...
 
 <!-- > -->
 
-## LiteBrite
+## [**15m**] ☀️ **Warm Up**: Play LiteBrite
 
-![litebrite](assets/litebrite.gif)
+<p align="center"><img src="assets/litebrite.gif"></p>
 
 **Check out this [LiteBrite Demo](https://litebrite.live/)!**
 
@@ -35,41 +46,42 @@ By the end of this lesson, you should be able to...
 
 <!-- v -->
 
-![how it works](assets/howitworks.jpg)
+<p align="center"><img src="assets/howitworks.jpg"></p>
 
-Any thoughts?
-
-Let's talk about it!
+**Any thoughts? Let's talk about it!**
 
 <!-- > -->
 
-## WebSocket History
+## [**20m**] 💬 TT: WebSockets
 
-Before we jump into building with websockets, lets take a second to look at where the WebSocket standard came from and how it works. Much of this complexity is buried into the libraries and tools we use, so lets take a minute to look at them.
+### History
+
+Before we jump into building with WebSockets, lets take a second to look at where the WebSocket standard came from and how it works. Much of this complexity is buried into the libraries and tools we use, so lets take a minute to look at them.
 
 As HTML5 was being developed, it became clear that the web needed a bidirectional **full-duplex** standard to allow for bidirectional communication.
 
 <!-- v -->
 
-## What was that?
+### Bidirectional Full Duplex: What Made Old School Phones Great
 
-![phone](phone.jpg)
+<p align="center">
+  <img src="https://i.pinimg.com/originals/c3/93/54/c393540f21af3e4c42d16e1a6a4201d0.jpg">
+</p>
 
-### Bidirectional full-duplex!
-
-- **Bidirectional**: communication happens two-ways: both parties can send and recieve messages
-- **Full-Duplex**: sending and receiving can happen _simultaneously!_
-    - When you call on your phone someone, that's a bidirectional full-duplex communication system! You both can talk listen simultaneously
+- **Bidirectional**: communication happens two-ways: both parties can send and receive messages
+- **Full-Duplex**: sending and receiving can happen _simultaneously_!
+  - When you call on your phone someone, that's a bidirectional full-duplex communication system!
+  - You both can talk _and_ listen _at the same time_
 
 <!-- v -->
 
-## Back to WebSockets
+### Back to WebSockets
 
 **WebSockets work the same way as your phone!** They allow a client (i.e. phone) and a server to have bidirectional full-duplex communication!
 
 ### Question
 
-How did this work with the LiteBrite demo we did earlier?
+**How did this work with the LiteBrite demo we did earlier?**
 
 <!-- > -->
 
@@ -81,17 +93,21 @@ In February 2010, Google (being a champion of HTML5) made Chrome 4 the first bro
 
 The WebSocket standard begins with an **HTTP handshake**, but then switches to the **WebSocket Standard (WS, or WSS for WebSocket Secure)** that does not conform to the HTTP protocol.
 
-<img src="assets/WebSockets-Diagram.png" width="400" />
+<p align="center">
+  <img src="assets/WebSockets-Diagram.png" height="600">
+</p>
 
 <!-- v -->
 
 Here's the same diagram, highlighting exactly where the upgrade from HTTP to WS occurs:
 
-<img src="assets/WebSockets-Diagram-Explained.png" width="400" />
+<p align="center">
+  <img src="assets/WebSockets-Diagram-Explained.png height="600">
+</p>
 
 <!-- v -->
 
-Here's an example of how the request for the handshake and the server's response looks:
+Here's an example of how the **request** for the handshake and the server's response looks:
 
 ```txt
 GET /chat HTTP/1.1
@@ -104,7 +120,7 @@ Sec-WebSocket-Version: 13
 Origin: http://example.com
 ```
 
-Server response:
+Server **response**:
 
 ```txt
 HTTP/1.1 101 Switching Protocols
@@ -114,22 +130,23 @@ Sec-WebSocket-Accept: HSmrc0sMlYUkAGmm5OPpG2HaGWk=
 Sec-WebSocket-Protocol: chat
 ```
 
-The request sends a `Sec-WebSocket-Key` which contains base64-encoded random bytes, and response responds with with a hash of the key in the `Sec-WebSocket-Accept` attribute which prevents resending old messages. This key/hash pattern does not provide any authentication, privacy, or integrity. WebSocket has unique security and privacy concerns.
+1. The client sends a request that contains `Sec-WebSocket-Key` in the header --- base64-encoded random bytes.
+1. The server responds with with a hash of the bytes in the `Sec-WebSocket-Accept` header, which prevents resending old messages.
 
-For more information read this [WebSocket documentation](https://hpbn.co/websocket/).
+**This pattern does not provide any authentication, privacy, or integrity**: WebSockets have unique security and privacy concerns. For more information read this [WebSocket documentation](https://hpbn.co/websocket/).
 
 <!-- > -->
 
-## Communication between front and back ends
+### Client / Server Communication
 
 Back to the LiteBrite...
 
-1. Which component was the front end?
-1. Which component was the back end?
+1. Which component was the **frontend** (or client)?
+1. Which component was the **backend** (or server)?
 
 <!-- v -->
 
-## Another Example
+### Another Example
 
 <img src="assets/chat-example.gif" width="600" />
 
@@ -143,13 +160,16 @@ Back to the LiteBrite...
 
 <!-- > -->
 
-## Use Cases for WebSockets
+## [**10m**] 💻 **Activity**: Use Cases for WebSockets
 
-<img src="assets/slack.png" width="150"/>
-<img src="assets/docs.png" width="150" /> <br />
-<img src="assets/dataviz.jpg" width="250" />
+<br>
+<p>
+<img src="assets/slack.png" width="150"  align="left">
+<img src="assets/docs.png" height="150" align="left">
+<img src="assets/dataviz.jpg" height="150"  align="left">
+</p><br><br><br><br><br><br><br><br>
 
-## What other use cases can you think of?
+**What other use cases can you think of**? Let's brainstorm them together in breakouts. Write down as many as you can!
 
 <!-- > -->
 
@@ -157,8 +177,7 @@ Back to the LiteBrite...
 
 <!-- > -->
 
-
-## The Code
+## [**20m**] 💬 **TT**: The Code
 
 In the following tutorial we'll be using [Socket.io](https://socket.io/) one of the most reliable npm modules on the web that enables node servers to respond to event-driven WebSocket behaviors. Socket.io is a broad and powerful library that can manage multiple channels, rooms, and manage https and other forms of security. In our case we will be implementing a simple asynchronous push of data from the server to the client.
 
@@ -166,7 +185,7 @@ Remember that since the client and the server are communicating via WebSockets, 
 
 ```html
 <!-- CLIENT -->
-<script src="/socket.io/socket.io.js"></script>
+<script src="//socket.io/socket.io.js"></script>
 <script>
   var socket = io('http://localhost');
 
@@ -213,20 +232,20 @@ http.listen(3000, function(){
 
 <!-- > -->
 
-## Try It Yourself
+## [**30m**] 💻 **Activity**: Try It Yourself
 
 **Follow the [Getting Started project from Socket.io](https://socket.io/get-started/chat/)**
 
 1. Complete the project
-1. Finish at least 2 of the "Homework" bullets
+1. Finish **at least 2** of the "Homework" bullets
 
-**Stretch Challenge:** finish _all_ of the "Homework" bullets!
+**Stretch Challenge**: Finish _all_ of the "Homework" bullets!
 
 <!-- > -->
 
 ## Resources
 
 1. [WebSocket Example](http://codepen.io/voku/pen/GpVoNN?editors=1010)
-1. [REST vs. WebSockets (PubNub)](https://www.pubnub.com/blog/2015-01-05-websockets-vs-rest-api-understanding-the-difference/)
-1. [Introducing WebSockets: Bringing Sockets to the Web](https://www.html5rocks.com/en/tutorials/websockets/basics/)
-1. [What are WebSockets (Pusher)](https://pusher.com/websockets)
+1. [REST vs. WebSockets (PubNub)](https://www.pubnub.com/blog/2015-01-05-WebSockets-vs-rest-api-understanding-the-difference/)
+1. [Introducing WebSockets: Bringing Sockets to the Web](https://www.html5rocks.com/en/tutorials/WebSockets/basics/)
+1. [What are WebSockets (Pusher)](https://pusher.com/WebSockets)

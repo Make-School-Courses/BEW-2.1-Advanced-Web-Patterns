@@ -61,7 +61,6 @@ Break students into groups of 6 for a standup meeting on tutorial progress.
 ## [**20m**] 💬 **TT**: Intro to Serverless
 
 - Go through [Comparisons: Serverless vs. other tools](https://www.serverless.com/learn/comparisons/)
--
 
 <!-- > -->
 
