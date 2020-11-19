@@ -34,7 +34,7 @@ By the end of this lesson, you should be able to...
 
 ## [**15m**] ☀️ **Warm Up**: Play LiteBrite
 
-<p align="center"><img src="assets/litebrite.gif"></p>
+<p align="center"><img src="Lessons/assets/litebrite.gif"></p>
 
 **Check out this [LiteBrite Demo](https://litebrite.live/)!**
 
@@ -44,7 +44,7 @@ By the end of this lesson, you should be able to...
 
 <!-- v -->
 
-<p align="center"><img src="assets/howitworks.jpg"></p>
+<p align="center"><img src="/Lessons/assets/google.pngLessons/assets/howitworks.jpg"></p>
 
 **Any thoughts? Let's talk about it!**
 
@@ -92,7 +92,7 @@ In February 2010, Google (being a champion of HTML5) made Chrome 4 the first bro
 The WebSocket standard begins with an **HTTP handshake**, but then switches to the **WebSocket Standard (WS, or WSS for WebSocket Secure)** that does not conform to the HTTP protocol.
 
 <p align="center">
-  <img src="assets/WebSockets-Diagram.png" height="600">
+  <img src="Lessons/assets/WebSockets-Diagram.png" height="600">
 </p>
 
 <!-- v -->
@@ -100,7 +100,7 @@ The WebSocket standard begins with an **HTTP handshake**, but then switches to t
 Here's the same diagram, highlighting exactly where the upgrade from HTTP to WS occurs:
 
 <p align="center">
-  <img src="assets/WebSockets-Diagram-Explained.png height="600">
+  <img src="Lessons/assets/WebSockets-Diagram-Explained.png height="600">
 </p>
 
 <!-- v -->
@@ -146,7 +146,7 @@ Back to the LiteBrite...
 
 ### Another Example
 
-<img src="assets/chat-example.gif" width="600" />
+<img src="Lessons/assets/chat-example.gif" width="600" />
 
 **Answer the below questions about this example:**
 
@@ -162,9 +162,9 @@ Back to the LiteBrite...
 
 <br>
 <p>
-<img src="assets/slack.png" width="150"  align="left">
-<img src="assets/docs.png" height="150" align="left">
-<img src="assets/dataviz.jpg" height="150"  align="left">
+<img src="Lessons/assets/slack.png" width="150"  align="left">
+<img src="Lessons/assets/docs.png" height="150" align="left">
+<img src="Lessons/assets/dataviz.jpg" height="150"  align="left">
 </p><br><br><br><br><br><br><br><br>
 
 **What other use cases can you think of**? Let's brainstorm them together in breakouts. Write down as many as you can!
@@ -238,6 +238,10 @@ http.listen(3000, function(){
 1. Finish **at least 2** of the "Homework" bullets
 
 **Stretch Challenge**: Finish _all_ of the "Homework" bullets!
+
+<p align="center">
+  <img src="assets/socketio-rubric.jpeg">
+</p>
 
 <!-- > -->
 
