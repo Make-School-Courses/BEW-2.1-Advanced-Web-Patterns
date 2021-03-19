@@ -25,26 +25,25 @@ In this course students deepen their understanding of the web and implement adva
 
 ## Schedule
 
-**Course Dates**: Wednesday, October 21 – Wednesday, December 9, 2020 _(8 weeks)_<br>
+**Course Dates**: Monday, March 29 – Wednesday, May 12, 2021 _(7 weeks)_<br>
 **Class Times**: Monday, Wednesday at 9:30am – 12:15PM _(13 class sessions)_
 
 | Class |    Date     | Topics                                                                                        |
 | :---: | :---------: | --------------------------------------------------------------------------------------------- |
-|   1   | Wed, Oct 21 | [Pagination & Search] |
-|   2   | Mon, Oct 26 | [Sending Emails] |
-|   3   | Wed, Oct 28 | [Payment Gateways] |
-|   -   | Mon, Nov 2  | **NO CLASS**<br><small>🇺🇸 _**Vote**! Civic Responsibility Break_<small>                                      |
-|   4   | Wed, Nov 4  | [Introduction to Amazon S3] |
-|   5   | Mon, Nov 9  | [Getting Started with Serverless] |
-|   6   | Wed, Nov 11 | [Serverless Architecture]                                                             |
-|   7   | Mon, Nov 16 |**[Serverless IRL] + Guest Speaker ([Slides](assets/MakeSchoolServerless.pdf))**<br><small>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)</small>_  |
-|   8   | Wed, Nov 18 | [Intro to WebSockets] |
-|   9   | Mon, Nov 23 | [Make Chat] |
-|   -   | Wed, Nov 25 | **NO CLASS**<br>🦃_<small>Thanksgiving Holiday_ |
-|  10   | Mon, Nov 30 | [Working With WebSockets] |
-|  11   | Wed, Dec 2  | [Building and Deploying a Node Module] |
-|  12   | Mon, Dec 7  | Lab Day - Node Modules<br> |
-|  13   | Wed, Dec 9  | [Final Presentations](#final-presentations) |
+|   1   | Mon, Mar 29 | [Pagination & Search] |
+|   -   | Wed, Mar 31 | **No Class - Cesar Chavez** |
+|   2   | Mon, Apr 5 | [Sending Emails] |
+|   3   | Wed, Apr 7 | [Payment Gateways] |
+|   4   | Mon, Apr 12  | [Introduction to Amazon S3] |
+|   5   | Wed, Apr 14  | [Getting Started with Serverless] |
+|   6   | Mon, Apr 19 | [Serverless Architecture]                                                             |
+|   7   | Wed, Apr 21 |**[Serverless IRL] + Guest Speaker ([Slides](assets/MakeSchoolServerless.pdf))**<br><small>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)</small>_  |
+|   8   | Mon, Apr 26 | [Intro to WebSockets] |
+|   9   | Wed, Apr 28 | [Make Chat] |
+|  10   | Mon, May 3 | [Working With WebSockets] |
+|  11   | Wed, May 5  | [Building and Deploying a Node Module] |
+|  12   | Mon, May 10  | Lab Day - Node Modules<br> |
+|  13   | Wed, May 12  | [Final Presentations](#final-presentations) |
 
 ## Class Assignments
 
