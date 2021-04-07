@@ -1,2 +1,2 @@
-- [**Gradescope**](https://www.gradescope.com/courses/207186)
-- [**Make School**](https://www.makeschool.com)
+* **[Syllabus](README.md)**
+* [Make School](https://www.makeschool.com)

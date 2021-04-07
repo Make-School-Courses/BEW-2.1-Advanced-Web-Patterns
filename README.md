@@ -1,4 +1,25 @@
-# BEW 2.1 - Advanced Web Patterns in Node.js
+<p align="center">
+  <img src="node.png" height="110">
+</p>
+
+# BEW 2.1: Advanced Web Patterns in Node.js
+
+<!-- omit in toc -->
+## Table of Contents
+
+1. [Course Description](#course-description)
+1. [Prerequisites](#prerequisites)
+1. [Course Specifics](#course-specifics)
+1. [Learning Outcomes](#learning-outcomes)
+1. [Schedule](#schedule)
+1. [Class Assignments](#class-assignments)
+   1. [Tutorials](#tutorials)
+   1. [Challenges](#challenges)
+   1. [Final Presentation](#final-presentation)
+1. [Late Assignment Policy](#late-assignment-policy)
+1. [Evaluation](#evaluation)
+1. [Information Resources](#information-resources)
+1. [Make School Course Policies](#make-school-course-policies)
 
 ## Course Description
 
@@ -6,7 +27,6 @@ In this course students deepen their understanding of the web and implement adva
 
 ## Prerequisites
 
-- [BEW 1.2](http://make.sc/bew1.2)
 - [BEW 1.3](http://make.sc/bew1.3)
 
 ## Course Specifics
@@ -57,8 +77,8 @@ To access each tutorial, **click the bold links** below. Be sure to complete the
 
 | Name | Description | Due Date |
 | ---- | ----------- | -------- |
-| **[Pete's Pets]** | _Add common features to improve an existing codebase._ | **Due 11/16 @ 11:59PM** |
-| **[Make Chat]** | _Create your very own live messaging application!_ |  **Due 11/30 @ 11:59PM** |
+| **[Pete's Pets]** | _Add common features to improve an existing codebase._ | **Due 04/14 @ 11:59PM** |
+| **[Make Chat]** | _Create your very own live messaging application!_ |  **Due 05/05 @ 11:59PM** |
 
 **PLEASE NOTE**: _All tutorials and projects require a minimum of 10 commits, and must take place throughout the time allotted for the project's completion, not just at the end. Failure to include more than 10 commits will lead to not getting credit for the project and having to redo it._
 
@@ -66,9 +86,9 @@ To access each tutorial, **click the bold links** below. Be sure to complete the
 
 | Name | More Info | Due Date |
 | ---- | ----------- | -------- |
-| **Challenge 1**: Choose Your Own Serverless Adventure  | [Instructions](Challenges/Serverless.md) | **Due 11/16 @ 02:45PM** |
-| **Challenge 2**: Mini Websocket App | [Instructions](Challenges/Websockets.md) | **Due 12/09 @ 11:59PM** |
-| **Challenge 3**: Node Module | [Instructions](Challenges/Module.md) | **Due 12/09 @ 11:59PM** |
+| **Challenge 1**: Choose Your Own Serverless Adventure  | [Instructions](Challenges/Serverless.md) | **Due 04/26 @ 11:59PM** |
+| **Challenge 2**: Mini Websocket App | [Instructions](Challenges/Websockets.md) | **Due 05/05 @ 11:59PM** |
+| **Challenge 3**: Node Module | [Instructions](Challenges/Module.md) | **Due 05/12 @ 11:59PM** |
 
 ### Final Presentation
 
@@ -77,6 +97,13 @@ The delivery of a live or pre-recorded presentation is required to pass this cou
 Your **three to five minute presentation** should focus on the **experience you gained** and **lessons you learned** while implementing one of the three [Challenges](#challenges) in this course.
 
 **Your final presentation will be evaluated based on the [Make School Presentation Rubric](https://docs.google.com/document/d/1WTLcZNyvRGYDz5L8Kr8a0ILbFAyr92u85paoqGFjxPg/edit). You must earn an average of 2.5 on the rubric to pass**.
+
+## Late Assignment Policy
+
+- Late assignments that are submitted **more than 5 days (120 hours)** after the deadline will be given a **25% late penalty**.
+- The **absolute last day** to submit any assignment will be **Monday, March 3 at 11:59 PM**.
+
+If you require accommodations or have extenuating circumstances such as prolonged illness, please contact your instructor to request an extension.
 
 ## Evaluation
 
@@ -88,33 +115,11 @@ To pass this course you must meet the following requirements:
 - Actively **participate in class** and **abide by the attendance policy**.
 - **Make up all classwork** from all absences.
 
-## Academic Honesty Policy
-
-At Make School, we highly encourage collaboration between students on assignments. Working with other people is the best way to learn!
-
-However, there's a big difference between **collaboration** (writing code together with another person) and **plagiarism** (copying code from a classmate or outside source without providing proper attribution).
-
-Here are some guidelines to follow in order to avoid plagiarism:
-
-1. If you are looking at an outside source for help, **close the window** containing the code before writing your own solution.
-1. Do not write down a line of code unless you **completely understand** how it works. (This is true even if the source you're referencing is the lesson slides/examples/etc!)
-1. If your code is still similar to an outside source or another student's, **provide attribution** by adding a comment to your code explaining where it was taken from.
-
-We take academic honesty very seriously at Make School. The consequences for violating the policy are as follows:
-
-- You will be required to write a [Self-Reflection Letter](https://docs.google.com/document/d/140_PHfDh7gu33OZI_caxEtvNzAlAepjnGcbQcXZ-MRo/edit?usp=sharing) to reflect on how your actions affected others.
-- If this is your first offense, you may be permitted to redo the assignment for a reduced grade (at the instructor's discretion).
-- The incident will be added to your permanent record at Make School and you may be placed on a Participation Improvement Plan (PIP).
-
-For subsequent offenses, more serious consequences may be considered. For more information, please see [Make School's academic honesty policy](https://make.sc/academic-honesty-policy).
-
 ## Information Resources
 
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
 - [make.sc/library](http://make.sc/library)
-
-## Make School Course Policies
 
 ## Make School Course Policies
 
@@ -141,4 +146,4 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 [James Beswick]: https://aws.amazon.com/blogs/compute/author/jbeswick/
 [Make Chat]: https://www.makeschool.com/academy/track/make-chat
 [Pete's Pets]: https://www.makeschool.com/academy/track/pete-s-pet-emporium---advanced-web-recipes
-[Gradescope]: https://www.gradescope.com/courses/207186
+[Gradescope]: https://www.gradescope.com/
