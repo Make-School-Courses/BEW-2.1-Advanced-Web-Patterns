@@ -44,7 +44,7 @@ By the end of this lesson, you should be able to...
 
 <!-- v -->
 
-<p align="center"><img src="/Lessons/assets/google.pngLessons/assets/howitworks.jpg"></p>
+<p align="center"><img src="Lessons/assets/howitworks.jpg"></p>
 
 **Any thoughts? Let's talk about it!**
 
