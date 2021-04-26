@@ -100,7 +100,7 @@ The WebSocket standard begins with an **HTTP handshake**, but then switches to t
 Here's the same diagram, highlighting exactly where the upgrade from HTTP to WS occurs:
 
 <p align="center">
-  <img src="Lessons/assets/WebSockets-Diagram-Explained.png height="600">
+  <img src="Lessons/assets/WebSockets-Diagram-Explained.png" height="600">
 </p>
 
 <!-- v -->
@@ -240,7 +240,7 @@ http.listen(3000, function(){
 **Stretch Challenge**: Finish _all_ of the "Homework" bullets!
 
 <p align="center">
-  <img src="assets/socketio-rubric.jpeg">
+  <img src="Lessons/assets/socketio-rubric.jpeg">
 </p>
 
 <!-- > -->
