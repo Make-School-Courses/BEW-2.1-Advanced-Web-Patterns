@@ -175,7 +175,7 @@ Many of these techniques are **quick to implement** and generally **more approac
 ## [**60m**] 💻 **Activity**: Tutorial and Challenge Time
 
 1. First, complete the Make Chat Tutorial
-2. Then, complete the [WebSockets Challenge](Challenges/WebSockets.md) for homework.
+2. Then, complete the [WebSockets Challenge](Challenges/Websockets.md) for homework.
    - If you don't want to make a chat application again, that's OK!
    - Create any MVP that uses WebSockets to earn full credit!
 
