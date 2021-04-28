@@ -81,8 +81,6 @@ Furthermore, your server will be bombarded with requests every 10 seconds, even 
 
 #### Long Polling
 
-
-
 **Long Polling** is implemented similarly --- but has a distinct advantage. Long polling delivers messages without a delay, _and_ can detect scenarios where the client disconnected but still has the browser open!
 
 ![Image via WikiPedia](https://javascript.info/article/long-polling/long-polling.svg)
@@ -137,12 +135,23 @@ In 2008, we welcomed the WebSocket standard to address these concerns!
 
 - Allow for increased collaboration around the world.
 - Enable increased interactivity in web applications and browser-based video games.
+- Bi-directional, real-time communication.
+- Can both send and receive data from the browser.
+- Implementations generally do not use `XMLHttpRequest`, and as such, headers are not sent every-time we need to get more information from the server. reducing the expensive data loads being sent to the server.
+- WebSockets can transmit both binary data and UTF-8.
+- Can respond and invoke any number of custom events; event data can be sent or received by the client, the server, or both.
+- Can be implemented in a secure fashion using WSS, which also improves the reliability of message receipt.
 
 <!-- > -->
 
 ### Disadvantages of WebSockets
 
 - Belong in apps that intend to persist over a lengthy session; might be overkill for small applications.
+- Can fail in many corporate environments due to packet-inspecting firewalls and other malware blocking policies _(SophosXG Firewall, WatchGuard, McAfee Web Gateway)_
+  - When connections are terminated, WebSockets don’t automatically recover.
+  - This is something you need to implement yourself.
+  - The reason why there are many client-side libraries in existence.
+- Browsers older than 2011 don't support WebSocket connections.
 
 <!-- > -->
 
