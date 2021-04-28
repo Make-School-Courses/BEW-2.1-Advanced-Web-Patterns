@@ -67,7 +67,21 @@ Furthermore, your server will be bombarded with requests every 10 seconds, even 
 - Can you think of any **advantages** to this?
 - Any **disadvantages?**
 
+
+<details>
+  <summary>Click to reveal answers</summary>
+
+  1. Polling responses can’t really be in 100% real time and in sync
+  1. Polling requiring 3 round-trips _(TCP SIN, SSL, and Data)_
+  1. Timeouts _(Connection getting closed by the server if idle too long)
+
+</details>
+
+---
+
 #### Long Polling
+
+
 
 **Long Polling** is implemented similarly --- but has a distinct advantage. Long polling delivers messages without a delay, _and_ can detect scenarios where the client disconnected but still has the browser open!
 
@@ -173,4 +187,5 @@ Many of these techniques are **quick to implement** and generally **more approac
 - [WebSockets for fun and profit - Stack Overflow Blog](https://stackoverflow.blog/2019/12/18/websockets-for-fun-and-profit/)
 - [WebSockets vs Server-Sent Events | Ably Blog: Data in Motion](https://ably.com/blog/websockets-vs-sse)
 - [Long Polling in JavaScript](https://javascript.info/article/long-polling/longpoll/)
-- [Stop Polling and Consider Using REST Hooks | Nordic APIs |](https://nordicapis.com/stop-polling-and-consider-using-rest-hooks/)
+- [Stop Polling and Consider Using REST Hooks | Nordic APIs |](https://nordicapis.com/stop-polling-and-consider-using-rest-hooks/)\
+- [Using WebSockets on Heroku with Node.js | Heroku Dev Center](https://devcenter.heroku.com/articles/node-websockets)
