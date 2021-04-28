@@ -178,6 +178,7 @@ Many of these techniques are **quick to implement** and generally **more approac
 2. Then, complete the [WebSockets Challenge](Challenges/Websockets.md) for homework.
    - If you don't want to make a chat application again, that's OK!
    - Create any MVP that uses WebSockets to earn full credit!
+   - Check out this [Whiteboard](https://socket.io/demos/whiteboard/) and the [socket.io/examples/whiteboard codebase](https://github.com/socketio/socket.io/tree/master/examples/whiteboard) for more inspiration.
 
 <!-- > -->
 
