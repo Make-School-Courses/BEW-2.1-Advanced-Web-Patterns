@@ -2,6 +2,8 @@
 
 ---
 
+## Instructions
+
 **Follow the [Getting Started project from Socket.io](https://socket.io/get-started/chat/)**
 
 1. Complete the project
@@ -12,5 +14,10 @@
 ---
 
 <p align="center">
-  <img src="assets/socketio-rubric.jpeg">
+  <img src="Lessons/assets/socketio-rubric.jpeg">
 </p>
+
+## Guidelines
+
+- If you don't want to make a chat application again, that's OK!
+- Create any MVP that uses WebSockets to earn full credit!

@@ -58,10 +58,10 @@ In this course students deepen their understanding of the web and implement adva
 |   5   | Wed, Apr 14  | [Getting Started with Serverless] |
 |   6   | Mon, Apr 19 | [Serverless Architecture]                                                             |
 |   7   | Wed, Apr 21 |**[Serverless IRL] + Guest Speaker ([Slides](assets/MakeSchoolServerless.pdf))**<br><small>🎤 **[James Beswick]** _(Sr. Developer Advocate @ AWS)</small>_  |
-|   8   | Mon, Apr 26 | [Intro to WebSockets] |
-|   9   | Wed, Apr 28 | [Make Chat] |
-|  10   | Mon, May 3 | [Working With WebSockets] |
-|  11   | Wed, May 5  | [Building and Deploying a Node Module] |
+|   8   | Mon, Apr 26 | [Intro to WebSockets] / [Make Chat] |
+|   9   | Wed, Apr 28 | [Working With WebSockets] |
+|  10   | Mon, May 3 |  [Building and Deploying a Node Module]  |
+|  11   | Wed, May 5  | TBD - Taking Requests! |
 |  12   | Mon, May 10  | Lab Day - Node Modules<br> |
 |  13   | Wed, May 12  | [Final Presentations](#final-presentations) |
 
@@ -138,7 +138,7 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 [Getting Started with Serverless]: Lessons/ServerlessIntro.md
 [Payment Gateways]: Lessons/Payments.md
 [Sending Emails]: Lessons/Emails.md
-[Intro to WebSockets]: Lessons/WebsocketsIntro.md
+[Intro to WebSockets]: Lessons/WebSocketsIntro.md
 [Working with WebSockets]: Lessons/WebSocketsIRL.md
 [Serverless Architecture]:Lessons/ServerlessDiagrams.md
 [Serverless IRL]: Lessons/ServerlessIRL.md
