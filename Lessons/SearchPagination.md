@@ -4,11 +4,25 @@
 
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
-- Objectives
-- Welcome to Class
-- Introduce Intro Project
-- Pagination
-- Search
+
+1. [🏆 Learning Outcomes](#%F0%9F%8F%86-learning-outcomes)
+1. [👋 Welcome to Class](#%F0%9F%91%8B-welcome-to-class)
+1. [📁 Intro Project](#%F0%9F%93%81-intro-project)
+   1. [Project Overview](#project-overview)
+1. [Existing Vs New Projects](#existing-vs-new-projects)
+1. [Pagination](#pagination)
+   1. [Why do we need pagination?](#why-do-we-need-pagination%3F)
+   1. [Question](#question)
+   1. [Activity: Technical Debate - Picking a Pagination Module](#activity%3A-technical-debate---picking-a-pagination-module)
+1. [Pagination Activity](#pagination-activity)
+1. [[**10m**] 🌴 BREAK {docsify-ignore}](#%5B%2a%2a10m%2a%2a%5D-%F0%9F%8C%B4-break-%7Bdocsify-ignore%7D)
+1. [Search](#search)
+1. [Simple Search](#simple-search)
+   1. [Sequelize](#sequelize)
+   1. [Activity](#activity)
+   1. [Mongoose](#mongoose)
+   1. [RegEx](#regex)
+1. [Search Activity](#search-activity)
 
 <!-- > -->
 

@@ -17,7 +17,7 @@
 
 <!-- > -->
 
-<!-- omit in toc -->
+<!-- omit in toc
 ## 🏆 Objectives
 
 |   Level   | Verbs |
@@ -28,8 +28,7 @@
 | 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
 | 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
 | 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
-
-<!-- > -->
+-->
 
 ## [**10m**] ✅ **Start of Class**: Gradescope
 

@@ -1,5 +1,26 @@
 # Payment Gateways
 
+<!-- > -->
+
+<!-- omit in toc -->
+## ⏱ Agenda {docsify-ignore}
+
+1. [🏆 Learning Outcomes](#%F0%9F%8F%86-learning-outcomes)
+1. [TT: How to Get Paid](#tt%3A-how-to-get-paid)
+1. [Background](#background)
+1. [Activity: Technical Decision Making - 30 min](#activity%3A-technical-decision-making---30-min)
+1. [Resources](#resources)
+
+## 🏆 Learning Outcomes
+
+By the end of this lesson, you should be able to...
+
+1. Describe and design the simplest possible checkout workflow.
+1. Describe the complexities of designing a market place like Uber or Airbnb.
+1. Implement a simple checkout workflow using Stripe.
+
+## TT: How to Get Paid
+
 Eventually you gotta get paid...
 
 ![Get paid](assets/mask.gif)
@@ -12,11 +33,6 @@ The answer to this is we use services to make sure our data is [PCI Compliant](h
 
 ![boring](assets/bored.gif)
 
-## Competencies & Objectives
-
-1. Describe and design the simplest possible checkout workflow.
-1. Describe the complexities of designing a market place like Uber or Airbnb.
-1. Implement a simple checkout workflow using Stripe.
 
 ## Background
 

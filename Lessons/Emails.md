@@ -7,23 +7,18 @@
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
 
-<!-- TODO: Generate Table of Contents -->
-
+1. [[**20m**] **TT**: How to Send Emails](#%5B%2a%2a20m%2a%2a%5D-%2a%2att%2a%2a%3A-how-to-send-emails)
+1. [[**20m**] **Activity**: Title](#%5B%2a%2a20m%2a%2a%5D-%2a%2aactivity%2a%2a%3A-title)
+1. [[**15m**] **BREAK** {docsify-ignore}](#%5B%2a%2a15m%2a%2a%5D-%2a%2abreak%2a%2a-%7Bdocsify-ignore%7D)
+1. [[**10m**] **Recap**: Today's Takeaways](#%5B%2a%2a10m%2a%2a%5D-%2a%2arecap%2a%2a%3A-today%27s-takeaways)
 <!-- > -->
 
 <!-- omit in toc -->
-## 🏆 Objectives
+## 🏆 Learning Outcomes
+
+By the end of this lesson, you should be able to...
 
 1. Send emails from the server
-
-|   Level   | Verbs |
-| --------- | ----- |
-| 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
-| 5: Evaluate | choose, support, relate, determine, defend, compare, contrast, justify, support, convince, select |
-| 4: Analyze | classify, break down, categorize, analyze, diagram, illustrate, criticize, simplify, associate |
-| 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
-| 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
-| 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
 
 <!-- > -->
 

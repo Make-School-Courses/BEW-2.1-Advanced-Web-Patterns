@@ -1,12 +1,26 @@
 # Uploading Images with AWS S3
 
-![tenor](assets/tenor.gif)
+![tenor](Lessons/assets/tenor.gif)
 
-## Competencies & Objectives
+<!-- > -->
 
-* Upload files through a server to an AWS S3 bucket
+<!-- omit in toc -->
+## ⏱ Agenda {docsify-ignore}
 
-## Intro
+1. [🏆 Learning Outcomes](#%F0%9F%8F%86-learning-outcomes)
+1. [TT: Intro](#tt%3A-intro)
+1. [Diagram & Demo](#diagram-%26-demo)
+1. [Resources](#resources)
+1. [Boiler Plate](#boiler-plate)
+1. [Readings](#readings)
+
+## 🏆 Learning Outcomes
+
+By the end of this lesson, you should be able to...
+
+1. Upload files through a server to an AWS S3 bucket
+
+## TT: Intro
 
 Uploading a custom image is a very common pattern on any website.
 
@@ -26,7 +40,7 @@ In order for any of these libraries to work we'll have to accept an image throug
 
 **Conducted by Instructor**
 
-![aws-s3](assets/aws-s3.gif)
+![aws-s3](Lessons/assets/aws-s3.gif)
 
 ## Resources
 
