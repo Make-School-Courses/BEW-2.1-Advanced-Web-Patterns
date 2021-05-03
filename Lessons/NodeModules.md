@@ -5,9 +5,9 @@
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
 
-1. [🏆 Learning Outcomes](#%F0%9F%8F%86-learning-outcomes)
-1. [☀️ Warmup: Most Interesting Module in the World](#%E2%98%80%EF%B8%8F-warmup%3A-most-interesting-module-in-the-world)
-1. [[**20m**] 💬 **TT**: NPM](#%5B%2a%2a20m%2a%2a%5D-%F0%9F%92%AC-%2a%2att%2a%2a%3A-npm)
+1. [[**05m**] 🏆 Learning Outcomes](#%5B%2a%2a05m%2a%2a%5D-%F0%9F%8F%86-learning-outcomes)
+1. [[**20m**] ☀️ Warmup: Coding Required](#%5B%2a%2a20m%2a%2a%5D-%E2%98%80%EF%B8%8F-warmup%3A-coding-required)
+1. [[**30m**] 💬 **TT**: NPM](#%5B%2a%2a30m%2a%2a%5D-%F0%9F%92%AC-%2a%2att%2a%2a%3A-npm)
    1. [What is NPM?](#what-is-npm%3F)
    1. [What is a Package?](#what-is-a-package%3F)
    1. [What Happens When I Install a Package?](#what-happens-when-i-install-a-package%3F)
@@ -16,14 +16,13 @@
    1. [How Do I Use a Package?](#how-do-i-use-a-package%3F)
    1. [Useful Commands](#useful-commands)
    1. [Deploying Your Modules](#deploying-your-modules)
-1. [[**10m**] 🌴 BREAK {docsify-ignore}](#%5B%2a%2a10m%2a%2a%5D-%F0%9F%8C%B4-break-%7Bdocsify-ignore%7D)
-1. [📋 Tocsify](#%F0%9F%93%8B-tocsify)
+1. [[**15m**] 🌴 BREAK](#%5B%2a%2a15m%2a%2a%5D-%F0%9F%8C%B4-break-%7Bdocsify-ignore%7D)
+1. [[**15m**] 👀 **Demo**: Tocsify](#%5B%2a%2a15m%2a%2a%5D-%F0%9F%91%80-%2a%2ademo%2a%2a%3A-tocsify)
 1. [[**60m**] 💻 **Activity**: Create a Node Module](#%5B%2a%2a60m%2a%2a%5D-%F0%9F%92%BB-%2a%2aactivity%2a%2a%3A-create-a-node-module)
-1. [Resources](#resources)
 
 <!-- > -->
 
-## 🏆 Learning Outcomes
+## [**05m**] 🏆 Learning Outcomes
 
 By the end of this lesson, you should be able to...
 
@@ -33,17 +32,17 @@ By the end of this lesson, you should be able to...
 
 <!-- > -->
 
-## ☀️ Warmup: Most Interesting Module in the World
+## [**20m**] ☀️ Warmup: Coding Required
 
-<img src="Lessons/assets/npm.png" width="300" />
+Today, we'll be learning about the inner workings of Node modules. To better understand how modules work, let's dig in to a function we see at the top of every Node file: `require`!
 
-Head to [NPM's website](https://www.npmjs.com/) and search the packages for the most unique/entertaining/creative package you can find!
+> Node was the first environment to offer a way to organize code in modules by using a special function called `require()`. How does it work? Let’s try to implement it from zero.
 
-Report back your findings!
+Follow [Michele Nasti](https://michelenasti.com/)'s guide _"[Let's write our simple version of the require() function](https://michelenasti.com/2018/10/02/let-s-write-a-simple-version-of-the-require-function.html)"_ in your breakout room.
 
 <!-- > -->
 
-## [**20m**] 💬 **TT**: NPM
+## [**30m**] 💬 **TT**: NPM
 
 ### What is NPM?
 
@@ -82,7 +81,7 @@ A `package.json` file has two required fields:
 
 It will then have a list of `dependencies`, or modules that need to be installed so that the project/app can run. Here's an example:
 
-```
+```json
 {
     "name": "secret-app",
     "version": "1.0.0",
@@ -95,7 +94,7 @@ It will then have a list of `dependencies`, or modules that need to be installed
 
 <!-- v -->
 
-### What was the "^" for the version numbers for?
+### What's With the `^` Symbols in Versions?
 
 That means we want the stated version _or higher_ for our project!
 
@@ -106,11 +105,23 @@ Now that we have a `package.json`, all anyone has to do is run `npm install`, an
 
 ### How Do I Use a Package?
 
-By using the `require` method!
+By using the `require` function at the top of any server-side JavaScript file. The `require()` function, `module.exports` and `exports` are APIs of the module system that is specific to Node.js. **Browsers do not implement this module system.**
 
-`var lodash = require('lodash')`
+* `require()` is not part of the standard JavaScript API.
+* Built-in function with only one purpose --- to load modules.
+* Each module has its own scope.
+* To expose values from a module, assign those values to `module.exports`.
+* To access another module's exported values (`module.exports`), it must use `require()`.
 
-Now you can call anything in the lodash library by using the lodash variable!
+#### Example
+
+```js
+// Load the full build.
+var lodash = require('lodash');
+```
+
+Now you can call anything in the [lodash library](https://lodash.com) by using the `lodash` variable!
+
 
 <!-- > -->
 
@@ -135,7 +146,9 @@ Now you can call anything in the lodash library by using the lodash variable!
 
 <img src="Lessons/assets/open_source.png" width="400" />
 
-<!--Talk about how awesome it is to contribute to open source-->
+* Help out other programmers that may need to solve a similar problem
+* Contribute to Open Source and participate in the community
+* Make it easy to install a Node program in any new environment without cloning and running the code first.
 
 <!-- v -->
 
@@ -147,15 +160,13 @@ Follow [this quick guide](https://www.jamesqquick.com/blog/how-to-create-and-pub
 
 <!-- > -->
 
-## [**10m**] 🌴 BREAK {docsify-ignore}
+## [**15m**] 🌴 BREAK {docsify-ignore}
 
 <!-- > -->
 
-## 📋 Tocsify
+## [**15m**] 👀 **Demo**: Tocsify
 
-Let's go through an example of an NPM module built by Dani!
-
-[Tocsify](https://github.com/droxey/tocsify)
+Let's go through an example of an NPM module built by Dani: [Tocsify](https://github.com/droxey/tocsify)
 
 <!-- > -->
 
@@ -174,7 +185,8 @@ Now it's your turn to create more node modules! Take some time to create modules
 
 <!-- > -->
 
-## Resources
+<!-- omit in toc -->
+## 📚 Resources & Credits
 
 1. [What is npm](https://docs.npmjs.com/getting-started/what-is-npm)
 1. [Installing NPM packages locally](https://youtu.be/JDSfqFFbNYQ)
@@ -182,3 +194,5 @@ Now it's your turn to create more node modules! Take some time to create modules
 1. [Publishing npm Packages (npm doc)](https://docs.npmjs.com/getting-started/publishing-npm-packages)
 1. [How to Create and Publish your First Node.js Module (a beautiful article!)](https://medium.com/@jdaudier/how-to-create-and-publish-your-first-node-js-module-444e7585b738)
 1. [Building Your First Node Module](https://gist.github.com/tmpvar/8746055)
+1. [What is this Javascript “require”?](https://stackoverflow.com/questions/9901082/what-is-this-javascript-require#)
+1. [What is require? | Node.js](https://nodejs.org/en/knowledge/getting-started/what-is-require/)
