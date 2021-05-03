@@ -13,11 +13,9 @@
    1. [What Happens When I Install a Package?](#what-happens-when-i-install-a-package%3F)
    1. [`package.json`](#%60package.json%60)
    1. [What was the "^" for the version numbers for?](#what-was-the-%22%5E%22-for-the-version-numbers-for%3F)
-1. [How do I Use a Package?](#how-do-i-use-a-package%3F)
-1. [Useful Commands](#useful-commands)
-1. [Deploying Your Modules](#deploying-your-modules)
-   1. [Why should I deploy my module?](#why-should-i-deploy-my-module%3F)
-   1. [How Do I Deploy?](#how-do-i-deploy%3F)
+   1. [How Do I Use a Package?](#how-do-i-use-a-package%3F)
+   1. [Useful Commands](#useful-commands)
+   1. [Deploying Your Modules](#deploying-your-modules)
 1. [[**10m**] 🌴 BREAK {docsify-ignore}](#%5B%2a%2a10m%2a%2a%5D-%F0%9F%8C%B4-break-%7Bdocsify-ignore%7D)
 1. [📋 Tocsify](#%F0%9F%93%8B-tocsify)
 1. [[**60m**] 💻 **Activity**: Create a Node Module](#%5B%2a%2a60m%2a%2a%5D-%F0%9F%92%BB-%2a%2aactivity%2a%2a%3A-create-a-node-module)
@@ -106,7 +104,7 @@ Now that we have a `package.json`, all anyone has to do is run `npm install`, an
 
 <!-- > -->
 
-## How do I Use a Package?
+### How Do I Use a Package?
 
 By using the `require` method!
 
@@ -116,7 +114,7 @@ Now you can call anything in the lodash library by using the lodash variable!
 
 <!-- > -->
 
-## Useful Commands
+### Useful Commands
 
 * `which npm` – where npm was installed
 * `npm --version` – which version of npm you have
@@ -131,9 +129,9 @@ Now you can call anything in the lodash library by using the lodash variable!
 
 <!-- > -->
 
-## Deploying Your Modules
+### Deploying Your Modules
 
-### Why should I deploy my module?
+#### Why Should I Deploy a Module?
 
 <img src="Lessons/assets/open_source.png" width="400" />
 
@@ -141,9 +139,11 @@ Now you can call anything in the lodash library by using the lodash variable!
 
 <!-- v -->
 
-### How Do I Deploy?
+#### How Do I Deploy?
 
-Follow [this quick guide](https://www.jamesqquick.com/blog/how-to-create-and-publish-npm-packages) to deploy your first module! The hardest part will be coming up with a unique name!
+Follow [this quick guide](https://www.jamesqquick.com/blog/how-to-create-and-publish-npm-packages) to deploy your first module!
+
+**The hardest part will be coming up with a unique name!**
 
 <!-- > -->
 
