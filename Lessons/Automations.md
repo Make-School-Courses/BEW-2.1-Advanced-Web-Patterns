@@ -130,3 +130,4 @@ Like atoms or DNA, modules are the basic building blocks of your application. Th
 - [DailyJs: How I Automated My Job With Node.js](https://medium.com/dailyjs/how-i-automated-my-job-with-node-js-94bf4e423017)
 - [Learn How to Build CLI Automation Tools with NodeJS](https://livecodestream.dev/post/learn-how-to-build-cli-automation-tools-with-nodejs/)
 - [12 Things You're Doing Every Day that Can Be Automated - Focus](https://www.meistertask.com/blog/12-things-youre-doing-every-day-that-can-be-automated/)
+- [Javascript at the command-line (Creative Coding)](https://creative-coding.decontextualize.com/node/)
