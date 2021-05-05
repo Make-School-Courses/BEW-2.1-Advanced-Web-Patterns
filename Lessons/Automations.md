@@ -98,7 +98,7 @@ Like atoms or DNA, modules are the basic building blocks of your application. Th
 
 <!-- > -->
 
-## [**10m**] 🤔 *Brainstorm**: Modules + CLI = Automation
+## [**10m**] 🤔 **Brainstorm**: Modules + CLI = Automation
 
 ⭐️ **GOAL**: Gain insight on solving a problem or completing a task using the modules we discovered before break.
 
