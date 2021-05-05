@@ -61,8 +61,8 @@ In this course students deepen their understanding of the web and implement adva
 |   8   | Mon, Apr 26 | [Intro to WebSockets] / [Make Chat] |
 |   9   | Wed, Apr 28 | [Working With WebSockets] |
 |  10   | Mon, May 3 |  [Building and Deploying a Node Module]  |
-|  11   | Wed, May 5  | TBD - Taking Requests! |
-|  12   | Mon, May 10  | Lab Day - Node Modules<br> |
+|  11   | Wed, May 5  | [Awesome Automations] + Lab Time |
+|  12   | Mon, May 10  | WIP/TBD _(NEW)_ |
 |  13   | Wed, May 12  | [Final Presentations](#final-presentations) |
 
 ## Class Assignments
@@ -78,7 +78,7 @@ To access each tutorial, **click the bold links** below. Be sure to complete the
 | Name | Description | Due Date |
 | ---- | ----------- | -------- |
 | **[Pete's Pets]** | _Add common features to improve an existing codebase._ | **Due 04/14 @ 11:59PM** |
-| **[Make Chat]** | _Create your very own live messaging application!_ |  **Due 05/05 @ 11:59PM** |
+| **[Make Chat]** | _Create your very own live messaging application!_ |  **Due 05/10 @ 11:59PM** |
 
 **PLEASE NOTE**: _All tutorials and projects require a minimum of 10 commits, and must take place throughout the time allotted for the project's completion, not just at the end. Failure to include more than 10 commits will lead to not getting credit for the project and having to redo it._
 
@@ -87,7 +87,7 @@ To access each tutorial, **click the bold links** below. Be sure to complete the
 | Name | More Info | Due Date |
 | ---- | ----------- | -------- |
 | **Challenge 1**: Choose Your Own Serverless Adventure  | [Instructions](Challenges/Serverless.md) | **Due 04/26 @ 11:59PM** |
-| **Challenge 2**: Mini Websocket App | [Instructions](Challenges/Websockets.md) | **Due 05/05 @ 11:59PM** |
+| **Challenge 2**: Mini Websocket App | [Instructions](Challenges/Websockets.md) | **Due 05/07 @ 11:59PM** |
 | **Challenge 3**: Node Module | [Instructions](Challenges/Module.md) | **Due 05/12 @ 11:59PM** |
 
 ### Final Presentation
@@ -126,7 +126,7 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
 - [Code of Conduct, Equity, and Inclusion](https://make.sc/code-of-conduct) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagiarism, cheating, and other forms of academic misconduct
 - [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
@@ -143,6 +143,7 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 [Serverless Architecture]:Lessons/ServerlessDiagrams.md
 [Serverless IRL]: Lessons/ServerlessIRL.md
 [Building and Deploying a Node Module]: Lessons/NodeModules.md
+[Awesome Automations]: Lessons/Automations.md
 [James Beswick]: https://aws.amazon.com/blogs/compute/author/jbeswick/
 [Make Chat]: https://www.makeschool.com/academy/track/make-chat
 [Pete's Pets]: https://www.makeschool.com/academy/track/pete-s-pet-emporium---advanced-web-recipes

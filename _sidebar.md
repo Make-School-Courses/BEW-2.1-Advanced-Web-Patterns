@@ -8,7 +8,8 @@
   - [Serverless IRL](Lessons/ServerlessIRL.md)
   - [Intro to WebSockets](Lessons/WebSocketsIntro.md)
   - [Working with WebSockets](Lessons/WebSocketsIRL.md)
-  - [Building & Deploying Node Modules](11-Node-Modules/README.md)
+  - [Building & Deploying Node Modules](Lessons/NodeModules.md)
+  - [Awesome Automations](Lessons/Automations.md)
 - **Challenges**
   - [**Challenge 1**: Serverless](Challenges/Serverless.md)
   - [**Challenge 2**: Websockets](Challenges/Websockets.md)

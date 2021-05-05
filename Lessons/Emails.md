@@ -7,18 +7,21 @@
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
 
+1. [[**05m**] 🏆 Learning Outcomes](#%5B%2a%2a05m%2a%2a%5D-%F0%9F%8F%86-learning-outcomes)
 1. [[**20m**] **TT**: How to Send Emails](#%5B%2a%2a20m%2a%2a%5D-%2a%2att%2a%2a%3A-how-to-send-emails)
 1. [[**20m**] **Activity**: Title](#%5B%2a%2a20m%2a%2a%5D-%2a%2aactivity%2a%2a%3A-title)
 1. [[**15m**] **BREAK** {docsify-ignore}](#%5B%2a%2a15m%2a%2a%5D-%2a%2abreak%2a%2a-%7Bdocsify-ignore%7D)
 1. [[**10m**] **Recap**: Today's Takeaways](#%5B%2a%2a10m%2a%2a%5D-%2a%2arecap%2a%2a%3A-today%27s-takeaways)
+
 <!-- > -->
 
-<!-- omit in toc -->
-## 🏆 Learning Outcomes
+## [**05m**] 🏆 Learning Outcomes
 
 By the end of this lesson, you should be able to...
 
-1. Send emails from the server
+1. Identify a number of popular third-party e-mail providers.
+1. Describe multiple use cases where sending an e-mail is beneficial for the user.
+1. Use a third-party e-mail provider to securely send emails from the server.
 
 <!-- > -->
 
@@ -28,13 +31,7 @@ People have been trying to kill email for years. And they just can’t seem to d
 
 <!-- > -->
 
-## [**20m**] **Activity**: Title
-
-`TODO`
-
-<!-- > -->
-
-## [**15m**] **BREAK** {docsify-ignore}
+## [**15m**] **BREAK**
 
 <!-- > -->
 
