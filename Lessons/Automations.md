@@ -34,9 +34,7 @@ By the end of this lesson, you should be able to...
 
 <img src="https://camo.githubusercontent.com/7992a33018c650837a1089c505eb0c2e8178df9478bc77fd2d61f80bf0de2443/687474703a2f2f6269742e6c792f6772616469656e742d737472696e672d70726576696577">
 
-**GOAL**: Use the provided [documentation](https://github.com/bokub/gradient-string) to create beautiful terminal output. **_How creative can you get_?**
-
-### Instructions
+⭐️ **GOAL**: Use the provided [documentation](https://github.com/bokub/gradient-string) to create beautiful terminal output. **_How creative can you get_?**
 
 1. Read over the documentation for the `gradient-string` package [here](https://github.com/bokub/gradient-string).
 1. Create a **new node project** for today's experiments.
@@ -68,7 +66,7 @@ Like atoms or DNA, modules are the basic building blocks of your application. Th
 
 > 🔗 <small>[**source**: http://thenodeway.io](http://thenodeway.io) </small>
 
-
+<!-- > -->
 
 ## [**30m**] 💻 **Activity**: Find Free Functions Fast
 
@@ -94,7 +92,11 @@ Like atoms or DNA, modules are the basic building blocks of your application. Th
       PASTE_CODE_HERE
     ```
 
+<!-- > -->
+
 ## [**15m**] 🌴 **BREAK**
+
+<!-- > -->
 
 ## [**10m**] 🤔 *Brainstorm**: Modules + CLI = Automation
 
@@ -103,6 +105,8 @@ Like atoms or DNA, modules are the basic building blocks of your application. Th
 1. In breakouts, review the list of modules posted in Slack from our last activity.
 1. Select any module posted and start / continue the thread for that post.
 1. Invent a use case for the module and post it in the thread.
+
+<!-- > -->
 
 ## [**60m**] 💻 **Lab Time**: Node Module Challenge
 
@@ -113,9 +117,7 @@ Like atoms or DNA, modules are the basic building blocks of your application. Th
 1. There's _way_ more to Node than just Express!
 1. Many developers use Node to write CLI commands instead of websites.
 1. Node enables interactivity through a multitude of third-party modules on NPM.
-
-
-<!-- > -->
+1. Check out the Resources & Credits section below to learn even more about modules.
 
 <!-- omit in toc -->
 ## 📚 Resources & Credits
@@ -124,6 +126,4 @@ Like atoms or DNA, modules are the basic building blocks of your application. Th
 - [The Node Way - Dangerous Module Design Patterns](http://thenodeway.io/posts/dangerous-module-design-patterns/)
 - [DailyJs: How I Automated My Job With Node.js](https://medium.com/dailyjs/how-i-automated-my-job-with-node-js-94bf4e423017)
 - [Learn How to Build CLI Automation Tools with NodeJS](https://livecodestream.dev/post/learn-how-to-build-cli-automation-tools-with-nodejs/)
-
----
-
+- [12 Things You're Doing Every Day that Can Be Automated - Focus](https://www.meistertask.com/blog/12-things-youre-doing-every-day-that-can-be-automated/)
