@@ -2,9 +2,6 @@
 <!-- .slide: data-background="./../Slides/images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # 🤖 Awesome Automations
 
-> [!NOTE]
-> This plan is a work in progress. Please check back at the start of class for updates.
-
 <!-- > -->
 
 <!-- omit in toc -->
@@ -12,12 +9,12 @@
 
 1. [[**05m**] 🏆 Learning Outcomes](#%5B%2a%2a05m%2a%2a%5D-%F0%9F%8F%86-learning-outcomes)
 1. [[**15m**] ☀️ **Warmup**: Reading, Writing, & Rainbows](#%5B%2a%2a15m%2a%2a%5D-%E2%98%80%EF%B8%8F-%2a%2awarmup%2a%2a%3A-reading%2C-writing%2C-%26-rainbows)
-   1. [Instructions](#instructions)
 1. [[**25m**] 💬 **TT**: General Guidelines for Modules](#%5B%2a%2a25m%2a%2a%5D-%F0%9F%92%AC-%2a%2att%2a%2a%3A-general-guidelines-for-modules)
+1. [[**30m**] 💻 **Activity**: Find Free Functions Fast](#%5B%2a%2a30m%2a%2a%5D-%F0%9F%92%BB-%2a%2aactivity%2a%2a%3A-find-free-functions-fast)
 1. [[**15m**] 🌴 **BREAK**](#%5B%2a%2a15m%2a%2a%5D-%F0%9F%8C%B4-%2a%2abreak%2a%2a)
+1. [[**10m**] 🤔 **Brainstorm**: Modules + CLI = Automation](#%5B%2a%2a10m%2a%2a%5D-%F0%9F%A4%94-%2a%2abrainstorm%2a%2a%3A-modules-%2B-cli-%3D-automation)
 1. [[**60m**] 💻 **Lab Time**: Node Module Challenge](#%5B%2a%2a60m%2a%2a%5D-%F0%9F%92%BB-%2a%2alab-time%2a%2a%3A-node-module-challenge)
 1. [[**10m**] 🔄 **Recap**: Today's Takeaways](#%5B%2a%2a10m%2a%2a%5D-%F0%9F%94%84-%2a%2arecap%2a%2a%3A-today%27s-takeaways)
-
 <!-- > -->
 
 ## [**05m**] 🏆 Learning Outcomes
