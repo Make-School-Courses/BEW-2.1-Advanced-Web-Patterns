@@ -3,7 +3,7 @@
 <!-- > -->
 
 <!-- omit in toc -->
-## ⏱ Agenda {docsify-ignore}
+## ⏱ Agenda
 
 - [[**05m**] 🏆 Learning Outcomes](#05m-%F0%9F%8F%86-learning-outcomes)
 - [[**15m**] ☀️ **Warm Up**: Play LiteBrite](#15m-%E2%98%80%EF%B8%8F-warm-up-play-litebrite)
@@ -16,7 +16,7 @@
   - [Client / Server Communication](#client--server-communication)
   - [Another Example](#another-example)
 - [[**10m**] 💻 **Activity**: Use Cases for WebSockets](#10m-%F0%9F%92%BB-activity-use-cases-for-websockets)
-- [[**10m**] 🌴 BREAK {docsify-ignore}](#10m-%F0%9F%8C%B4-break-docsify-ignore)
+- [[**10m**] 🌴 BREAK](#10m-%F0%9F%8C%B4-break-docsify-ignore)
 - [[**20m**] 💬 **TT**: The Code](#20m-%F0%9F%92%AC-tt-the-code)
 - [[**30m**] 💻 **Activity**: Try It Yourself](#30m-%F0%9F%92%BB-activity-try-it-yourself)
 - [Resources](#resources)

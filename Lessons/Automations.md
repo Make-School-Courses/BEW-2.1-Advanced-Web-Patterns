@@ -5,7 +5,7 @@
 <!-- > -->
 
 <!-- omit in toc -->
-## ⏱ Agenda {docsify-ignore}
+## ⏱ Agenda
 
 1. [[**05m**] 🏆 Learning Outcomes](#%5B%2a%2a05m%2a%2a%5D-%F0%9F%8F%86-learning-outcomes)
 1. [[**15m**] ☀️ **Warmup**: Reading, Writing, & Rainbows](#%5B%2a%2a15m%2a%2a%5D-%E2%98%80%EF%B8%8F-%2a%2awarmup%2a%2a%3A-reading%2C-writing%2C-%26-rainbows)
@@ -15,6 +15,7 @@
 1. [[**10m**] 🤔 **Brainstorm**: Modules + CLI = Automation](#%5B%2a%2a10m%2a%2a%5D-%F0%9F%A4%94-%2a%2abrainstorm%2a%2a%3A-modules-%2B-cli-%3D-automation)
 1. [[**60m**] 💻 **Lab Time**: Node Module Challenge](#%5B%2a%2a60m%2a%2a%5D-%F0%9F%92%BB-%2a%2alab-time%2a%2a%3A-node-module-challenge)
 1. [[**10m**] 🔄 **Recap**: Today's Takeaways](#%5B%2a%2a10m%2a%2a%5D-%F0%9F%94%84-%2a%2arecap%2a%2a%3A-today%27s-takeaways)
+
 <!-- > -->
 
 ## [**05m**] 🏆 Learning Outcomes
@@ -47,7 +48,13 @@ By the end of this lesson, you should be able to...
 
 ## [**25m**] 💬 **TT**: General Guidelines for Modules
 
-I chose `gradient-string` because it's a great example of a package that follows all of the
+I selected `gradient-string` for our warmup exercise because...
+
+- The library is a great example of an MVP you can implement for your final challenge!
+- The module is responsible for doing one thing --- and _ONLY_ one thing --- well.
+- The implementation follows the best practices we're about to highlight below.
+
+### Best Practices
 
 Like atoms or DNA, modules are the basic building blocks of your application. They enforce basic modularity while remaining flexible enough to fit almost anywhere. What you choose to build with them is up to you, but the following guidelines will help get you pointed in the right direction.
 
@@ -70,15 +77,14 @@ Like atoms or DNA, modules are the basic building blocks of your application. Th
 ⭐️ **GOAL**: Jumpstart your project by finding examples of modules that follow the guidelines discussed above.
 
 1. For at least 5 to 10 minutes, **browse the links provided below** together as a group. Call out any interesting packages you find!
-     - [parro-it/awesome-micro-npm-packages: A curated list of small, focused npm packages.](https://github.com/parro-it/awesome-micro-npm-packages)
-     - [bnb/awesome-awesome-nodejs: 🐢🚀 An Awesome list of Awesome lists related to Node.js.](https://github.com/bnb/awesome-awesome-nodejs)
-     - [sindresorhus/awesome-nodejs: Delightful Node.js packages and resources](https://github.com/sindresorhus/awesome-nodejs)
-     - [sindresorhus/awesome-npm: Awesome npm resources and tips](https://github.com/sindresorhus/awesome-npm)
+     - 1️⃣ [**parro-it/awesome-micro-npm-packages**: A curated list of small, focused npm packages.](https://github.com/parro-it/awesome-micro-npm-packages)
+     - 2️⃣ [**bnb/awesome-awesome-nodejs**: 🐢🚀 An Awesome list of Awesome lists related to Node.js.](https://github.com/bnb/awesome-awesome-nodejs)
+     - 3️⃣ [**sindresorhus/awesome-nodejs**: Delightful Node.js packages and resources](https://github.com/sindresorhus/awesome-nodejs)
+     - 4️⃣ [**sindresorhus/awesome-npm**: Awesome npm resources and tips](https://github.com/sindresorhus/awesome-npm)
 1. Find a package that **meets all the guidelines we discussed in class today**.
 1. Work together with your team to create a **tiny code sample** that uses the selected package.
     - This activity is all about exploration, inspiration, and reading documentation.
     - It's okay if the code is minimal!  Use today's warmup as a guide.
-    -
 1. When the group is finished, **copy and paste the following message** in our Slack channel:
 
     ```txt

@@ -5,7 +5,7 @@
 <!-- > -->
 
 <!-- omit in toc -->
-## ⏱ Agenda {docsify-ignore}
+## ⏱ Agenda
 
 1. [[**20m**] ☀️ **Warm Up**: WebSockets vs. HTTP](#20m-%E2%98%80%EF%B8%8F-warm-up-websockets-vs-http)
 1. [[**30m**] 💬 **TT**: WebSockets In Depth](#30m-%F0%9F%92%AC-tt-websockets-in-depth)
@@ -13,7 +13,7 @@
    1. [Advantages of WebSockets](#advantages-of-websockets)
    1. [Disadvantages of WebSockets](#disadvantages-of-websockets)
    1. [Modern Alternatives to WebSockets](#modern-alternatives-to-websockets)
-1. [[**15m**] 🌴 **BREAK** {docsify-ignore}](#15m-%F0%9F%8C%B4-break-docsify-ignore)
+1. [[**15m**] 🌴 **BREAK**](#15m-%F0%9F%8C%B4-break-docsify-ignore)
 1. [[**60m**] 💻 **Activity**: Tutorial and Challenge Time](#60m-%F0%9F%92%BB-activity-tutorial-and-challenge-time)
 1. [[**05m**] 🔄 **Recap**: Today's Takeaways](#05m-%F0%9F%94%84-recap-todays-takeaways)
 
