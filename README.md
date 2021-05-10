@@ -62,7 +62,7 @@ In this course students deepen their understanding of the web and implement adva
 |   9   | Wed, Apr 28 | [Working With WebSockets] |
 |  10   | Mon, May 3 |  [Building and Deploying a Node Module]  |
 |  11   | Wed, May 5  | [Awesome Automations] + Lab Time |
-|  12   | Mon, May 10  | WIP/TBD _(NEW)_ |
+|  12   | Mon, May 10  | Lab Day |
 |  13   | Wed, May 12  | [Final Presentations](#final-presentations) |
 
 ## Class Assignments
